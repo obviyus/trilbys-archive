@@ -28,6 +28,10 @@ function formatNumber(n: number): string {
     />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
+    <!-- Preload Pagefind for faster search -->
+    <link rel="modulepreload" href="/pagefind/pagefind.js" />
+    <link rel="preload" href="/pagefind/wasm.en.pagefind" as="fetch" crossorigin />
+
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Trilby's Archive — A Searchable Yahtzee Archive" />
@@ -785,10 +789,10 @@ function formatNumber(n: number): string {
         resultsEl.innerHTML = '<div class="loading">Searching the archives...</div>';
 
         try {
-          // Initialize Pagefind if needed
+          // Wait for Pagefind to be ready (initialized on page load)
           if (!pagefind) {
-            pagefind = await import("/pagefind/pagefind.js");
-            await pagefind.init();
+            resultsEl.innerHTML = '<div class="loading">Initializing search...</div>';
+            return;
           }
 
           // Search
@@ -809,18 +813,18 @@ function formatNumber(n: number): string {
             search.results.slice(0, 10).map(r => r.data())
           );
 
-          // Fetch captions and render results
-          const rendered = [];
-          for (const result of results) {
-            const videoId = result.meta?.videoId;
-            if (!videoId) continue;
+          // Fetch captions and render results in parallel
+          const rendered = (await Promise.all(
+            results.map(async (result) => {
+              const videoId = result.meta?.videoId;
+              if (!videoId) return null;
 
-            const captionData = await fetchCaptions(videoId);
-            if (!captionData) continue;
+              const captionData = await fetchCaptions(videoId);
+              if (!captionData) return null;
 
-            const html = renderResult(videoId, captionData, query);
-            if (html) rendered.push(html);
-          }
+              return renderResult(videoId, captionData, query);
+            })
+          )).filter(Boolean);
 
           if (rendered.length === 0) {
             resultsEl.innerHTML = `
@@ -845,8 +849,16 @@ function formatNumber(n: number): string {
       }
 
       // Initialize
-      document.addEventListener("DOMContentLoaded", () => {
+      document.addEventListener("DOMContentLoaded", async () => {
         const input = document.getElementById("search-input");
+
+        // Initialize Pagefind immediately on page load (eliminates cold start on first search)
+        try {
+          pagefind = await import("/pagefind/pagefind.js");
+          await pagefind.init();
+        } catch (err) {
+          console.error("Failed to initialize Pagefind:", err);
+        }
 
         // Debounced search on input
         input.addEventListener("input", (e) => {
