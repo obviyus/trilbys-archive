@@ -356,9 +356,11 @@ async function main() {
       }
     }
 
-    // Game mentions
+    // Game mentions (use word boundaries to avoid false positives like metroid/metroidvania)
     for (const game of GAME_KEYWORDS) {
-      if (fullText.includes(game.toLowerCase())) {
+      const escaped = game.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      const regex = new RegExp(`\\b${escaped}\\b`, "gi");
+      if (regex.test(fullText)) {
         gameMentions.set(game, (gameMentions.get(game) || 0) + 1);
       }
     }
