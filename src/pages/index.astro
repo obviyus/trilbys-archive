@@ -3,6 +3,19 @@
  * Trilby's Index - A searchable archive of Yahtzee's wisdom
  * Clean parchment aesthetic matching the transcript pages
  */
+import stats from "../data/stats.json";
+
+const totalHours = Math.round(stats.totalDurationSeconds / 3600);
+
+function formatNumber(n: number): string {
+  if (n >= 1000000) {
+    return `${(n / 1000000).toFixed(1)}M`;
+  }
+  if (n >= 1000) {
+    return `${(n / 1000).toFixed(1)}K`;
+  }
+  return n.toLocaleString();
+}
 ---
 
 <html lang="en">
@@ -284,6 +297,26 @@
         color: var(--ink-light);
         margin-top: 0.25rem;
         opacity: 0.7;
+      }
+
+      .stats-link {
+        grid-column: 1 / -1;
+        display: block;
+        text-align: center;
+        padding: 0.75rem 1.5rem;
+        font-family: "Special Elite", monospace;
+        font-size: 0.7rem;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: var(--ink);
+        background: var(--zp-yellow);
+        border-top: 1px solid var(--ink);
+        text-decoration: none;
+        transition: background 0.15s ease;
+      }
+
+      .stats-link:hover {
+        background: #ffda4a;
       }
 
       /* Footer */
@@ -591,26 +624,27 @@
       <!-- Stats -->
       <div class="stats-row">
         <div class="stat">
-          <div class="stat-number">929</div>
+          <div class="stat-number">{stats.totalVideos}</div>
           <div class="stat-label">Videos</div>
           <div class="stat-sublabel">fully transcribed</div>
         </div>
         <div class="stat">
-          <div class="stat-number">1.2M</div>
+          <div class="stat-number">{formatNumber(stats.totalWords)}</div>
           <div class="stat-label">Words</div>
           <div class="stat-sublabel">of gaming critique</div>
         </div>
         <div class="stat">
-          <div class="stat-number">91</div>
+          <div class="stat-number">{totalHours}</div>
           <div class="stat-label">Hours</div>
           <div class="stat-sublabel">of content</div>
         </div>
+        <a href="/stats" class="stats-link">View Detailed Statistics →</a>
       </div>
 
       <!-- Footer -->
       <footer>
         <p>
-          <a href="https://github.com/obviyus/trilbys-index">View source</a>
+          <a href="/stats">View Statistics</a> · <a href="https://github.com/obviyus/trilbys-index">View source</a>
         </p>
         <p class="colophon">
           Not affiliated with The Escapist or Second Wind.
