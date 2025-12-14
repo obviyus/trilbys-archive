@@ -1,43 +1,68 @@
-# Astro Starter Kit: Minimal
+# Trilby's Archive
 
-```sh
-bun create astro@latest -- --template minimal
+A searchable archive of every Zero Punctuation and Fully Ramblomatic video transcript. Search for any quote, game, or phrase and jump directly to that moment on YouTube.
+
+## How It Works
+
+### Transcript Pipeline
+
+Getting captions for 700+ videos required a multi-step fallback approach:
+
+1. **YouTube Transcript API** - First attempt using the `youtube-transcript` library to pull existing captions directly from YouTube (fastest)
+2. **yt-dlp Subtitles** - If no captions available via API, fall back to downloading auto-generated subtitles via `yt-dlp`
+3. **Whisper Transcription** - For videos with no captions at all, download the audio and transcribe using `whisper-large-v3` via Groq's API
+
+### Tech Stack
+
+- **[Astro](https://astro.build)** - Static site generator (no React, no Tailwind)
+- **[Pagefind](https://pagefind.app)** - Client-side full-text search index
+- **[Bun](https://bun.sh)** - Runtime and package manager
+
+## Development
+
+```bash
+# Install dependencies
+bun install
+
+# First-time setup: build search index and copy to public
+bun run dev:setup
+
+# Start dev server
+bun run dev
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Data Pipeline Scripts
 
-## 🚀 Project Structure
+```bash
+# Fetch captions from YouTube playlists
+bun run captions
 
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+# Transcribe failed videos using Groq Whisper
+GROQ_API_KEY=xxx bun run transcribe --limit 10
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+### Full Build
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+```bash
+bun run build
+```
 
-Any static assets, like images, can be placed in the `public/` directory.
+This runs the complete pipeline:
+1. Generate Astro pages for each video
+2. Build caption JSON index
+3. Calculate the stats
+4. Build Astro site
+5. Generate Pagefind search index
 
-## 🧞 Commands
+## Requirements
 
-All commands are run from the root of the project, from a terminal:
+- [Bun](https://bun.sh)
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp) - `brew install yt-dlp`
+- [ffmpeg](https://ffmpeg.org) - Required for audio extraction (Whisper fallback)
+- `GROQ_API_KEY` environment variable for Whisper transcription
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `bun install`             | Installs dependencies                            |
-| `bun dev`             | Starts local dev server at `localhost:4321`      |
-| `bun build`           | Build your production site to `./dist/`          |
-| `bun preview`         | Preview your build locally, before deploying     |
-| `bun astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `bun astro -- --help` | Get help using the Astro CLI                     |
+## Acknowledgments
 
-## 👀 Want to learn more?
+Thank you, Yahtzee Croshaw, for nearly two decades of some of the best video game critique on the internet.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+No affiliation with The Escapist or Second Wind.
