@@ -86,7 +86,7 @@ export const prerender = true;
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>${cleanTitle} — Trilby's Index</title>
+  <title>${cleanTitle} — Trilby's Archive</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Special+Elite&display=swap" rel="stylesheet">
@@ -348,7 +348,7 @@ export const prerender = true;
 
     <footer>
       <p>Click any text to jump to that moment in the video.</p>
-      <p><a href="/">Search more reviews</a> at Trilby's Index</p>
+      <p><a href="/">Search more reviews</a> at Trilby's Archive</p>
     </footer>
   </div>
 </body>
