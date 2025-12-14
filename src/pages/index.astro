@@ -1,7 +1,7 @@
 ---
 /**
- * The Punctuation Chronicle - A searchable archive of Yahtzee's wisdom
- * Custom search UI with clickable timestamp links like transcript pages
+ * Trilby's Index - A searchable archive of Yahtzee's wisdom
+ * Clean parchment aesthetic matching the transcript pages
  */
 ---
 
@@ -11,12 +11,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Search through every Zero Punctuation and Fully Ramblomatic video transcript - a complete archive of gaming criticism"
+      content="Search through every Zero Punctuation and Fully Ramblomatic video transcript - a complete archive of gaming critique"
     />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>Trilby's Index — A Searchable Yahtzee Archive</title>
 
-    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,14 +25,12 @@
 
     <style>
       :root {
-        /* The Chronicle Palette */
         --zp-yellow: #f5c518;
         --zp-gold: #e5a500;
         --parchment: #faf6e9;
         --parchment-dark: #f0e9d2;
         --ink: #1a1612;
         --ink-light: #3d352d;
-        --rust: #8b4513;
         --burgundy: #722f37;
       }
 
@@ -51,10 +48,9 @@
         background: var(--parchment);
         color: var(--ink);
         min-height: 100vh;
-        line-height: 1.7;
+        line-height: 1.8;
       }
 
-      /* Victorian decorative border */
       .page-border {
         position: fixed;
         inset: 8px;
@@ -63,159 +59,95 @@
         z-index: 100;
       }
 
-      .page-border::before {
-        content: "";
-        position: absolute;
-        inset: 4px;
-        border: 1px solid var(--zp-gold);
-        opacity: 0.5;
-      }
-
-      /* Corner ornaments */
-      .corner-ornament {
-        position: fixed;
-        width: 40px;
-        height: 40px;
-        z-index: 101;
-        color: var(--zp-gold);
-        font-size: 24px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: "Playfair Display", serif;
-      }
-
-      .corner-ornament.top-left { top: 16px; left: 16px; }
-      .corner-ornament.top-right { top: 16px; right: 16px; }
-      .corner-ornament.bottom-left { bottom: 16px; left: 16px; }
-      .corner-ornament.bottom-right { bottom: 16px; right: 16px; }
-
       .container {
-        max-width: 900px;
+        max-width: 750px;
         margin: 0 auto;
         padding: 3rem 2rem 4rem;
-        position: relative;
       }
 
-      /* Masthead */
-      .masthead {
+      /* Header */
+      header {
         text-align: center;
-        padding: 2rem 0 3rem;
-        border-bottom: 3px solid var(--ink);
+        padding-bottom: 2rem;
         margin-bottom: 2rem;
+        border-bottom: 2px solid var(--ink);
         position: relative;
       }
 
-      .masthead::after {
+      header::after {
         content: "";
         position: absolute;
-        bottom: -7px;
+        bottom: -5px;
         left: 0;
         right: 0;
         height: 1px;
         background: var(--ink);
       }
 
-      .dateline {
+      .series-badge {
         font-family: "Special Elite", monospace;
-        font-size: 0.75rem;
+        font-size: 0.65rem;
         letter-spacing: 0.2em;
         text-transform: uppercase;
-        color: var(--ink-light);
+        background: var(--zp-yellow);
+        color: var(--ink);
+        padding: 0.3em 0.8em;
+        display: inline-block;
         margin-bottom: 1rem;
       }
 
-      .masthead h1 {
+      h1 {
         font-family: "Playfair Display", serif;
-        font-size: clamp(2.5rem, 8vw, 4.5rem);
+        font-size: clamp(2.5rem, 8vw, 4rem);
         font-weight: 700;
         margin: 0;
-        line-height: 1;
-        letter-spacing: -0.02em;
-        position: relative;
-        display: inline-block;
+        line-height: 1.1;
+        color: var(--ink);
       }
 
-      .masthead h1 .highlight {
-        color: var(--burgundy);
-        position: relative;
-      }
-
-      .masthead h1 .highlight::after {
-        content: "";
-        position: absolute;
-        bottom: 0.1em;
-        left: 0;
-        right: 0;
-        height: 0.35em;
-        background: var(--zp-yellow);
-        z-index: -1;
-        transform: skewX(-3deg);
-      }
-
-      .subtitle {
-        font-family: "Playfair Display", serif;
+      .tagline {
+        font-family: "Libre Baskerville", serif;
         font-style: italic;
-        font-size: 1.1rem;
+        font-size: 1rem;
         color: var(--ink-light);
-        margin-top: 0.75rem;
+        margin-top: 1rem;
       }
 
-      .edition-info {
+      .meta {
+        font-family: "Special Elite", monospace;
+        font-size: 0.75rem;
+        color: var(--ink-light);
+        margin-top: 1.5rem;
         display: flex;
         justify-content: center;
         gap: 2rem;
-        margin-top: 1.5rem;
-        font-size: 0.8rem;
-        font-family: "Special Elite", monospace;
-        color: var(--ink-light);
+        flex-wrap: wrap;
       }
 
-      .edition-info span {
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-      }
-
-      /* Search section */
+      /* Search Section */
       .search-section {
-        background: var(--zp-yellow);
-        padding: 2.5rem 2rem;
-        margin: 2rem -2rem;
-        position: relative;
-        box-shadow:
-          inset 0 2px 4px rgba(0,0,0,0.1),
-          0 4px 12px rgba(0,0,0,0.1);
+        margin: 2.5rem 0;
       }
 
-      .search-section::before,
-      .search-section::after {
-        content: "❧";
-        position: absolute;
-        top: 1.5rem;
-        font-size: 1.5rem;
-        color: var(--ink);
-        opacity: 0.3;
-      }
-
-      .search-section::before { left: 1rem; }
-      .search-section::after { right: 1rem; }
-
-      .search-label {
+      .search-header {
         font-family: "Special Elite", monospace;
         font-size: 0.7rem;
-        letter-spacing: 0.3em;
+        letter-spacing: 0.2em;
         text-transform: uppercase;
+        color: var(--ink-light);
         text-align: center;
         margin-bottom: 1rem;
-        color: var(--ink);
+        display: flex;
+        align-items: center;
+        gap: 1rem;
       }
 
-      /* Custom search input */
-      .search-wrapper {
-        max-width: 600px;
-        margin: 0 auto;
-        position: relative;
+      .search-header::before,
+      .search-header::after {
+        content: "";
+        flex: 1;
+        height: 1px;
+        background: var(--zp-gold);
       }
 
       #search-input {
@@ -225,116 +157,138 @@
         padding: 1rem 1.25rem;
         border: 2px solid var(--ink);
         background: var(--parchment);
-        box-shadow: 4px 4px 0 var(--ink);
-        transition: all 0.2s ease;
+        color: var(--ink);
+        box-shadow: 3px 3px 0 var(--ink);
+        transition: all 0.15s ease;
       }
 
       #search-input:focus {
         outline: none;
-        box-shadow: 6px 6px 0 var(--ink);
         transform: translate(-2px, -2px);
+        box-shadow: 5px 5px 0 var(--ink);
       }
 
       #search-input::placeholder {
         font-style: italic;
         color: var(--ink-light);
-        opacity: 0.7;
       }
 
       .keyboard-hint {
         text-align: center;
         margin-top: 1rem;
-        font-family: "Special Elite", monospace;
-        font-size: 0.75rem;
-        color: var(--ink);
-        opacity: 0.7;
+        font-family: "Libre Baskerville", serif;
+        font-size: 0.8rem;
+        color: var(--ink-light);
+        font-style: italic;
       }
 
       .keyboard-hint kbd {
         display: inline-block;
         padding: 0.2em 0.5em;
-        background: var(--parchment);
+        background: var(--parchment-dark);
         border: 1px solid var(--ink);
-        font-family: inherit;
-        font-size: 0.9em;
-        box-shadow: 2px 2px 0 var(--ink);
+        font-family: "Special Elite", monospace;
+        font-style: normal;
+        font-size: 0.85em;
       }
 
-
-      /* Stats banner */
-      .stats-banner {
+      /* Stats */
+      .stats-row {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 1px;
-        background: var(--ink);
-        margin: 2rem 0;
-        box-shadow: 4px 4px 0 var(--zp-gold);
+        gap: 0;
+        margin: 3.5rem 0 3rem;
+        border: 2px solid var(--ink);
+        box-shadow: 4px 4px 0 var(--ink);
+        background: var(--parchment);
+        position: relative;
+        overflow: visible;
+      }
+
+      .stats-row::before {
+        content: "By the Numbers";
+        position: absolute;
+        top: -0.75em;
+        left: 50%;
+        transform: translateX(-50%);
+        background: var(--parchment);
+        padding: 0 1rem;
+        font-family: "Special Elite", monospace;
+        font-size: 0.65rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--ink-light);
+        z-index: 10;
       }
 
       .stat {
-        background: var(--parchment);
-        padding: 1.5rem 1rem;
         text-align: center;
+        padding: 1.75rem 1rem;
+        position: relative;
+        background: linear-gradient(
+          180deg,
+          var(--parchment-dark) 0%,
+          var(--parchment) 100%
+        );
+      }
+
+      .stat:not(:last-child)::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 20%;
+        height: 60%;
+        width: 1px;
+        background: var(--ink);
+      }
+
+      .stat-icon {
+        font-size: 1.25rem;
+        margin-bottom: 0.5rem;
+        opacity: 0.6;
       }
 
       .stat-number {
         font-family: "Playfair Display", serif;
-        font-size: 2.5rem;
+        font-size: clamp(2rem, 6vw, 3rem);
         font-weight: 700;
-        color: var(--burgundy);
+        color: var(--ink);
         line-height: 1;
+        position: relative;
+        display: inline-block;
+      }
+
+      .stat:first-child .stat-number::after {
+        content: "";
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background: var(--zp-yellow);
       }
 
       .stat-label {
         font-family: "Special Elite", monospace;
-        font-size: 0.65rem;
-        letter-spacing: 0.15em;
+        font-size: 0.6rem;
+        letter-spacing: 0.2em;
         text-transform: uppercase;
         color: var(--ink-light);
-        margin-top: 0.5rem;
+        margin-top: 0.75rem;
       }
 
-      /* Quote section */
-      .quote-section {
-        margin: 3rem 0;
-        padding: 2rem;
-        position: relative;
-        text-align: center;
-      }
-
-      .quote-section::before {
-        content: """;
-        font-family: "Playfair Display", serif;
-        font-size: 8rem;
-        position: absolute;
-        top: -1rem;
-        left: 50%;
-        transform: translateX(-50%);
-        color: var(--zp-yellow);
-        line-height: 1;
-        z-index: -1;
-      }
-
-      .quote-text {
-        font-family: "Playfair Display", serif;
+      .stat-sublabel {
+        font-family: "Libre Baskerville", serif;
+        font-size: 0.7rem;
         font-style: italic;
-        font-size: 1.3rem;
-        line-height: 1.6;
-        max-width: 600px;
-        margin: 0 auto;
-      }
-
-      .quote-attribution {
-        font-family: "Special Elite", monospace;
-        font-size: 0.8rem;
         color: var(--ink-light);
-        margin-top: 1rem;
-        letter-spacing: 0.1em;
+        margin-top: 0.25rem;
+        opacity: 0.7;
       }
 
       /* Footer */
       footer {
-        margin-top: 4rem;
+        margin-top: 3rem;
         padding-top: 2rem;
         border-top: 1px solid var(--zp-gold);
         text-align: center;
@@ -357,9 +311,8 @@
       }
 
       .colophon {
-        font-family: "Special Elite", monospace;
-        font-size: 0.7rem;
-        letter-spacing: 0.1em;
+        font-style: italic;
+        font-size: 0.75rem;
         margin-top: 1.5rem;
         opacity: 0.7;
       }
@@ -370,122 +323,118 @@
           padding: 2rem 1.5rem;
         }
 
-        .search-section {
-          margin: 2rem -1.5rem;
-          padding: 2rem 1.5rem;
-        }
-
-        .search-section::before,
-        .search-section::after {
-          display: none;
-        }
-
-        .stats-banner {
-          grid-template-columns: 1fr;
-        }
-
-        .edition-info {
-          flex-direction: column;
-          gap: 0.5rem;
-        }
-
         .page-border {
           display: none;
         }
 
-        .corner-ornament {
-          display: none;
-        }
-
-        .result-header {
+        .meta {
           flex-direction: column;
-          gap: 0.5rem;
+          gap: 1rem;
+        }
+
+        .stats-row {
+          grid-template-columns: 1fr;
+          box-shadow: 3px 3px 0 var(--ink);
+        }
+
+        .stat {
+          padding: 1.25rem 1rem;
+        }
+
+        .stat:not(:last-child)::after {
+          right: 20%;
+          top: auto;
+          bottom: 0;
+          height: 1px;
+          width: 60%;
         }
       }
 
-      /* Animation */
+      /* Animations */
       @keyframes fadeIn {
-        from { opacity: 0; transform: translateY(10px); }
-        to { opacity: 1; transform: translateY(0); }
+        from { opacity: 0; }
+        to { opacity: 1; }
       }
 
-      .masthead, .search-section, .stats-banner, .quote-section, footer {
-        animation: fadeIn 0.6s ease-out backwards;
+      header {
+        animation: fadeIn 0.6s ease-out;
       }
 
-      .search-section { animation-delay: 0.1s; }
-      .stats-banner { animation-delay: 0.2s; }
-      .quote-section { animation-delay: 0.3s; }
-      footer { animation-delay: 0.4s; }
+      .search-section {
+        animation: fadeIn 0.6s ease-out 0.1s backwards;
+      }
 
+      .stats-row {
+        animation: fadeIn 0.6s ease-out 0.2s backwards;
+      }
+
+      footer {
+        animation: fadeIn 0.6s ease-out 0.3s backwards;
+      }
     </style>
 
     <!-- Global styles for dynamically injected search results -->
     <style is:global>
       #search-results {
         max-width: 100%;
-        margin: 2.5rem 0 0;
+        margin: 1.5rem 0 0;
       }
 
       .search-status {
         text-align: center;
-        font-family: "Special Elite", monospace;
-        font-size: 0.8rem;
-        letter-spacing: 0.1em;
-        color: var(--ink);
-        margin-bottom: 1.5rem;
-        opacity: 0.8;
+        font-family: "Libre Baskerville", serif;
+        font-size: 0.85rem;
+        font-style: italic;
+        color: var(--ink-light);
+        margin-bottom: 1.25rem;
+        padding-bottom: 0.75rem;
+        border-bottom: 1px solid var(--zp-gold);
       }
 
       .search-result {
         background: var(--parchment);
         margin-bottom: 1.25rem;
         border: 2px solid var(--ink);
-        box-shadow: 4px 4px 0 var(--ink);
-        position: relative;
-        transition: transform 0.15s ease, box-shadow 0.15s ease;
-      }
-
-      .search-result:hover {
-        transform: translate(-2px, -2px);
-        box-shadow: 6px 6px 0 var(--ink);
+        box-shadow: 3px 3px 0 var(--ink);
       }
 
       .result-header {
-        padding: 1rem 1.25rem;
-        background: linear-gradient(to bottom, var(--parchment), var(--parchment-dark));
-        border-bottom: 2px solid var(--ink);
+        padding: 1rem 1.25rem 0.75rem;
+        border-bottom: 1px solid var(--ink);
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: baseline;
         gap: 1rem;
+        background: var(--parchment-dark);
       }
 
       .result-title {
         font-family: "Playfair Display", serif;
         font-weight: 700;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         color: var(--ink);
         margin: 0;
+        line-height: 1.3;
       }
 
       .result-series {
         font-family: "Special Elite", monospace;
-        font-size: 0.6rem;
+        font-size: 0.55rem;
         letter-spacing: 0.15em;
         text-transform: uppercase;
         color: var(--ink);
         background: var(--zp-yellow);
-        padding: 0.35em 0.75em;
+        padding: 0.3em 0.6em;
         white-space: nowrap;
-        border: 1px solid var(--ink);
       }
 
       .result-captions {
-        padding: 1.25rem 1.5rem;
-        font-size: 1rem;
+        padding: 1rem 1.25rem;
+        font-family: "Libre Baskerville", serif;
+        font-size: 0.95rem;
         line-height: 1.8;
-        background: #fff;
+        background: var(--parchment);
+        color: var(--ink);
       }
 
       .result-captions .caption-segment {
@@ -500,12 +449,12 @@
       }
 
       .result-footer {
-        padding: 0.75rem 1.25rem;
+        padding: 0.6rem 1.25rem;
         background: var(--parchment-dark);
-        border-top: 1px solid var(--zp-gold);
-        font-family: "Special Elite", monospace;
-        font-size: 0.65rem;
-        letter-spacing: 0.05em;
+        border-top: 1px solid var(--ink);
+        font-family: "Libre Baskerville", serif;
+        font-size: 0.7rem;
+        font-style: italic;
         color: var(--ink-light);
         display: flex;
         justify-content: space-between;
@@ -513,48 +462,68 @@
       }
 
       .result-footer a {
+        font-family: "Special Elite", monospace;
         color: var(--burgundy);
         text-decoration: none;
-        font-weight: bold;
-        transition: all 0.15s ease;
+        font-style: normal;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        font-size: 0.6rem;
+        border-bottom: 1px dotted var(--burgundy);
+        transition: border-color 0.15s ease;
       }
 
       .result-footer a:hover {
-        color: var(--ink);
+        border-bottom-style: solid;
       }
 
       .loading {
         text-align: center;
-        padding: 2rem;
-        font-family: "Playfair Display", serif;
+        padding: 2.5rem;
+        font-family: "Libre Baskerville", serif;
         font-style: italic;
-        color: var(--ink);
-        font-size: 1.1rem;
+        color: var(--ink-light);
+        font-size: 1rem;
+      }
+
+      .loading::before {
+        content: "···";
+        display: block;
+        font-size: 1.5rem;
+        margin-bottom: 0.75rem;
+        letter-spacing: 0.5em;
+        animation: pulse 1.5s ease-in-out infinite;
+      }
+
+      @keyframes pulse {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 1; }
       }
 
       .no-results {
         text-align: center;
-        padding: 3rem 2rem;
+        padding: 2.5rem 2rem;
         background: var(--parchment);
-        border: 2px dashed var(--zp-gold);
+        border: 2px solid var(--ink);
+        box-shadow: 3px 3px 0 var(--ink);
       }
 
       .no-results-icon {
-        font-size: 3rem;
-        margin-bottom: 1rem;
+        font-size: 2rem;
+        margin-bottom: 0.75rem;
         opacity: 0.5;
       }
 
       .no-results-text {
-        font-family: "Playfair Display", serif;
+        font-family: "Libre Baskerville", serif;
         font-style: italic;
-        font-size: 1.1rem;
+        font-size: 1rem;
         color: var(--ink-light);
         margin: 0;
       }
 
       .results-list .search-result {
-        animation: fadeIn 0.4s ease-out backwards;
+        animation: resultFadeIn 0.3s ease-out backwards;
       }
 
       .results-list .search-result:nth-child(1) { animation-delay: 0.0s; }
@@ -562,19 +531,25 @@
       .results-list .search-result:nth-child(3) { animation-delay: 0.1s; }
       .results-list .search-result:nth-child(4) { animation-delay: 0.15s; }
       .results-list .search-result:nth-child(5) { animation-delay: 0.2s; }
-      .results-list .search-result:nth-child(6) { animation-delay: 0.25s; }
-      .results-list .search-result:nth-child(7) { animation-delay: 0.3s; }
-      .results-list .search-result:nth-child(8) { animation-delay: 0.35s; }
-      .results-list .search-result:nth-child(9) { animation-delay: 0.4s; }
-      .results-list .search-result:nth-child(10) { animation-delay: 0.45s; }
+
+      @keyframes resultFadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(4px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
 
       /* Search term highlighting */
       .highlight-match {
         background: var(--zp-yellow);
         color: var(--ink);
-        padding: 0.1em 0.15em;
+        font-weight: 700;
+        padding: 0 2px;
         border-radius: 2px;
-        font-weight: 600;
       }
 
       @media (max-width: 640px) {
@@ -588,79 +563,57 @@
   </head>
 
   <body>
-    <!-- Decorative border -->
     <div class="page-border"></div>
-    <div class="corner-ornament top-left">✦</div>
-    <div class="corner-ornament top-right">✦</div>
-    <div class="corner-ornament bottom-left">✦</div>
-    <div class="corner-ornament bottom-right">✦</div>
 
     <div class="container">
-      <!-- Masthead -->
-      <header class="masthead">
-        <p class="dateline">Est. 2007 — The Definitive Archive</p>
-        <h1><span class="highlight">Trilby's</span> Index</h1>
-        <p class="subtitle">A Comprehensive Index of Gaming's Most Sardonic Criticism</p>
-        <div class="edition-info">
-          <span>⚆ 929 Reviews Indexed</span>
-          <span>⚆ 30,000+ Words Searchable</span>
-          <span>⚆ Zero Punctuation</span>
-        </div>
+      <!-- Header -->
+      <header>
+        <div class="series-badge">Est. 2007</div>
+        <h1>Trilby's Index</h1>
+        <p class="tagline">A searchable archive of Yahtzee's video game critique</p>
       </header>
 
       <!-- Search -->
       <section class="search-section">
-        <p class="search-label">Consult the Archives</p>
-        <div class="search-wrapper">
-          <input
-            type="text"
-            id="search-input"
-            placeholder="Search for any quote, game, or phrase…"
-            autocomplete="off"
-          />
-        </div>
+        <div class="search-header">Search the Archives</div>
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Search for any quote, game, or phrase…"
+          autocomplete="off"
+        />
         <p class="keyboard-hint">
-          Press <kbd>/</kbd> to search — Hover text, click to jump to YouTube timestamp
+          Press <kbd>/</kbd> to focus — Click any result text to jump to that moment on YouTube
         </p>
         <div id="search-results"></div>
       </section>
 
       <!-- Stats -->
-      <div class="stats-banner">
+      <div class="stats-row">
         <div class="stat">
           <div class="stat-number">929</div>
-          <div class="stat-label">Video Reviews</div>
+          <div class="stat-label">Videos</div>
+          <div class="stat-sublabel">fully transcribed</div>
         </div>
         <div class="stat">
-          <div class="stat-number">17</div>
-          <div class="stat-label">Years of Criticism</div>
+          <div class="stat-number">1.2M</div>
+          <div class="stat-label">Words</div>
+          <div class="stat-sublabel">of gaming critique</div>
         </div>
         <div class="stat">
-          <div class="stat-number">∞</div>
-          <div class="stat-label">Similes About Genitalia</div>
+          <div class="stat-number">91</div>
+          <div class="stat-label">Hours</div>
+          <div class="stat-sublabel">of content</div>
         </div>
       </div>
-
-      <!-- Quote -->
-      <section class="quote-section">
-        <p class="quote-text">
-          "I'm not here to tell you what to think. I'm here to tell you what I think,
-          and then you can decide whether I'm an idiot or not."
-        </p>
-        <p class="quote-attribution">— Yahtzee Croshaw</p>
-      </section>
 
       <!-- Footer -->
       <footer>
         <p>
-          Hover over any text to highlight. Click to jump directly to that moment on YouTube.
-        </p>
-        <p>
-          Built with obsessive attention to detail using Astro & Pagefind.
-          <a href="https://github.com/obviyus/trilbys-index">View Source</a>
+          <a href="https://github.com/obviyus/trilbys-index">View source</a>
         </p>
         <p class="colophon">
-          Not affiliated with The Escapist or Second Wind. Made by a fan, for the fans.
+          Not affiliated with The Escapist or Second Wind.
         </p>
       </footer>
     </div>
