@@ -76,7 +76,7 @@ async function saveCaptions(caption: VideoCaption): Promise<void> {
 async function getVideoInfo(videoId: string): Promise<VideoInfo | null> {
   try {
     const result =
-      await $`yt-dlp --dump-json --no-warnings https://youtu.be/${videoId}`.text();
+      await $`yt-dlp --dump-json --cookies-from-browser chrome --no-warnings https://youtu.be/${videoId}`.text();
     const data = JSON.parse(result);
 
     return {
@@ -106,7 +106,7 @@ async function downloadAudio(videoId: string): Promise<string | null> {
 
     console.log(`  Downloading audio...`);
     // AIDEV-NOTE: 16kHz mono wav is optimal for Groq (smaller file, lower latency)
-    await $`yt-dlp -x --audio-format wav --postprocessor-args "ffmpeg:-ar 16000 -ac 1" --no-warnings -o ${outputPath} https://youtu.be/${videoId}`.quiet();
+    await $`yt-dlp -x --cookies-from-browser chrome --audio-format wav --postprocessor-args "ffmpeg:-ar 16000 -ac 1" --no-warnings -o ${outputPath} https://youtu.be/${videoId}`.quiet();
 
     return outputPath;
   } catch (error) {
