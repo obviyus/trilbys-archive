@@ -683,6 +683,7 @@ function formatNumber(n: number): string {
       }
 
       // Fetch captions for a video
+      // Pre-computes lowercase text at cache time to avoid O(n) toLowerCase() calls during search
       async function fetchCaptions(videoId) {
         if (captionCache.has(videoId)) {
           return captionCache.get(videoId);
@@ -691,6 +692,9 @@ function formatNumber(n: number): string {
           const res = await fetch(`/captions/${videoId}.json`);
           if (!res.ok) return null;
           const data = await res.json();
+          // Pre-lowercase all caption text at cache time (avoids repeated toLowerCase in hot path)
+          // Caption format becomes: [text, offset, textLower]
+          data.captions = data.captions.map(cap => [cap[0], cap[1], cap[0].toLowerCase()]);
           captionCache.set(videoId, data);
           return data;
         } catch {
@@ -699,13 +703,15 @@ function formatNumber(n: number): string {
       }
 
       // Find captions that match the search query
+      // Uses pre-computed lowercase (cap[2]) to avoid O(n×m) toLowerCase calls
       function findMatchingCaptions(captions, query) {
         const queryLower = query.toLowerCase();
         const words = queryLower.split(/\s+/).filter(w => w.length > 2);
 
         // Score each caption by how many query words it contains
+        // cap[2] is pre-computed lowercase text from fetchCaptions()
         const scored = captions.map((cap, idx) => {
-          const textLower = cap[0].toLowerCase();
+          const textLower = cap[2];
           let score = 0;
           for (const word of words) {
             if (textLower.includes(word)) score++;
@@ -813,18 +819,21 @@ function formatNumber(n: number): string {
             search.results.slice(0, 10).map(r => r.data())
           );
 
-          // Fetch captions and render results in parallel
-          const rendered = (await Promise.all(
-            results.map(async (result) => {
+          // Parallel prefetch eliminates network waterfall (was N sequential fetches)
+          // Extract video IDs and prefetch all captions in parallel
+          const videoIds = results.map(r => r.meta?.videoId).filter(Boolean);
+          await Promise.all(videoIds.map(id => fetchCaptions(id)));
+
+          // Render synchronously from cache (all data already fetched)
+          const rendered = results
+            .map((result) => {
               const videoId = result.meta?.videoId;
               if (!videoId) return null;
-
-              const captionData = await fetchCaptions(videoId);
+              const captionData = captionCache.get(videoId);
               if (!captionData) return null;
-
               return renderResult(videoId, captionData, query);
             })
-          )).filter(Boolean);
+            .filter(Boolean);
 
           if (rendered.length === 0) {
             resultsEl.innerHTML = `
