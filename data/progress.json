@@ -947,49 +947,33 @@
     "Sa6WLMt-3oQ",
     "_w6wU2KPPwk",
     "Wxr89gxP9Dg",
-    "nRPdBffBnUI"
+    "nRPdBffBnUI",
+    "9Cy0mWziFrI",
+    "eP-OLKkbiBc",
+    "vx2TTzadTaA",
+    "n-7Crx3AiWM"
   ],
   "failedVideos": [
     {
       "id": "4UhJwcZ26PQ",
       "error": "No captions available",
-      "lastAttempt": "2025-12-14T10:51:56.414Z"
+      "lastAttempt": "2025-12-14T16:48:08.612Z"
     },
     {
       "id": "M7bCFbJKTaw",
       "error": "No captions available",
-      "lastAttempt": "2025-12-14T10:52:00.793Z"
-    },
-    {
-      "id": "n-7Crx3AiWM",
-      "error": "No captions available",
-      "lastAttempt": "2025-12-14T10:53:11.419Z"
-    },
-    {
-      "id": "vx2TTzadTaA",
-      "error": "No captions available",
-      "lastAttempt": "2025-12-14T10:53:23.109Z"
-    },
-    {
-      "id": "9Cy0mWziFrI",
-      "error": "No captions available",
-      "lastAttempt": "2025-12-14T10:53:40.219Z"
-    },
-    {
-      "id": "eP-OLKkbiBc",
-      "error": "No captions available",
-      "lastAttempt": "2025-12-14T10:55:04.119Z"
+      "lastAttempt": "2025-12-14T16:48:08.693Z"
     },
     {
       "id": "_ApdGizJECo",
       "error": "No captions available",
-      "lastAttempt": "2025-12-14T10:57:10.674Z"
+      "lastAttempt": "2025-12-14T16:48:09.665Z"
     },
     {
       "id": "IkmBPtglbDs",
       "error": "No captions available",
-      "lastAttempt": "2025-12-14T10:57:29.292Z"
+      "lastAttempt": "2025-12-14T16:48:08.937Z"
     }
   ],
-  "lastRun": "2025-12-14T11:50:22.997Z"
+  "lastRun": "2025-12-14T16:51:27.405Z"
 }
