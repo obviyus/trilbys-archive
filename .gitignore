@@ -22,3 +22,12 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# Project specific
+src/pages/transcript/
+
+# Pagefind dev assets (copied from dist for local dev)
+public/pagefind/
+
+# Client-side caption data (generated from data/captions)
+public/captions/

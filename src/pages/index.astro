@@ -1,16 +1,872 @@
 ---
-
+/**
+ * The Punctuation Chronicle - A searchable archive of Yahtzee's wisdom
+ * Custom search UI with clickable timestamp links like transcript pages
+ */
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Trilby's Notes</title>
-	</head>
-	<body>
-		<h1>Trilby's Notes</h1>
-	</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Search through every Zero Punctuation and Fully Ramblomatic video transcript - a complete archive of gaming criticism"
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Trilby's Index — A Searchable Yahtzee Archive</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        /* The Chronicle Palette */
+        --zp-yellow: #f5c518;
+        --zp-gold: #e5a500;
+        --parchment: #faf6e9;
+        --parchment-dark: #f0e9d2;
+        --ink: #1a1612;
+        --ink-light: #3d352d;
+        --rust: #8b4513;
+        --burgundy: #722f37;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Libre Baskerville", Georgia, serif;
+        background: var(--parchment);
+        color: var(--ink);
+        min-height: 100vh;
+        line-height: 1.7;
+      }
+
+      /* Victorian decorative border */
+      .page-border {
+        position: fixed;
+        inset: 8px;
+        border: 3px double var(--zp-gold);
+        pointer-events: none;
+        z-index: 100;
+      }
+
+      .page-border::before {
+        content: "";
+        position: absolute;
+        inset: 4px;
+        border: 1px solid var(--zp-gold);
+        opacity: 0.5;
+      }
+
+      /* Corner ornaments */
+      .corner-ornament {
+        position: fixed;
+        width: 40px;
+        height: 40px;
+        z-index: 101;
+        color: var(--zp-gold);
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Playfair Display", serif;
+      }
+
+      .corner-ornament.top-left { top: 16px; left: 16px; }
+      .corner-ornament.top-right { top: 16px; right: 16px; }
+      .corner-ornament.bottom-left { bottom: 16px; left: 16px; }
+      .corner-ornament.bottom-right { bottom: 16px; right: 16px; }
+
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 3rem 2rem 4rem;
+        position: relative;
+      }
+
+      /* Masthead */
+      .masthead {
+        text-align: center;
+        padding: 2rem 0 3rem;
+        border-bottom: 3px solid var(--ink);
+        margin-bottom: 2rem;
+        position: relative;
+      }
+
+      .masthead::after {
+        content: "";
+        position: absolute;
+        bottom: -7px;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background: var(--ink);
+      }
+
+      .dateline {
+        font-family: "Special Elite", monospace;
+        font-size: 0.75rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--ink-light);
+        margin-bottom: 1rem;
+      }
+
+      .masthead h1 {
+        font-family: "Playfair Display", serif;
+        font-size: clamp(2.5rem, 8vw, 4.5rem);
+        font-weight: 700;
+        margin: 0;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        position: relative;
+        display: inline-block;
+      }
+
+      .masthead h1 .highlight {
+        color: var(--burgundy);
+        position: relative;
+      }
+
+      .masthead h1 .highlight::after {
+        content: "";
+        position: absolute;
+        bottom: 0.1em;
+        left: 0;
+        right: 0;
+        height: 0.35em;
+        background: var(--zp-yellow);
+        z-index: -1;
+        transform: skewX(-3deg);
+      }
+
+      .subtitle {
+        font-family: "Playfair Display", serif;
+        font-style: italic;
+        font-size: 1.1rem;
+        color: var(--ink-light);
+        margin-top: 0.75rem;
+      }
+
+      .edition-info {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 1.5rem;
+        font-size: 0.8rem;
+        font-family: "Special Elite", monospace;
+        color: var(--ink-light);
+      }
+
+      .edition-info span {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      /* Search section */
+      .search-section {
+        background: var(--zp-yellow);
+        padding: 2.5rem 2rem;
+        margin: 2rem -2rem;
+        position: relative;
+        box-shadow:
+          inset 0 2px 4px rgba(0,0,0,0.1),
+          0 4px 12px rgba(0,0,0,0.1);
+      }
+
+      .search-section::before,
+      .search-section::after {
+        content: "❧";
+        position: absolute;
+        top: 1.5rem;
+        font-size: 1.5rem;
+        color: var(--ink);
+        opacity: 0.3;
+      }
+
+      .search-section::before { left: 1rem; }
+      .search-section::after { right: 1rem; }
+
+      .search-label {
+        font-family: "Special Elite", monospace;
+        font-size: 0.7rem;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 1rem;
+        color: var(--ink);
+      }
+
+      /* Custom search input */
+      .search-wrapper {
+        max-width: 600px;
+        margin: 0 auto;
+        position: relative;
+      }
+
+      #search-input {
+        width: 100%;
+        font-family: "Libre Baskerville", Georgia, serif;
+        font-size: 1.1rem;
+        padding: 1rem 1.25rem;
+        border: 2px solid var(--ink);
+        background: var(--parchment);
+        box-shadow: 4px 4px 0 var(--ink);
+        transition: all 0.2s ease;
+      }
+
+      #search-input:focus {
+        outline: none;
+        box-shadow: 6px 6px 0 var(--ink);
+        transform: translate(-2px, -2px);
+      }
+
+      #search-input::placeholder {
+        font-style: italic;
+        color: var(--ink-light);
+        opacity: 0.7;
+      }
+
+      .keyboard-hint {
+        text-align: center;
+        margin-top: 1rem;
+        font-family: "Special Elite", monospace;
+        font-size: 0.75rem;
+        color: var(--ink);
+        opacity: 0.7;
+      }
+
+      .keyboard-hint kbd {
+        display: inline-block;
+        padding: 0.2em 0.5em;
+        background: var(--parchment);
+        border: 1px solid var(--ink);
+        font-family: inherit;
+        font-size: 0.9em;
+        box-shadow: 2px 2px 0 var(--ink);
+      }
+
+
+      /* Stats banner */
+      .stats-banner {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1px;
+        background: var(--ink);
+        margin: 2rem 0;
+        box-shadow: 4px 4px 0 var(--zp-gold);
+      }
+
+      .stat {
+        background: var(--parchment);
+        padding: 1.5rem 1rem;
+        text-align: center;
+      }
+
+      .stat-number {
+        font-family: "Playfair Display", serif;
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: var(--burgundy);
+        line-height: 1;
+      }
+
+      .stat-label {
+        font-family: "Special Elite", monospace;
+        font-size: 0.65rem;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: var(--ink-light);
+        margin-top: 0.5rem;
+      }
+
+      /* Quote section */
+      .quote-section {
+        margin: 3rem 0;
+        padding: 2rem;
+        position: relative;
+        text-align: center;
+      }
+
+      .quote-section::before {
+        content: """;
+        font-family: "Playfair Display", serif;
+        font-size: 8rem;
+        position: absolute;
+        top: -1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        color: var(--zp-yellow);
+        line-height: 1;
+        z-index: -1;
+      }
+
+      .quote-text {
+        font-family: "Playfair Display", serif;
+        font-style: italic;
+        font-size: 1.3rem;
+        line-height: 1.6;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      .quote-attribution {
+        font-family: "Special Elite", monospace;
+        font-size: 0.8rem;
+        color: var(--ink-light);
+        margin-top: 1rem;
+        letter-spacing: 0.1em;
+      }
+
+      /* Footer */
+      footer {
+        margin-top: 4rem;
+        padding-top: 2rem;
+        border-top: 1px solid var(--zp-gold);
+        text-align: center;
+        font-size: 0.85rem;
+        color: var(--ink-light);
+      }
+
+      footer p {
+        margin: 0.5rem 0;
+      }
+
+      footer a {
+        color: var(--burgundy);
+        text-decoration: none;
+        border-bottom: 1px dotted var(--burgundy);
+      }
+
+      footer a:hover {
+        border-bottom-style: solid;
+      }
+
+      .colophon {
+        font-family: "Special Elite", monospace;
+        font-size: 0.7rem;
+        letter-spacing: 0.1em;
+        margin-top: 1.5rem;
+        opacity: 0.7;
+      }
+
+      /* Responsive */
+      @media (max-width: 640px) {
+        .container {
+          padding: 2rem 1.5rem;
+        }
+
+        .search-section {
+          margin: 2rem -1.5rem;
+          padding: 2rem 1.5rem;
+        }
+
+        .search-section::before,
+        .search-section::after {
+          display: none;
+        }
+
+        .stats-banner {
+          grid-template-columns: 1fr;
+        }
+
+        .edition-info {
+          flex-direction: column;
+          gap: 0.5rem;
+        }
+
+        .page-border {
+          display: none;
+        }
+
+        .corner-ornament {
+          display: none;
+        }
+
+        .result-header {
+          flex-direction: column;
+          gap: 0.5rem;
+        }
+      }
+
+      /* Animation */
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+
+      .masthead, .search-section, .stats-banner, .quote-section, footer {
+        animation: fadeIn 0.6s ease-out backwards;
+      }
+
+      .search-section { animation-delay: 0.1s; }
+      .stats-banner { animation-delay: 0.2s; }
+      .quote-section { animation-delay: 0.3s; }
+      footer { animation-delay: 0.4s; }
+
+    </style>
+
+    <!-- Global styles for dynamically injected search results -->
+    <style is:global>
+      #search-results {
+        max-width: 100%;
+        margin: 2.5rem 0 0;
+      }
+
+      .search-status {
+        text-align: center;
+        font-family: "Special Elite", monospace;
+        font-size: 0.8rem;
+        letter-spacing: 0.1em;
+        color: var(--ink);
+        margin-bottom: 1.5rem;
+        opacity: 0.8;
+      }
+
+      .search-result {
+        background: var(--parchment);
+        margin-bottom: 1.25rem;
+        border: 2px solid var(--ink);
+        box-shadow: 4px 4px 0 var(--ink);
+        position: relative;
+        transition: transform 0.15s ease, box-shadow 0.15s ease;
+      }
+
+      .search-result:hover {
+        transform: translate(-2px, -2px);
+        box-shadow: 6px 6px 0 var(--ink);
+      }
+
+      .result-header {
+        padding: 1rem 1.25rem;
+        background: linear-gradient(to bottom, var(--parchment), var(--parchment-dark));
+        border-bottom: 2px solid var(--ink);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+      }
+
+      .result-title {
+        font-family: "Playfair Display", serif;
+        font-weight: 700;
+        font-size: 1.2rem;
+        color: var(--ink);
+        margin: 0;
+      }
+
+      .result-series {
+        font-family: "Special Elite", monospace;
+        font-size: 0.6rem;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: var(--ink);
+        background: var(--zp-yellow);
+        padding: 0.35em 0.75em;
+        white-space: nowrap;
+        border: 1px solid var(--ink);
+      }
+
+      .result-captions {
+        padding: 1.25rem 1.5rem;
+        font-size: 1rem;
+        line-height: 1.8;
+        background: #fff;
+      }
+
+      .result-captions .caption-segment {
+        color: inherit;
+        text-decoration: none;
+        transition: background 0.15s ease;
+        border-radius: 2px;
+      }
+
+      .result-captions .caption-segment:hover {
+        background: var(--zp-yellow);
+      }
+
+      .result-footer {
+        padding: 0.75rem 1.25rem;
+        background: var(--parchment-dark);
+        border-top: 1px solid var(--zp-gold);
+        font-family: "Special Elite", monospace;
+        font-size: 0.65rem;
+        letter-spacing: 0.05em;
+        color: var(--ink-light);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .result-footer a {
+        color: var(--burgundy);
+        text-decoration: none;
+        font-weight: bold;
+        transition: all 0.15s ease;
+      }
+
+      .result-footer a:hover {
+        color: var(--ink);
+      }
+
+      .loading {
+        text-align: center;
+        padding: 2rem;
+        font-family: "Playfair Display", serif;
+        font-style: italic;
+        color: var(--ink);
+        font-size: 1.1rem;
+      }
+
+      .no-results {
+        text-align: center;
+        padding: 3rem 2rem;
+        background: var(--parchment);
+        border: 2px dashed var(--zp-gold);
+      }
+
+      .no-results-icon {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        opacity: 0.5;
+      }
+
+      .no-results-text {
+        font-family: "Playfair Display", serif;
+        font-style: italic;
+        font-size: 1.1rem;
+        color: var(--ink-light);
+        margin: 0;
+      }
+
+      .results-list .search-result {
+        animation: fadeIn 0.4s ease-out backwards;
+      }
+
+      .results-list .search-result:nth-child(1) { animation-delay: 0.0s; }
+      .results-list .search-result:nth-child(2) { animation-delay: 0.05s; }
+      .results-list .search-result:nth-child(3) { animation-delay: 0.1s; }
+      .results-list .search-result:nth-child(4) { animation-delay: 0.15s; }
+      .results-list .search-result:nth-child(5) { animation-delay: 0.2s; }
+      .results-list .search-result:nth-child(6) { animation-delay: 0.25s; }
+      .results-list .search-result:nth-child(7) { animation-delay: 0.3s; }
+      .results-list .search-result:nth-child(8) { animation-delay: 0.35s; }
+      .results-list .search-result:nth-child(9) { animation-delay: 0.4s; }
+      .results-list .search-result:nth-child(10) { animation-delay: 0.45s; }
+
+      /* Search term highlighting */
+      .highlight-match {
+        background: var(--zp-yellow);
+        color: var(--ink);
+        padding: 0.1em 0.15em;
+        border-radius: 2px;
+        font-weight: 600;
+      }
+
+      @media (max-width: 640px) {
+        .result-header {
+          flex-direction: column;
+          gap: 0.5rem;
+          align-items: flex-start;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Decorative border -->
+    <div class="page-border"></div>
+    <div class="corner-ornament top-left">✦</div>
+    <div class="corner-ornament top-right">✦</div>
+    <div class="corner-ornament bottom-left">✦</div>
+    <div class="corner-ornament bottom-right">✦</div>
+
+    <div class="container">
+      <!-- Masthead -->
+      <header class="masthead">
+        <p class="dateline">Est. 2007 — The Definitive Archive</p>
+        <h1><span class="highlight">Trilby's</span> Index</h1>
+        <p class="subtitle">A Comprehensive Index of Gaming's Most Sardonic Criticism</p>
+        <div class="edition-info">
+          <span>⚆ 929 Reviews Indexed</span>
+          <span>⚆ 30,000+ Words Searchable</span>
+          <span>⚆ Zero Punctuation</span>
+        </div>
+      </header>
+
+      <!-- Search -->
+      <section class="search-section">
+        <p class="search-label">Consult the Archives</p>
+        <div class="search-wrapper">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Search for any quote, game, or phrase…"
+            autocomplete="off"
+          />
+        </div>
+        <p class="keyboard-hint">
+          Press <kbd>/</kbd> to search — Hover text, click to jump to YouTube timestamp
+        </p>
+        <div id="search-results"></div>
+      </section>
+
+      <!-- Stats -->
+      <div class="stats-banner">
+        <div class="stat">
+          <div class="stat-number">929</div>
+          <div class="stat-label">Video Reviews</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">17</div>
+          <div class="stat-label">Years of Criticism</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">∞</div>
+          <div class="stat-label">Similes About Genitalia</div>
+        </div>
+      </div>
+
+      <!-- Quote -->
+      <section class="quote-section">
+        <p class="quote-text">
+          "I'm not here to tell you what to think. I'm here to tell you what I think,
+          and then you can decide whether I'm an idiot or not."
+        </p>
+        <p class="quote-attribution">— Yahtzee Croshaw</p>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <p>
+          Hover over any text to highlight. Click to jump directly to that moment on YouTube.
+        </p>
+        <p>
+          Built with obsessive attention to detail using Astro & Pagefind.
+          <a href="https://github.com/obviyus/trilbys-index">View Source</a>
+        </p>
+        <p class="colophon">
+          Not affiliated with The Escapist or Second Wind. Made by a fan, for the fans.
+        </p>
+      </footer>
+    </div>
+
+    <script is:inline>
+      // Cache for fetched caption data
+      const captionCache = new Map();
+      let pagefind = null;
+      let searchTimeout = null;
+
+      // Format timestamp for display
+      function formatTimestamp(seconds) {
+        const mins = Math.floor(seconds / 60);
+        const secs = Math.floor(seconds % 60);
+        return `${mins}:${secs.toString().padStart(2, "0")}`;
+      }
+
+      // Fetch captions for a video
+      async function fetchCaptions(videoId) {
+        if (captionCache.has(videoId)) {
+          return captionCache.get(videoId);
+        }
+        try {
+          const res = await fetch(`/captions/${videoId}.json`);
+          if (!res.ok) return null;
+          const data = await res.json();
+          captionCache.set(videoId, data);
+          return data;
+        } catch {
+          return null;
+        }
+      }
+
+      // Find captions that match the search query
+      function findMatchingCaptions(captions, query) {
+        const queryLower = query.toLowerCase();
+        const words = queryLower.split(/\s+/).filter(w => w.length > 2);
+
+        // Score each caption by how many query words it contains
+        const scored = captions.map((cap, idx) => {
+          const textLower = cap[0].toLowerCase();
+          let score = 0;
+          for (const word of words) {
+            if (textLower.includes(word)) score++;
+          }
+          // Exact phrase match gets bonus
+          if (textLower.includes(queryLower)) score += 10;
+          return { cap, idx, score };
+        });
+
+        // Find the best matching region
+        const matches = scored.filter(s => s.score > 0);
+        if (matches.length === 0) return null;
+
+        // Sort by score and get the best match
+        matches.sort((a, b) => b.score - a.score);
+        const bestIdx = matches[0].idx;
+
+        // Return a window of captions around the best match
+        const start = Math.max(0, bestIdx - 2);
+        const end = Math.min(captions.length, bestIdx + 5);
+
+        return {
+          captions: captions.slice(start, end),
+          matchIndices: matches.map(m => m.idx - start).filter(i => i >= 0 && i < end - start)
+        };
+      }
+
+      // Highlight search terms in text
+      function highlightText(text, query) {
+        const words = query.toLowerCase().split(/\s+/).filter(w => w.length > 2);
+        if (words.length === 0) return text;
+
+        // Escape regex special chars and build pattern
+        const escaped = words.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+        const pattern = new RegExp(`(${escaped.join('|')})`, 'gi');
+
+        return text.replace(pattern, '<span class="highlight-match">$1</span>');
+      }
+
+      // Render a single search result
+      function renderResult(videoId, captionData, query) {
+        const matchData = findMatchingCaptions(captionData.captions, query);
+        if (!matchData) return null;
+
+        const { captions } = matchData;
+
+        // Build caption HTML with timestamp links - simple inline style like transcript page
+        const captionsHtml = captions.map((cap) => {
+          const [text, offset] = cap;
+          const url = `https://youtu.be/${videoId}?t=${offset}`;
+          const title = `Jump to ${formatTimestamp(offset)}`;
+          const highlighted = highlightText(text, query);
+          return `<a href="${url}" target="_blank" rel="noopener" class="caption-segment" title="${title}">${highlighted}</a>`;
+        }).join(" ");
+
+        return `
+          <article class="search-result">
+            <header class="result-header">
+              <h3 class="result-title">${captionData.title}</h3>
+              <span class="result-series">${captionData.series}</span>
+            </header>
+            <div class="result-captions">${captionsHtml}</div>
+            <footer class="result-footer">
+              <span>Hover to highlight, click to jump to timestamp</span>
+              <a href="/transcript/${videoId}">View full transcript →</a>
+            </footer>
+          </article>
+        `;
+      }
+
+      // Perform search
+      async function performSearch(query) {
+        const resultsEl = document.getElementById("search-results");
+
+        if (!query || query.length < 2) {
+          resultsEl.innerHTML = "";
+          return;
+        }
+
+        // Show loading state
+        resultsEl.innerHTML = '<div class="loading">Searching the archives...</div>';
+
+        try {
+          // Initialize Pagefind if needed
+          if (!pagefind) {
+            pagefind = await import("/pagefind/pagefind.js");
+            await pagefind.init();
+          }
+
+          // Search
+          const search = await pagefind.search(query);
+
+          if (search.results.length === 0) {
+            resultsEl.innerHTML = `
+              <div class="no-results">
+                <div class="no-results-icon">📜</div>
+                <p class="no-results-text">Alas, the archives contain no such wisdom.</p>
+              </div>
+            `;
+            return;
+          }
+
+          // Get first 10 results
+          const results = await Promise.all(
+            search.results.slice(0, 10).map(r => r.data())
+          );
+
+          // Fetch captions and render results
+          const rendered = [];
+          for (const result of results) {
+            const videoId = result.meta?.videoId;
+            if (!videoId) continue;
+
+            const captionData = await fetchCaptions(videoId);
+            if (!captionData) continue;
+
+            const html = renderResult(videoId, captionData, query);
+            if (html) rendered.push(html);
+          }
+
+          if (rendered.length === 0) {
+            resultsEl.innerHTML = `
+              <div class="no-results">
+                <div class="no-results-icon">🔍</div>
+                <p class="no-results-text">No matching transcripts found.</p>
+              </div>
+            `;
+            return;
+          }
+
+          resultsEl.innerHTML = `
+            <div class="search-status">${search.results.length} results for "${query}"</div>
+            <div class="results-list">
+              ${rendered.join("")}
+            </div>
+          `;
+        } catch (err) {
+          console.error("Search error:", err);
+          resultsEl.innerHTML = '<div class="search-status">An error occurred while searching.</div>';
+        }
+      }
+
+      // Initialize
+      document.addEventListener("DOMContentLoaded", () => {
+        const input = document.getElementById("search-input");
+
+        // Debounced search on input
+        input.addEventListener("input", (e) => {
+          clearTimeout(searchTimeout);
+          searchTimeout = setTimeout(() => {
+            performSearch(e.target.value.trim());
+          }, 300);
+        });
+
+        // Keyboard shortcut
+        document.addEventListener("keydown", (e) => {
+          if (
+            e.key === "/" &&
+            !["INPUT", "TEXTAREA"].includes(document.activeElement?.tagName)
+          ) {
+            e.preventDefault();
+            input.focus();
+          }
+        });
+      });
+    </script>
+  </body>
 </html>
