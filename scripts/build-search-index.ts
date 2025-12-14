@@ -87,6 +87,20 @@ export const prerender = true;
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${cleanTitle} — Trilby's Archive</title>
+  <meta name="description" content="Full transcript of ${cleanTitle} from ${series}">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="${cleanTitle} — Trilby's Archive">
+  <meta property="og:description" content="Full transcript of ${cleanTitle} from ${series}">
+  <meta property="og:image" content="https://trilbys-archive.pages.dev/preview.jpg">
+  <meta property="og:url" content="https://trilbys-archive.pages.dev/transcript/${video.id}">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="${cleanTitle} — Trilby's Archive">
+  <meta name="twitter:description" content="Full transcript of ${cleanTitle} from ${series}">
+  <meta name="twitter:image" content="https://trilbys-archive.pages.dev/preview.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Special+Elite&display=swap" rel="stylesheet">
