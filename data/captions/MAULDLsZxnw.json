@@ -1,0 +1,583 @@
+{
+  "video": {
+    "id": "MAULDLsZxnw",
+    "title": "The Technomancer (Zero Punctuation)",
+    "url": "https://youtu.be/MAULDLsZxnw",
+    "duration": 336,
+    "playlistId": "PLAbMhAYRuCUhawCEV2oXZGrienoKTN16X",
+    "playlistTitle": "Zero Punctuation"
+  },
+  "captions": [
+    {
+      "text": "It's always inspiring to see the sub-triple A sector lighting itself on fire and shooting",
+      "offset": 12280,
+      "duration": 3470
+    },
+    {
+      "text": "for the stars.",
+      "offset": 15750,
+      "duration": 1000
+    },
+    {
+      "text": "No retro pixel art or large-headed children in scary worlds for The Technomancer, oh goodness",
+      "offset": 16750,
+      "duration": 3570
+    },
+    {
+      "text": "me no, it's the Mass Effect and Deus Ex full-on action RPG club that it hopes to blag its",
+      "offset": 20320,
+      "duration": 3860
+    },
+    {
+      "text": "way into with its dark glasses and suspiciously bulky trenchcoat.",
+      "offset": 24180,
+      "duration": 3040
+    },
+    {
+      "text": "Have you characters, Technomancer?",
+      "offset": 27220,
+      "duration": 1120
+    },
+    {
+      "text": "\"You bet your bollocks we've got characters!",
+      "offset": 28340,
+      "duration": 1900
+    },
+    {
+      "text": "Party members and questgivers every colour of the miserable bastard rainbow with struggles",
+      "offset": 30240,
+      "duration": 3410
+    },
+    {
+      "text": "and adversities you will invest in like a dot com startup in the late 90s.\"",
+      "offset": 33650,
+      "duration": 3040
+    },
+    {
+      "text": "Have you built us a world, Technomancer?",
+      "offset": 36690,
+      "duration": 1459
+    },
+    {
+      "text": "\"You gamble your gonads we've built a world!",
+      "offset": 38149,
+      "duration": 2041
+    },
+    {
+      "text": "A dark and complex cyberpunk world in which factions battle for supremacy against the",
+      "offset": 40190,
+      "duration": 3320
+    },
+    {
+      "text": "backdrop of post-colonization Mars and there are only shades of grey.\"",
+      "offset": 43510,
+      "duration": 3160
+    },
+    {
+      "text": "I ain't disputing that last part, Technomancer, but probably not in the way you intended.",
+      "offset": 46670,
+      "duration": 3390
+    },
+    {
+      "text": "Now, have you combat?",
+      "offset": 50060,
+      "duration": 1209
+    },
+    {
+      "text": "\"You wager your wobbly bits we've got combat!",
+      "offset": 51269,
+      "duration": 2101
+    },
+    {
+      "text": "Exciting real time combat with enough variety of weapons and skills to create a staggering",
+      "offset": 53370,
+      "duration": 3300
+    },
+    {
+      "text": "number of alternative playstyles!\"",
+      "offset": 56670,
+      "duration": 1479
+    },
+    {
+      "text": "What number's that, Technomancer?\"",
+      "offset": 58149,
+      "duration": 1291
+    },
+    {
+      "text": "\"Three.",
+      "offset": 59440,
+      "duration": 1000
+    },
+    {
+      "text": "There's three playstyles.\"",
+      "offset": 60440,
+      "duration": 1000
+    },
+    {
+      "text": "Hm.",
+      "offset": 61440,
+      "duration": 1000
+    },
+    {
+      "text": "That is quite a staggering number.",
+      "offset": 62440,
+      "duration": 1000
+    },
+    {
+      "text": "Alright, I'm down.",
+      "offset": 63440,
+      "duration": 1000
+    },
+    {
+      "text": "Why don't you start by telling me the main character's overall goal?",
+      "offset": 64440,
+      "duration": 1860
+    },
+    {
+      "text": "\"OH BUGGER I knew we forgot something.\"",
+      "offset": 66300,
+      "duration": 1740
+    },
+    {
+      "text": "For what it's worth, our hero is Zachariah Mancer, a Technomancer, because on future",
+      "offset": 68040,
+      "duration": 3720
+    },
+    {
+      "text": "Mars everyone's surname is their job like a village of medieval serfs.",
+      "offset": 71760,
+      "duration": 3200
+    },
+    {
+      "text": "We can customise his appearance but it's not really worth the bother.",
+      "offset": 74960,
+      "duration": 2560
+    },
+    {
+      "text": "You can't pick gender and the available faces are a global showcase of conventional attractiveness.",
+      "offset": 77520,
+      "duration": 4050
+    },
+    {
+      "text": "There's also no facial hair.",
+      "offset": 81570,
+      "duration": 1430
+    },
+    {
+      "text": "Like, anywhere, even on the NPCs.",
+      "offset": 83000,
+      "duration": 1840
+    },
+    {
+      "text": "Some people have stubble but nothing that can't just be drawn onto the face texture",
+      "offset": 84840,
+      "duration": 2770
+    },
+    {
+      "text": "with felt-tips.",
+      "offset": 87610,
+      "duration": 1000
+    },
+    {
+      "text": "So I guess we know precisely where the 3D modelling budget ran out.",
+      "offset": 88610,
+      "duration": 2649
+    },
+    {
+      "text": "Anyway, our story begins with Zacky-boy graduating from the Technomancy school of his home city",
+      "offset": 91259,
+      "duration": 3961
+    },
+    {
+      "text": "on Mars.",
+      "offset": 95220,
+      "duration": 1000
+    },
+    {
+      "text": "The Technomancers are an exclusive and ever so slightly creepy order of mystics bound",
+      "offset": 96220,
+      "duration": 3039
+    },
+    {
+      "text": "by vow to protect the secret of their mysterious power.",
+      "offset": 99259,
+      "duration": 2411
+    },
+    {
+      "text": "What mysterious power, you ask?",
+      "offset": 101670,
+      "duration": 1650
+    },
+    {
+      "text": "They can shoot lightning.",
+      "offset": 103320,
+      "duration": 1810
+    },
+    {
+      "text": "That's it.",
+      "offset": 105130,
+      "duration": 1000
+    },
+    {
+      "text": "Doesn't seem worth making THAT much fuss about in a world that also has guns.",
+      "offset": 106130,
+      "duration": 2650
+    },
+    {
+      "text": "You could out-equip a Technomancer with a gift certificate and ten minutes in an American",
+      "offset": 108780,
+      "duration": 3060
+    },
+    {
+      "text": "shopping mall.",
+      "offset": 111840,
+      "duration": 1000
+    },
+    {
+      "text": "And the big secret you're all vowed to protect is that Technomancers are technically mutants,",
+      "offset": 112840,
+      "duration": 3430
+    },
+    {
+      "text": "the lowest caste of Mars society because aren't they always.",
+      "offset": 116270,
+      "duration": 2669
+    },
+    {
+      "text": "This, too, doesn't seem worth making that much of a fuss about and could probably lose",
+      "offset": 118939,
+      "duration": 3021
+    },
+    {
+      "text": "all its impact with a few minor societal reforms, I mean one suspects mutants are only an underclass",
+      "offset": 121960,
+      "duration": 4390
+    },
+    {
+      "text": "because they're such ugly motherfuckers and the technomancers all look like various incarnations",
+      "offset": 126350,
+      "duration": 3740
+    },
+    {
+      "text": "of Robert Patrick, but it's Zachariah's devotion to keeping this secret that earns him the",
+      "offset": 130090,
+      "duration": 3420
+    },
+    {
+      "text": "ire of the evil ruling authority.",
+      "offset": 133510,
+      "duration": 1880
+    },
+    {
+      "text": "Once the graduation's over Zach starts work as a peace officer working with the evil ruling",
+      "offset": 135390,
+      "duration": 3510
+    },
+    {
+      "text": "authority, so while I was at that point about as engaged as a dad chaperoning his daughter",
+      "offset": 138900,
+      "duration": 3830
+    },
+    {
+      "text": "to a One Direction concert, I figured I was obliged to at least play as far as the bit",
+      "offset": 142730,
+      "duration": 3470
+    },
+    {
+      "text": "where we get framed and the sinister authority turns against us which anyone with the majority",
+      "offset": 146200,
+      "duration": 3649
+    },
+    {
+      "text": "of their brain still inside their skull could see coming.",
+      "offset": 149849,
+      "duration": 2551
+    },
+    {
+      "text": "Any game in which you start as a member of a sinister authority who interacts with poor",
+      "offset": 152400,
+      "duration": 3199
+    },
+    {
+      "text": "people and suspiciously attractive revolutionaries will almost certainly contrive you to be no",
+      "offset": 155599,
+      "duration": 3771
+    },
+    {
+      "text": "longer a member of the sinister authority before the second act.",
+      "offset": 159370,
+      "duration": 2690
+    },
+    {
+      "text": "With the exception of modern warfare shooters, where you usually stay in the sinister authority",
+      "offset": 162060,
+      "duration": 3170
+    },
+    {
+      "text": "and french kiss assault rifles for six hours.",
+      "offset": 165230,
+      "duration": 2280
+    },
+    {
+      "text": "It's the usual action RPG format, questgivers give you a place on the map to go to, you",
+      "offset": 167510,
+      "duration": 3690
+    },
+    {
+      "text": "go to that place, talk to someone at that place and occasionally they become so incensed",
+      "offset": 171200,
+      "duration": 3420
+    },
+    {
+      "text": "by the audacity with which you go to places talking to people that you're forced to beat",
+      "offset": 174620,
+      "duration": 3160
+    },
+    {
+      "text": "them and all their friends to death, in a Dragon Age-esque disorganised melee.",
+      "offset": 177780,
+      "duration": 3679
+    },
+    {
+      "text": "There's the inevitable stealth option, but the stealth attack doesn't even kill the target",
+      "offset": 181459,
+      "duration": 3041
+    },
+    {
+      "text": "and it alerts everyone in the area anyway, so it's as much use as a handbrake on a shark.",
+      "offset": 184500,
+      "duration": 4090
+    },
+    {
+      "text": "Otherwise, I've seen worse combat.",
+      "offset": 188590,
+      "duration": 1440
+    },
+    {
+      "text": "I went for club and shield specialisation because fuck it let's just turn every game",
+      "offset": 190030,
+      "duration": 3010
+    },
+    {
+      "text": "into Dark Souls, and here's my top tip: keep swinging and press block if the enemy dodges",
+      "offset": 193040,
+      "duration": 3890
+    },
+    {
+      "text": "twice because you'll get a free parry.",
+      "offset": 196930,
+      "duration": 1779
+    },
+    {
+      "text": "Combat got really fucking boring after I figured that out, but the game compensates for that.",
+      "offset": 198709,
+      "duration": 3691
+    },
+    {
+      "text": "Remember when I said it was building a dark and complex cyberpunk world?",
+      "offset": 202400,
+      "duration": 2860
+    },
+    {
+      "text": "Well, the emphasis was on 'dark'.",
+      "offset": 205260,
+      "duration": 1790
+    },
+    {
+      "text": "The graphics get so shadowy it's almost impossible to tell the human enemies and my party members",
+      "offset": 207050,
+      "duration": 3710
+    },
+    {
+      "text": "apart, they're all silhouettes with no beards, and half the time it's difficult to tell whether",
+      "offset": 210760,
+      "duration": 3580
+    },
+    {
+      "text": "they're winding up attack animations or checking themselves for prostate cancer.",
+      "offset": 214340,
+      "duration": 3340
+    },
+    {
+      "text": "So getting back to that inevitable first act twist.",
+      "offset": 217680,
+      "duration": 1880
+    },
+    {
+      "text": "It turned out I was giving too much credit when I predicted the evil authority would",
+      "offset": 219560,
+      "duration": 3200
+    },
+    {
+      "text": "frame you for something before they'd do the big betrayal scene, or indeed that they'd",
+      "offset": 222760,
+      "duration": 3039
+    },
+    {
+      "text": "show you the big betrayal scene.",
+      "offset": 225799,
+      "duration": 1461
+    },
+    {
+      "text": "What happens is, two of Zach's mates intercept him on the way to work and say \"Hey, they're",
+      "offset": 227260,
+      "duration": 3210
+    },
+    {
+      "text": "setting up the big betrayal scene in there, might wanna just piss off.\"",
+      "offset": 230470,
+      "duration": 2920
+    },
+    {
+      "text": "And he takes their word for it.",
+      "offset": 233390,
+      "duration": 1269
+    },
+    {
+      "text": "Blimey, those budget cuts hit everyone, don't they.",
+      "offset": 234659,
+      "duration": 2280
+    },
+    {
+      "text": "Technomancer is certainly more at home to Trevor Tell than Siobhan Show.",
+      "offset": 236939,
+      "duration": 3300
+    },
+    {
+      "text": "And by christ does it tell.",
+      "offset": 240239,
+      "duration": 1750
+    },
+    {
+      "text": "Characters can't be said to converse in this game, they merely recite paragraphs of exposition",
+      "offset": 241989,
+      "duration": 3711
+    },
+    {
+      "text": "vaguely in the direction of other people.",
+      "offset": 245700,
+      "duration": 1700
+    },
+    {
+      "text": "And sometimes the game doesn't even get as far as the telling.",
+      "offset": 247400,
+      "duration": 2300
+    },
+    {
+      "text": "Those two mates who warn you off from the betrayal pinata party, I'm prepared to swear",
+      "offset": 249700,
+      "duration": 3399
+    },
+    {
+      "text": "that this was the first time we were meeting one of them, but she's presented like we already",
+      "offset": 253099,
+      "duration": 3001
+    },
+    {
+      "text": "know who she is.",
+      "offset": 256100,
+      "duration": 1000
+    },
+    {
+      "text": "Maybe I hadn't paid enough attention 'cos I was distracted cataloguing all the metal",
+      "offset": 257100,
+      "duration": 2990
+    },
+    {
+      "text": "wall textures, it's possible she was one of the NPC questgivers we met earlier, they were",
+      "offset": 260090,
+      "duration": 3560
+    },
+    {
+      "text": "all fairly interchangeable: dark clothes, boring voice, no beard.",
+      "offset": 263650,
+      "duration": 3400
+    },
+    {
+      "text": "Whatever, betrayal allegedly occurs somewhere presumably and we're forced to flee the city",
+      "offset": 267050,
+      "duration": 3750
+    },
+    {
+      "text": "to pursue our quest to... that's right, we never figured that out, did we.",
+      "offset": 270800,
+      "duration": 2980
+    },
+    {
+      "text": "Well there's some overarching thing about the Technomancers having the lifelong goal",
+      "offset": 273780,
+      "duration": 2880
+    },
+    {
+      "text": "to re-establish contact with Earth, but that's more of a hobby, really, and even if they",
+      "offset": 276660,
+      "duration": 3319
+    },
+    {
+      "text": "succeed I fail to see how it would help, I don't see the scrappy survivalist communities",
+      "offset": 279979,
+      "duration": 3541
+    },
+    {
+      "text": "of Mars crafting a space program out of radio parts and back issues of Top Gear magazine.",
+      "offset": 283520,
+      "duration": 4490
+    },
+    {
+      "text": "All that we actually do is go from settlement to settlement sorting out random issues and",
+      "offset": 288010,
+      "duration": 3470
+    },
+    {
+      "text": "be the pigeon to the main villain's Dick Dastardly who hounds us apparently out of having literally",
+      "offset": 291480,
+      "duration": 3969
+    },
+    {
+      "text": "nothing else to do with his time.",
+      "offset": 295449,
+      "duration": 1451
+    },
+    {
+      "text": "It's a shame, because excepting a few petty niggles, like the way Zachariah shuffles forward",
+      "offset": 296900,
+      "duration": 3870
+    },
+    {
+      "text": "a few steps every time you try to stop moving, so getting in front of a small panel or dustbin",
+      "offset": 300770,
+      "duration": 3660
+    },
+    {
+      "text": "to interact with it is like keeping hold of a bar of soap in the bath, the game is technically",
+      "offset": 304430,
+      "duration": 3910
+    },
+    {
+      "text": "functional.",
+      "offset": 308340,
+      "duration": 1000
+    },
+    {
+      "text": "But it can't tell an interesting story for shit, and in an RPG that's 90% of the final",
+      "offset": 309340,
+      "duration": 3750
+    },
+    {
+      "text": "grade.",
+      "offset": 313090,
+      "duration": 1000
+    },
+    {
+      "text": "They failed to find the interesting story in a game about lightning wizards from Mars.",
+      "offset": 314090,
+      "duration": 3380
+    },
+    {
+      "text": "That's like failing to find the homoerotic subtext in professional wrestling.",
+      "offset": 317470,
+      "duration": 3289
+    }
+  ],
+  "fetchedAt": "2025-12-14T10:35:54.570Z"
+}

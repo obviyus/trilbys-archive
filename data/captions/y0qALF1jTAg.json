@@ -1,0 +1,963 @@
+{
+  "video": {
+    "id": "y0qALF1jTAg",
+    "title": "Sherlock Holmes Chapter One (Zero Punctuation)",
+    "url": "https://youtu.be/y0qALF1jTAg",
+    "duration": 400,
+    "playlistId": "PLAbMhAYRuCUhawCEV2oXZGrienoKTN16X",
+    "playlistTitle": "Zero Punctuation"
+  },
+  "captions": [
+    {
+      "text": "This month, we&amp;#39;re asking for your support",
+      "offset": 0,
+      "duration": 1.368
+    },
+    {
+      "text": "through our premium programs via",
+      "offset": 1.368,
+      "duration": 1.134
+    },
+    {
+      "text": "The Escapist Plus and YouTube memberships.",
+      "offset": 2.502,
+      "duration": 1.301
+    },
+    {
+      "text": "Your support allows us to continue making",
+      "offset": 3.803,
+      "duration": 1.335
+    },
+    {
+      "text": "he content we want instead of chasing algorithms of ",
+      "offset": 5.138,
+      "duration": 1.501
+    },
+    {
+      "text": "the latest trends. ",
+      "offset": 6.639,
+      "duration": 0.568
+    },
+    {
+      "text": "Plus, you get a bunch of perks like ad free viewing via the Escapist Plus ",
+      "offset": 7.207,
+      "duration": 2.102
+    },
+    {
+      "text": "on our website, early access on YouTube memberships,",
+      "offset": 9.309,
+      "duration": 2.035
+    },
+    {
+      "text": "and bonus content like our monthly Ask the Creators videos series,",
+      "offset": 11.344,
+      "duration": 2.036
+    },
+    {
+      "text": "where we answer your burning questions. ",
+      "offset": 13.38,
+      "duration": 1.034
+    },
+    {
+      "text": "We’ve also added three new perks for our $5 tier,",
+      "offset": 14.414,
+      "duration": 2.069
+    },
+    {
+      "text": " including a 15% discount on merch via our Teespring shop, ",
+      "offset": 16.483,
+      "duration": 2.135
+    },
+    {
+      "text": "new pieces of bonus content called Escapist Highlights,",
+      "offset": 18.618,
+      "duration": 1.935
+    },
+    {
+      "text": " featuring the best moments from our streams each month,",
+      "offset": 20.553,
+      "duration": 1.635
+    },
+    {
+      "text": " and a new members-only live stream, The State of The Escapist, ",
+      "offset": 22.188,
+      "duration": 2.102
+    },
+    {
+      "text": "where you get a quarterly update on how the site is doing from our",
+      "offset": 24.29,
+      "duration": 1.936
+    },
+    {
+      "text": " Editor and Chief. ",
+      "offset": 26.226,
+      "duration": 0.634
+    },
+    {
+      "text": "New merch is also now available for Adventure is Nigh, ",
+      "offset": 26.86,
+      "duration": 2.235
+    },
+    {
+      "text": "Zero Punctuation, and more. ",
+      "offset": 29.095,
+      "duration": 1.168
+    },
+    {
+      "text": "Thanks to our fan&amp;#39;s continuing support, The Escapist is on track",
+      "offset": 30.263,
+      "duration": 2.369
+    },
+    {
+      "text": " for our best year yet! ",
+      "offset": 32.632,
+      "duration": 1.068
+    },
+    {
+      "text": "Was that slow enough, Nick (Jerome)?",
+      "offset": 33.7,
+      "duration": 1.635
+    },
+    {
+      "text": "*INTRO MUSIC*",
+      "offset": 37.404,
+      "duration": 12.078
+    },
+    {
+      "text": "Isn&amp;#39;t the public domain a wonderful thing?",
+      "offset": 49.482,
+      "duration": 1.402
+    },
+    {
+      "text": "A certain amount of time after the original creator carks it,",
+      "offset": 50.95,
+      "duration": 2.203
+    },
+    {
+      "text": "all IP becomes everybody&amp;#39;s P. ",
+      "offset": 53.253,
+      "duration": 1.635
+    },
+    {
+      "text": "Do you wish Tarzan was a West highland terrier?",
+      "offset": 54.888,
+      "duration": 2.035
+    },
+    {
+      "text": "He can be, now! ",
+      "offset": 56.923,
+      "duration": 1.034
+    },
+    {
+      "text": "Do you want Captain Nemo to go into business ",
+      "offset": 57.957,
+      "duration": 1.435
+    },
+    {
+      "text": "selling children&amp;#39;s frozen dinners? ",
+      "offset": 59.392,
+      "duration": 1.235
+    },
+    {
+      "text": "Why not? He&amp;#39;s as much yours as Jules Verne&amp;#39;s, ",
+      "offset": 60.627,
+      "duration": 1.968
+    },
+    {
+      "text": "take that, you bearded paid-by-the-word French git. ",
+      "offset": 62.595,
+      "duration": 2.369
+    },
+    {
+      "text": "You may also know that fucking Disney have ",
+      "offset": 64.964,
+      "duration": 1.669
+    },
+    {
+      "text": "been lobbying for years to extend the public domain ",
+      "offset": 66.633,
+      "duration": 2.035
+    },
+    {
+      "text": "cutoff so they can keep a death grip on their copyrights,",
+      "offset": 68.668,
+      "duration": 2.202
+    },
+    {
+      "text": "but lately it seems like they&amp;#39;ve been trying to create their own ",
+      "offset": 70.87,
+      "duration": 1.936
+    },
+    {
+      "text": "version of public domain,",
+      "offset": 72.806,
+      "duration": 1.034
+    },
+    {
+      "text": "where instead of every motherfucker on",
+      "offset": 73.84,
+      "duration": 1.335
+    },
+    {
+      "text": "earth being allowed to mess with IP as much as they want ",
+      "offset": 75.175,
+      "duration": 2.135
+    },
+    {
+      "text": "they&amp;#39;re instead going to hire every motherfucker on earth",
+      "offset": 77.31,
+      "duration": 2.102
+    },
+    {
+      "text": "to direct at least one Star Wars movie.",
+      "offset": 79.412,
+      "duration": 1.735
+    },
+    {
+      "text": "But I digress. ",
+      "offset": 81.147,
+      "duration": 0.834
+    },
+    {
+      "text": "Sherlock Holmes is a character who&amp;#39;s been buggered inside and out ",
+      "offset": 81.981,
+      "duration": 2.736
+    },
+    {
+      "text": "by public domain, and as many of the works imply,",
+      "offset": 84.717,
+      "duration": 1.969
+    },
+    {
+      "text": "that&amp;#39;s exactly how he likes it. ",
+      "offset": 86.686,
+      "duration": 1.301
+    },
+    {
+      "text": "But no game developer has buggered him with greater enthusiasm ",
+      "offset": 87.987,
+      "duration": 2.536
+    },
+    {
+      "text": "than Frogwares,",
+      "offset": 90.523,
+      "duration": 0.901
+    },
+    {
+      "text": "churning out Holmes adventure games for decades. ",
+      "offset": 91.424,
+      "duration": 1.969
+    },
+    {
+      "text": "Not without ambition, it seems,",
+      "offset": 93.393,
+      "duration": 1.301
+    },
+    {
+      "text": "but when they did finally leave the paddling pool of the adventure",
+      "offset": 94.694,
+      "duration": 2.169
+    },
+    {
+      "text": "game niche to dive into the shark-infested sewage treatment plant",
+      "offset": 96.863,
+      "duration": 2.402
+    },
+    {
+      "text": " of open worlds,",
+      "offset": 99.265,
+      "duration": 0.768
+    },
+    {
+      "text": "how strange that they chose to do The Sinking City first, ",
+      "offset": 100.033,
+      "duration": 2.569
+    },
+    {
+      "text": "a Lovecraft adaptation.",
+      "offset": 102.602,
+      "duration": 1.101
+    },
+    {
+      "text": "When horror is clearly not their comfort zone the way detective ",
+      "offset": 103.736,
+      "duration": 2.136
+    },
+    {
+      "text": "games are. ",
+      "offset": 105.872,
+      "duration": 0.567
+    },
+    {
+      "text": "Sinking City was just a detective game where half the witnesses ",
+      "offset": 106.439,
+      "duration": 2.302
+    },
+    {
+      "text": "look like discarded fish finger sandwiches, ",
+      "offset": 108.741,
+      "duration": 1.535
+    },
+    {
+      "text": "and that only distracted from things at best. ",
+      "offset": 110.276,
+      "duration": 1.602
+    },
+    {
+      "text": "Fortunately the universe now rights itself with the Sinking City",
+      "offset": 111.878,
+      "duration": 2.736
+    },
+    {
+      "text": " formula being reused for a Sherlock Holmes game, ",
+      "offset": 114.614,
+      "duration": 2.369
+    },
+    {
+      "text": "namely Sherlock Holmes Chapter one. ",
+      "offset": 116.983,
+      "duration": 1.735
+    },
+    {
+      "text": "What, is Sherlock Holmes an Xbox, now? ",
+      "offset": 118.718,
+      "duration": 1.835
+    },
+    {
+      "text": "Hey he&amp;#39;s public domain, he might as well be. ",
+      "offset": 120.553,
+      "duration": 1.902
+    },
+    {
+      "text": "No, this is a prequel story about a young Sherlock visiting his ",
+      "offset": 122.455,
+      "duration": 2.636
+    },
+    {
+      "text": "childhood home on a Mediterranean island",
+      "offset": 125.091,
+      "duration": 1.635
+    },
+    {
+      "text": "to get to the bottom of his mother&amp;#39;s mysterious death and his own",
+      "offset": 126.726,
+      "duration": 2.369
+    },
+    {
+      "text": " blocked memories of it. ",
+      "offset": 129.095,
+      "duration": 1.001
+    },
+    {
+      "text": "But wait, this is pre-Doctor Watson Sherlock Holmes. ",
+      "offset": 130.096,
+      "duration": 2.169
+    },
+    {
+      "text": "And how can Holmes work without Watson?",
+      "offset": 132.265,
+      "duration": 1.735
+    },
+    {
+      "text": "The audience needs the everyman perspective to balance out",
+      "offset": 134,
+      "duration": 2.402
+    },
+    {
+      "text": "Holmes acting like an intergalactic space computer ",
+      "offset": 136.402,
+      "duration": 2.036
+    },
+    {
+      "text": "running &amp;quot;Socially inept cunt ME&amp;quot;. ",
+      "offset": 138.438,
+      "duration": 2.102
+    },
+    {
+      "text": "Well, it turns out the reason why Holmes eventually shacks up",
+      "offset": 140.54,
+      "duration": 2.069
+    },
+    {
+      "text": "with Watson is that in his youth Holmes had an imaginary friend",
+      "offset": 142.609,
+      "duration": 2.736
+    },
+    {
+      "text": "who looked a lot like Watson and was also named Jon. ",
+      "offset": 145.345,
+      "duration": 2.469
+    },
+    {
+      "text": "That&amp;#39;s right, motherfuckers, it&amp;#39;s the new improved intentional ",
+      "offset": 147.814,
+      "duration": 2.769
+    },
+    {
+      "text": "Creepy Watson. ",
+      "offset": 150.583,
+      "duration": 0.801
+    },
+    {
+      "text": "I assumed he just needed someone to go halfsies on the rent,",
+      "offset": 151.384,
+      "duration": 2.136
+    },
+    {
+      "text": " but I suppose we have to crowbar new intrigues in ",
+      "offset": 153.52,
+      "duration": 1.668
+    },
+    {
+      "text": "wherever we can.",
+      "offset": 155.188,
+      "duration": 0.867
+    },
+    {
+      "text": " Is this not a bit contrived, Frogwares? ",
+      "offset": 156.055,
+      "duration": 2.002
+    },
+    {
+      "text": "&amp;quot;Who cares? It&amp;#39;s public domain! Everything&amp;#39;s canon now, bitch!&amp;quot;",
+      "offset": 158.057,
+      "duration": 3.003
+    },
+    {
+      "text": "You know what, I don&amp;#39;t get a cynical vibe from Frogwares&amp;#39; ",
+      "offset": 161.06,
+      "duration": 2.203
+    },
+    {
+      "text": "milking of the IP. ",
+      "offset": 163.263,
+      "duration": 0.734
+    },
+    {
+      "text": "They do seem to genuinely love Sherlock Holmes. ",
+      "offset": 163.997,
+      "duration": 1.902
+    },
+    {
+      "text": "The street names on the map are all varyingly obscure references, ",
+      "offset": 165.899,
+      "duration": 2.836
+    },
+    {
+      "text": "the additions to his backstory have been crafted with the real ",
+      "offset": 168.735,
+      "duration": 2.202
+    },
+    {
+      "text": "emotion and ever so slightly psychotic care of a dedicated fan ",
+      "offset": 170.937,
+      "duration": 3.003
+    },
+    {
+      "text": "fiction writer, and, well, just look at how bloody pretty they made",
+      "offset": 173.94,
+      "duration": 2.803
+    },
+    {
+      "text": " him in this game. ",
+      "offset": 176.743,
+      "duration": 0.634
+    },
+    {
+      "text": "The only reason he&amp;#39;s not smoking a pipe yet is that nothing ",
+      "offset": 177.377,
+      "duration": 1.935
+    },
+    {
+      "text": "can brush against those kissable lips without needing some serious ",
+      "offset": 179.312,
+      "duration": 2.903
+    },
+    {
+      "text": "Victorian-era hysteria treatment. ",
+      "offset": 182.215,
+      "duration": 1.668
+    },
+    {
+      "text": "Look it up, kids. ",
+      "offset": 183.883,
+      "duration": 1.035
+    },
+    {
+      "text": "And Sherlock Holmes Chapter One is an undeniably ",
+      "offset": 184.918,
+      "duration": 1.935
+    },
+    {
+      "text": "ambitious game. ",
+      "offset": 186.853,
+      "duration": 0.834
+    },
+    {
+      "text": "Ooh that&amp;#39;s a mealy-mouthed nonpliment, isn&amp;#39;t it.",
+      "offset": 187.687,
+      "duration": 2.169
+    },
+    {
+      "text": " &amp;quot;Ambitious&amp;quot; is code for &amp;quot;overreaches like Doctor Octopus ",
+      "offset": 189.856,
+      "duration": 2.703
+    },
+    {
+      "text": "at a crowded breakfast buffet.&amp;quot; ",
+      "offset": 192.559,
+      "duration": 1.234
+    },
+    {
+      "text": "So at the core of things are the detective game elements of ",
+      "offset": 193.793,
+      "duration": 2.236
+    },
+    {
+      "text": "wandering around a crime scene waiting for little white dots to",
+      "offset": 196.029,
+      "duration": 2.068
+    },
+    {
+      "text": "appear over bloodstains and footprints like moths with an interest",
+      "offset": 198.097,
+      "duration": 2.269
+    },
+    {
+      "text": " in true crime podcasts,",
+      "offset": 200.366,
+      "duration": 1.368
+    },
+    {
+      "text": "then randomly smashing bits of intel together until a conclusion ",
+      "offset": 201.734,
+      "duration": 2.47
+    },
+    {
+      "text": "chips off and hits someone in the eye. ",
+      "offset": 204.204,
+      "duration": 1.501
+    },
+    {
+      "text": "Not sure how I feel about how at the end of every case you ",
+      "offset": 205.705,
+      "duration": 2.236
+    },
+    {
+      "text": "basically decide for yourself who the culprit is",
+      "offset": 207.941,
+      "duration": 2.235
+    },
+    {
+      "text": "by reinterpreting all  the facts the way you want,",
+      "offset": 210.176,
+      "duration": 2.002
+    },
+    {
+      "text": " and the game doesn&amp;#39;t tell you if you picked right or not. ",
+      "offset": 212.178,
+      "duration": 1.835
+    },
+    {
+      "text": "Which feels stupid &amp;#39;cos a puzzle should have a right answer ",
+      "offset": 214.013,
+      "duration": 2.236
+    },
+    {
+      "text": "and a wrong answer,",
+      "offset": 216.249,
+      "duration": 0.867
+    },
+    {
+      "text": "otherwise you could fill a crossword grid with little drawings of",
+      "offset": 217.116,
+      "duration": 2.103
+    },
+    {
+      "text": "cocks and call it done, ",
+      "offset": 219.219,
+      "duration": 1.034
+    },
+    {
+      "text": "but then again maybe this is some deliberate artistic statement ",
+      "offset": 220.253,
+      "duration": 2.202
+    },
+    {
+      "text": "about how reality is created from our perceptions and more",
+      "offset": 222.455,
+      "duration": 2.236
+    },
+    {
+      "text": " importantly at least gives the game replay value. ",
+      "offset": 224.691,
+      "duration": 2.068
+    },
+    {
+      "text": "And besides all that detective shit we&amp;#39;ve also got minigames up the ",
+      "offset": 226.759,
+      "duration": 2.736
+    },
+    {
+      "text": "tight public school educated butt. ",
+      "offset": 229.495,
+      "duration": 1.836
+    },
+    {
+      "text": "The chemistry minigame&amp;#39;s okay,",
+      "offset": 231.331,
+      "duration": 1.534
+    },
+    {
+      "text": " it&amp;#39;s somewhat reminiscent of the science minigames in Spider-Man ",
+      "offset": 232.865,
+      "duration": 2.37
+    },
+    {
+      "text": "and that&amp;#39;s probably why I mentioned Doctor Octopus precisely ",
+      "offset": 235.235,
+      "duration": 2.135
+    },
+    {
+      "text": "twenty-three seconds ago, ",
+      "offset": 237.37,
+      "duration": 0.968
+    },
+    {
+      "text": "the eavesdropping minigame not so much.",
+      "offset": 238.338,
+      "duration": 1.735
+    },
+    {
+      "text": "You&amp;#39;re supposed to circle all the relevant snatches of dialogue",
+      "offset": 240.073,
+      "duration": 2.135
+    },
+    {
+      "text": " and reject the rest, but how the fuck am I supposed to know ",
+      "offset": 242.208,
+      "duration": 2.036
+    },
+    {
+      "text": "what&amp;#39;s relevant when this is the first I&amp;#39;m hearing ",
+      "offset": 244.244,
+      "duration": 1.768
+    },
+    {
+      "text": "about any of this shit. ",
+      "offset": 246.012,
+      "duration": 0.767
+    },
+    {
+      "text": "So I always fall back on trial and error.",
+      "offset": 246.779,
+      "duration": 1.602
+    },
+    {
+      "text": " Is anal distension relevant to the recent train robbery?",
+      "offset": 248.381,
+      "duration": 2.436
+    },
+    {
+      "text": " I don&amp;#39;t know, ",
+      "offset": 250.817,
+      "duration": 0.767
+    },
+    {
+      "text": "maybe,",
+      "offset": 251.584,
+      "duration": 0.501
+    },
+    {
+      "text": "if that was where they hid the loot.",
+      "offset": 252.085,
+      "duration": 1.234
+    },
+    {
+      "text": "And of course since we&amp;#39;ve put on our big boy trousers ",
+      "offset": 253.319,
+      "duration": 2.002
+    },
+    {
+      "text": "to play in the action adventure sandbox market ",
+      "offset": 255.321,
+      "duration": 1.802
+    },
+    {
+      "text": "we&amp;#39;ve got to have some fucking combat for when Days Gone ",
+      "offset": 257.123,
+      "duration": 2.302
+    },
+    {
+      "text": "we&amp;#39;ve got to have some fucking combat for when Days Gone ",
+      "offset": 259.425,
+      "duration": 0.267
+    },
+    {
+      "text": "tries to steal our lunch money. ",
+      "offset": 259.692,
+      "duration": 1.135
+    },
+    {
+      "text": "A very token, very systematic combat that is whatever the opposite ",
+      "offset": 260.827,
+      "duration": 2.969
+    },
+    {
+      "text": "of a core mechanic is. ",
+      "offset": 263.796,
+      "duration": 1.068
+    },
+    {
+      "text": "You don&amp;#39;t randomly get in shootouts in the street, ",
+      "offset": 264.864,
+      "duration": 1.702
+    },
+    {
+      "text": "what happens is you walk into a room mysteriously full of random ",
+      "offset": 266.566,
+      "duration": 2.536
+    },
+    {
+      "text": "cover and shootable hazards, ",
+      "offset": 269.102,
+      "duration": 1.301
+    },
+    {
+      "text": "you roll your eyes massively, ",
+      "offset": 270.403,
+      "duration": 1.501
+    },
+    {
+      "text": "and then some random thugs burst in. ",
+      "offset": 271.904,
+      "duration": 1.335
+    },
+    {
+      "text": "And the game exhaustively trains you in the process of disorienting",
+      "offset": 273.239,
+      "duration": 2.403
+    },
+    {
+      "text": " them by shooting one or more highly specific things,",
+      "offset": 275.642,
+      "duration": 2.135
+    },
+    {
+      "text": " then running up and doing a highly specific quick time event, ",
+      "offset": 277.777,
+      "duration": 2.169
+    },
+    {
+      "text": "and if you get any part of the process wrong you get a highly",
+      "offset": 279.946,
+      "duration": 2.002
+    },
+    {
+      "text": " specific knee in the clever clogs and start again. ",
+      "offset": 281.948,
+      "duration": 2.102
+    },
+    {
+      "text": "You focus on one enemy at a time like you&amp;#39;re in a Pac Man maze",
+      "offset": 284.05,
+      "duration": 2.369
+    },
+    {
+      "text": " full of roaming join the dots puzzles until they&amp;#39;re all down, ",
+      "offset": 286.419,
+      "duration": 2.402
+    },
+    {
+      "text": "then you get shot because the game spawned three more ",
+      "offset": 288.821,
+      "duration": 2.036
+    },
+    {
+      "text": "of the fuckers behind your back and forgot to tell you or signal their ",
+      "offset": 290.857,
+      "duration": 2.335
+    },
+    {
+      "text": "arrival in any way. ",
+      "offset": 293.192,
+      "duration": 0.901
+    },
+    {
+      "text": "I&amp;#39;ve played worse combat systems - whoop! ",
+      "offset": 294.093,
+      "duration": 2.136
+    },
+    {
+      "text": "Nonpliments abound!",
+      "offset": 296.229,
+      "duration": 1.134
+    },
+    {
+      "text": "but I think the real issue here is the same issue that all detective ",
+      "offset": 297.363,
+      "duration": 2.403
+    },
+    {
+      "text": "games have trying to work in action or open worlds",
+      "offset": 299.766,
+      "duration": 2.335
+    },
+    {
+      "text": "hope you&amp;#39;re taking notes, LA Noire.  ",
+      "offset": 302.101,
+      "duration": 1.602
+    },
+    {
+      "text": "It&amp;#39;s that detective games are about fine details.",
+      "offset": 303.703,
+      "duration": 2.336
+    },
+    {
+      "text": "Combing the slightest elements of a crime scene and analysing a",
+      "offset": 306.039,
+      "duration": 2.669
+    },
+    {
+      "text": "few deeply fleshed out characters right down to their shoelaces",
+      "offset": 308.708,
+      "duration": 2.603
+    },
+    {
+      "text": " and opinions on the Academy Award nominations.",
+      "offset": 311.311,
+      "duration": 1.801
+    },
+    {
+      "text": "While open worlds and combat systems rely mostly on non-crafted ",
+      "offset": 313.112,
+      "duration": 3.137
+    },
+    {
+      "text": "procedural systems.",
+      "offset": 316.249,
+      "duration": 1.034
+    },
+    {
+      "text": " So it always feels like a grinding of gears when nine random dudes",
+      "offset": 317.283,
+      "duration": 3.037
+    },
+    {
+      "text": " burst in halfway through an investigation whom we then",
+      "offset": 320.32,
+      "duration": 2.102
+    },
+    {
+      "text": "curbstomp and forget about. ",
+      "offset": 322.422,
+      "duration": 1.368
+    },
+    {
+      "text": "What, you don&amp;#39;t think any of these guys might ",
+      "offset": 323.79,
+      "duration": 1.368
+    },
+    {
+      "text": "have useful intel, Sherlock?",
+      "offset": 325.158,
+      "duration": 1.668
+    },
+    {
+      "text": " I mean, ten minutes ago you noticed a rip in a suspect&amp;#39;s trousers",
+      "offset": 326.826,
+      "duration": 2.569
+    },
+    {
+      "text": " that turned the whole case upside down",
+      "offset": 329.395,
+      "duration": 1.602
+    },
+    {
+      "text": "and here&amp;#39;s nine new pairs of trousers ripe for the perving. ",
+      "offset": 330.997,
+      "duration": 2.703
+    },
+    {
+      "text": "The carefully crafted puzzle pieces of the investigation get tangled",
+      "offset": 333.7,
+      "duration": 2.869
+    },
+    {
+      "text": " up against the game&amp;#39;s systematic elements like two egg whisks in ",
+      "offset": 336.569,
+      "duration": 2.903
+    },
+    {
+      "text": "an overloaded kitchen drawer.",
+      "offset": 339.472,
+      "duration": 1.201
+    },
+    {
+      "text": " Also the game makes a big thing of how you can question random",
+      "offset": 340.673,
+      "duration": 2.202
+    },
+    {
+      "text": " passers by and dress up as a local or a cop or an ice cream man to ",
+      "offset": 342.875,
+      "duration": 2.536
+    },
+    {
+      "text": "put them at their ease and get more intel, ",
+      "offset": 345.411,
+      "duration": 1.869
+    },
+    {
+      "text": "but in practice this almost never works unless a quest objective",
+      "offset": 347.28,
+      "duration": 2.569
+    },
+    {
+      "text": " specifically tells you to do it and at all other times NPCs just gawp",
+      "offset": 349.849,
+      "duration": 3.003
+    },
+    {
+      "text": " at you like a highly suspect sausage roll at a horse castration party.",
+      "offset": 352.852,
+      "duration": 3.203
+    },
+    {
+      "text": " Honestly I kinda liked Chapter One for its plot and puzzles, ",
+      "offset": 356.055,
+      "duration": 2.77
+    },
+    {
+      "text": "I just wish it had spent less time smashing its Tonka Trucks together",
+      "offset": 358.825,
+      "duration": 2.669
+    },
+    {
+      "text": "and more time finding voice actors that don&amp;#39;t deliver lines like",
+      "offset": 361.494,
+      "duration": 2.469
+    },
+    {
+      "text": " they&amp;#39;re reading aloud the lunch menu in a lobotomy ward.",
+      "offset": 363.963,
+      "duration": 2.469
+    },
+    {
+      "text": "*OUTRO MUSIC*",
+      "offset": 366.432,
+      "duration": 18.852
+    },
+    {
+      "text": "This video was made possible by...",
+      "offset": 385.284,
+      "duration": 4.338
+    },
+    {
+      "text": "Check out some other content here.",
+      "offset": 389.622,
+      "duration": 9.61
+    }
+  ],
+  "fetchedAt": "2025-12-14T10:22:01.376Z"
+}

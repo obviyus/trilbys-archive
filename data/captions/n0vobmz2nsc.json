@@ -1,0 +1,668 @@
+{
+  "video": {
+    "id": "n0vobmz2nsc",
+    "title": "System Shock Remake (Zero Punctuation)",
+    "url": "https://youtu.be/n0vobmz2nsc",
+    "duration": 351,
+    "playlistId": "PLAbMhAYRuCUhawCEV2oXZGrienoKTN16X",
+    "playlistTitle": "Zero Punctuation"
+  },
+  "captions": [
+    {
+      "text": "*Intro Music*",
+      "offset": 0,
+      "duration": 12.145
+    },
+    {
+      "text": "Before Deus Ex was sexing it up, before Thief\nwas stealing our hearts, before Bioshock",
+      "offset": 12.178,
+      "duration": 4.405
+    },
+    {
+      "text": "was buyable, before either of the Preys\ncame out in ascending order of relevance,",
+      "offset": 16.583,
+      "duration": 3.403
+    },
+    {
+      "text": "there was System Shock,\none of the earliest",
+      "offset": 20.02,
+      "duration": 1.768
+    },
+    {
+      "text": "and most influential games in the PC\nimmersive sim genre.",
+      "offset": 21.788,
+      "duration": 2.736
+    },
+    {
+      "text": "Well, maybe more so its sequel, System\nShock 2, because PC game development",
+      "offset": 24.524,
+      "duration": 3.37
+    },
+    {
+      "text": "in 1994 was more a fenced-off playpen\nfor tech nerds whose idea of beauty",
+      "offset": 27.894,
+      "duration": 4.171
+    },
+    {
+      "text": "is some nicely annotated code\nand a smoothly retracting tape measure,",
+      "offset": 32.065,
+      "duration": 3.27
+    },
+    {
+      "text": "and as such the original System\nShock was about as attractive",
+      "offset": 35.368,
+      "duration": 2.169
+    },
+    {
+      "text": "and intuitive to play as an untuned\npiano made of sharpened motherboards.",
+      "offset": 37.537,
+      "duration": 3.504
+    },
+    {
+      "text": "Original developers",
+      "offset": 41.041,
+      "duration": 0.7
+    },
+    {
+      "text": "Looking Glass disappeared up\ntheir looking arses years ago,",
+      "offset": 41.741,
+      "duration": 2.836
+    },
+    {
+      "text": "but thankfully we have Nightdive,\na developer who puts out",
+      "offset": 44.577,
+      "duration": 2.369
+    },
+    {
+      "text": "lots of remasters of defunct\nIPs from the 90s.",
+      "offset": 46.946,
+      "duration": 2.103
+    },
+    {
+      "text": "And absolutely bugger all else.",
+      "offset": 49.049,
+      "duration": 1.801
+    },
+    {
+      "text": "I&amp;#39;m not criticising, it’s thanks to them\nwe can still play Blood and Doom 64",
+      "offset": 50.85,
+      "duration": 3.837
+    },
+    {
+      "text": "and Powerslave,\nbut sometimes they come across",
+      "offset": 54.687,
+      "duration": 1.836
+    },
+    {
+      "text": "like an overeager dog\nchasing a meat wagon,",
+      "offset": 56.523,
+      "duration": 2.369
+    },
+    {
+      "text": "snaffling up every slightly stale sausage\nroll that falls out the poorly secured",
+      "offset": 58.892,
+      "duration": 3.336
+    },
+    {
+      "text": "rear doors.",
+      "offset": 62.228,
+      "duration": 0.835
+    },
+    {
+      "text": "The System\nShock remake’s a lot more ambitious",
+      "offset": 63.063,
+      "duration": 1.634
+    },
+    {
+      "text": "than a remaster, though,\nfinally realising in full shiny",
+      "offset": 64.697,
+      "duration": 2.503
+    },
+    {
+      "text": "HD the original game&amp;#39;s cramped,\nugly, labyrinthine tech nerd paradise.",
+      "offset": 67.2,
+      "duration": 3.804
+    },
+    {
+      "text": "You play as Archibald Hacker, esquire,\nbut thankfully you&amp;#39;re a full on cyberpunk",
+      "offset": 71.004,
+      "duration": 3.837
+    },
+    {
+      "text": "future-style hacker\nin a biker vest and green mohawk,",
+      "offset": 74.841,
+      "duration": 2.202
+    },
+    {
+      "text": "not the contemporary image of a hacker,\na pale",
+      "offset": 77.043,
+      "duration": 2.036
+    },
+    {
+      "text": "sweaty dude ordering too many pizzas\nto someone&amp;#39;s house",
+      "offset": 79.079,
+      "duration": 2.135
+    },
+    {
+      "text": "because they aren&amp;#39;t intellectual enough\nto appreciate Rick and Morty.",
+      "offset": 81.214,
+      "duration": 2.436
+    },
+    {
+      "text": "After getting caught\nhacking into the Trioptimum Corporation,",
+      "offset": 83.65,
+      "duration": 2.702
+    },
+    {
+      "text": "about which all one needs to know\nis that it&amp;#39;s a corporation in the future",
+      "offset": 86.352,
+      "duration": 2.67
+    },
+    {
+      "text": "that sounds like the title of a Kraftwerk\nalbum, a corrupt executive",
+      "offset": 89.022,
+      "duration": 3.07
+    },
+    {
+      "text": "forces you to hack into a space station\noverseer",
+      "offset": 92.092,
+      "duration": 2.168
+    },
+    {
+      "text": "AI, take all its subroutines\nfor ethics and niceness",
+      "offset": 94.26,
+      "duration": 2.102
+    },
+    {
+      "text": "and organizing company picnics\nand redirect them into the box",
+      "offset": 96.362,
+      "duration": 2.436
+    },
+    {
+      "text": "labelled “genocide, violence, horror,”",
+      "offset": 98.798,
+      "duration": 1.769
+    },
+    {
+      "text": "then you wake up\nsix months later in the station&amp;#39;s depths",
+      "offset": 100.567,
+      "duration": 2.035
+    },
+    {
+      "text": "and things have worked out\nabout as well as one could expect.",
+      "offset": 102.602,
+      "duration": 2.202
+    },
+    {
+      "text": "As the lone survivor",
+      "offset": 104.804,
+      "duration": 0.934
+    },
+    {
+      "text": "you must wrest\ncontrol back from the insane",
+      "offset": 105.738,
+      "duration": 1.769
+    },
+    {
+      "text": "AI the only way a tech nerd knows\nhow: by running back and forth across",
+      "offset": 107.507,
+      "duration": 3.103
+    },
+    {
+      "text": "a cereal box maze puzzle\ntouching all the computers.",
+      "offset": 110.61,
+      "duration": 2.336
+    },
+    {
+      "text": "Ah, but in what order\ndo you touch the computers?",
+      "offset": 112.946,
+      "duration": 2.269
+    },
+    {
+      "text": "Therein lies the game, my friend.",
+      "offset": 115.215,
+      "duration": 1.801
+    },
+    {
+      "text": "Visually, the System Shock remake\nis a rather schizophrenic experience.",
+      "offset": 117.016,
+      "duration": 2.87
+    },
+    {
+      "text": "On the one hand\nthey cleaned all that useless bullshit off",
+      "offset": 119.886,
+      "duration": 1.969
+    },
+    {
+      "text": "your spectacles\nthat the original had - early PC",
+      "offset": 121.855,
+      "duration": 2.002
+    },
+    {
+      "text": "first person games couldn&amp;#39;t\nrender much of the environment",
+      "offset": 123.857,
+      "duration": 2.102
+    },
+    {
+      "text": "so they all had interfaces\nlike your dude was wearing a novelty",
+      "offset": 125.959,
+      "duration": 2.402
+    },
+    {
+      "text": "Microsoft\nAccess-themed mailbox on their head -",
+      "offset": 128.361,
+      "duration": 2.069
+    },
+    {
+      "text": "and the character animation’s\nactually really good.",
+      "offset": 130.43,
+      "duration": 2.069
+    },
+    {
+      "text": "I never knew",
+      "offset": 132.499,
+      "duration": 0.467
+    },
+    {
+      "text": "watching my hands field strip and cock",
+      "offset": 132.966,
+      "duration": 1.601
+    },
+    {
+      "text": "a newly acquired weapon\ncould be so charged with eroticism.",
+      "offset": 134.567,
+      "duration": 2.703
+    },
+    {
+      "text": "But on the other...",
+      "offset": 137.27,
+      "duration": 0.868
+    },
+    {
+      "text": "hand, the level",
+      "offset": 138.138,
+      "duration": 0.767
+    },
+    {
+      "text": "design is very faithful to the original,\nno doubt because if Nightdive ever",
+      "offset": 138.905,
+      "duration": 3.203
+    },
+    {
+      "text": "found a creative thought in their heads\nthey’d probably immediately",
+      "offset": 142.108,
+      "duration": 2.236
+    },
+    {
+      "text": "get themselves scanned for tumours,\nand since that game came out at a time",
+      "offset": 144.344,
+      "duration": 2.736
+    },
+    {
+      "text": "when full 3D environments weren&amp;#39;t\nso much a matter of aesthetic construction",
+      "offset": 147.08,
+      "duration": 3.036
+    },
+    {
+      "text": "as it was getting the engine to do\na lot of very complicated maths homework,",
+      "offset": 150.116,
+      "duration": 3.237
+    },
+    {
+      "text": "the grid-based terrain of Citadel Station\nwith its artfully fudged sector over",
+      "offset": 153.353,
+      "duration": 3.37
+    },
+    {
+      "text": "sector physics feels like exploring the\ninterior of a disassembled Rubik&amp;#39;s Cube.",
+      "offset": 156.723,
+      "duration": 3.27
+    },
+    {
+      "text": "And there&amp;#39;s a weird insistence\non using pixelly",
+      "offset": 159.993,
+      "duration": 2.002
+    },
+    {
+      "text": "low-resolution textures everywhere.",
+      "offset": 161.995,
+      "duration": 1.334
+    },
+    {
+      "text": "If you&amp;#39;re angling for a deliberately retro\nlook then go the distance or not at all;",
+      "offset": 163.329,
+      "duration": 3.704
+    },
+    {
+      "text": "it clashes with the great character\nanimation",
+      "offset": 167.033,
+      "duration": 1.802
+    },
+    {
+      "text": "and makes my stiffy\ngo in a very confused angle.",
+      "offset": 168.835,
+      "duration": 2.235
+    },
+    {
+      "text": "And another area\nwhere I assume Nightdive didn&amp;#39;t",
+      "offset": 171.07,
+      "duration": 1.902
+    },
+    {
+      "text": "want to tread upon the creators&amp;#39; perfect\noriginal vision is the enemy AI.",
+      "offset": 172.972,
+      "duration": 3.103
+    },
+    {
+      "text": "You see a dude, you duck behind a wall,\nthe dude shoots the wall for a while,",
+      "offset": 176.142,
+      "duration": 3.003
+    },
+    {
+      "text": "then when they pause to calculate\nhow to factor this new “wall” concept",
+      "offset": 179.145,
+      "duration": 2.703
+    },
+    {
+      "text": "into their worldview,\nyou pop out and shoot them back,",
+      "offset": 181.848,
+      "duration": 2.135
+    },
+    {
+      "text": "and that&amp;#39;s basically\nhow every combat encounter goes.",
+      "offset": 183.983,
+      "duration": 2.036
+    },
+    {
+      "text": "Even the bosses are trivial\nas long as there&amp;#39;s",
+      "offset": 186.019,
+      "duration": 1.568
+    },
+    {
+      "text": "at least one solid object\nto play ring-a-rosey around.",
+      "offset": 187.587,
+      "duration": 2.436
+    },
+    {
+      "text": "Yeah, that&amp;#39;s a real superior master race\nyou&amp;#39;ve made there, Shodan mate,",
+      "offset": 190.023,
+      "duration": 3.069
+    },
+    {
+      "text": "have you taught them\nnot to shit in the house, yet?",
+      "offset": 193.126,
+      "duration": 1.635
+    },
+    {
+      "text": "I guess it doesn&amp;#39;t work in melee combat,\nbut I stopped carrying a melee weapon",
+      "offset": 194.761,
+      "duration": 3.303
+    },
+    {
+      "text": "after a certain point ‘cos basically\nevery enemy dropped ammo and it was just",
+      "offset": 198.064,
+      "duration": 3.07
+    },
+    {
+      "text": "a matter of constantly switching to\nwhatever gun I wasn&amp;#39;t cripplingly low on.",
+      "offset": 201.134,
+      "duration": 3.07
+    },
+    {
+      "text": "I&amp;#39;d never played System",
+      "offset": 204.237,
+      "duration": 0.867
+    },
+    {
+      "text": "Shock 1 for more than an hour or so\nand what surprised me is how uncomplicated",
+      "offset": 205.104,
+      "duration": 3.07
+    },
+    {
+      "text": "it is\nonce you can play it with an interface",
+      "offset": 208.174,
+      "duration": 1.602
+    },
+    {
+      "text": "that isn&amp;#39;t like trying",
+      "offset": 209.776,
+      "duration": 0.7
+    },
+    {
+      "text": "to order Drive-Thru with Morse code,\nat least compared to System Shock 2,",
+      "offset": 210.476,
+      "duration": 3.07
+    },
+    {
+      "text": "probably because of the complete\nlack of RPG elements",
+      "offset": 213.58,
+      "duration": 2.002
+    },
+    {
+      "text": "that mean\nyou can just pick up any random Q-tip",
+      "offset": 215.582,
+      "duration": 1.835
+    },
+    {
+      "text": "and use it without having sunk\nany points into ear hygiene.",
+      "offset": 217.417,
+      "duration": 2.536
+    },
+    {
+      "text": "Well,\nthe primary gameplay’s uncomplicated,",
+      "offset": 219.953,
+      "duration": 1.768
+    },
+    {
+      "text": "at any rate, the part\nwhere you figure out where to go",
+      "offset": 221.721,
+      "duration": 1.902
+    },
+    {
+      "text": "and what the constipated\nJesus you’re supposed to do",
+      "offset": 223.623,
+      "duration": 2.135
+    },
+    {
+      "text": "next is whatever\nthe opposite of uncomplicated is.",
+      "offset": 225.758,
+      "duration": 2.102
+    },
+    {
+      "text": "I&amp;#39;d say the main thing\nthat recommends System Shock",
+      "offset": 227.86,
+      "duration": 1.802
+    },
+    {
+      "text": "is that it offers a refreshingly",
+      "offset": 229.662,
+      "duration": 1.335
+    },
+    {
+      "text": "unpatronizing experience, which is a nice\nway of saying it doesn&amp;#39;t tell you shit.",
+      "offset": 230.997,
+      "duration": 3.67
+    },
+    {
+      "text": "No objective markers brighten up\nthe labyrinthine maps of Citadel Station",
+      "offset": 234.701,
+      "duration": 3.27
+    },
+    {
+      "text": "like wet marshmallows\ndripping down the cereal box maze puzzle,",
+      "offset": 237.971,
+      "duration": 2.435
+    },
+    {
+      "text": "you just have to explore every corner\nand deduce",
+      "offset": 240.406,
+      "duration": 1.969
+    },
+    {
+      "text": "where to go from the five million\naudio logs",
+      "offset": 242.375,
+      "duration": 1.768
+    },
+    {
+      "text": "that all end with a gunshot and a scream.",
+      "offset": 244.143,
+      "duration": 1.902
+    },
+    {
+      "text": "Which aren&amp;#39;t always phrased clearly.",
+      "offset": 246.045,
+      "duration": 1.702
+    },
+    {
+      "text": "“I left my key in the computer room BANG\nAAAH” one might say.",
+      "offset": 247.747,
+      "duration": 3.203
+    },
+    {
+      "text": "What computer room?\nEvery room&amp;#39;s got computers!",
+      "offset": 250.984,
+      "duration": 2.469
+    },
+    {
+      "text": "I assume the decorators didn&amp;#39;t\nwant their budget cut next year",
+      "offset": 253.453,
+      "duration": 2.502
+    },
+    {
+      "text": "so they installed them\ninstead of waste paper baskets!",
+      "offset": 255.955,
+      "duration": 2.236
+    },
+    {
+      "text": "But since most modern games interpret",
+      "offset": 258.191,
+      "duration": 1.668
+    },
+    {
+      "text": "“challenging” as “enemies that spazz out\nlike an arachnophobe in a halloween shop”",
+      "offset": 259.859,
+      "duration": 3.337
+    },
+    {
+      "text": "it offers a rarer kind of challenge\nthat tests your reasoning, memory,",
+      "offset": 263.196,
+      "duration": 3.003
+    },
+    {
+      "text": "observation and reading comprehension\nskills,",
+      "offset": 266.199,
+      "duration": 2.002
+    },
+    {
+      "text": "and I feel quite pleased with myself\nwhen I do figure it out.",
+      "offset": 268.201,
+      "duration": 2.269
+    },
+    {
+      "text": "Although that&amp;#39;s a big “when.”",
+      "offset": 270.47,
+      "duration": 1.268
+    },
+    {
+      "text": "One late game moment that made me go\n“Bugger off with that shit, Warren",
+      "offset": 271.738,
+      "duration": 3.169
+    },
+    {
+      "text": "Spector,” was when my momentum hit a brick\nwall in the form of a retinal scanner.",
+      "offset": 274.907,
+      "duration": 3.404
+    },
+    {
+      "text": "I deduced instantly\nI needed someone’s severed head,",
+      "offset": 278.311,
+      "duration": 2.502
+    },
+    {
+      "text": "but since decapitation was the station&amp;#39;s\nthird most popular activity at that point",
+      "offset": 280.813,
+      "duration": 3.204
+    },
+    {
+      "text": "after recording audio logs and badminton,\ntracking down",
+      "offset": 284.017,
+      "duration": 2.569
+    },
+    {
+      "text": "every headless corpse on the level\ndidn&amp;#39;t feel worth the shoe leather,",
+      "offset": 286.586,
+      "duration": 2.769
+    },
+    {
+      "text": "so I went to a walkthrough,\nwhich was disappointing.",
+      "offset": 289.355,
+      "duration": 2.202
+    },
+    {
+      "text": "As was the ending, frankly.",
+      "offset": 291.557,
+      "duration": 1.335
+    },
+    {
+      "text": "Which put a bit of a",
+      "offset": 292.892,
+      "duration": 0.567
+    },
+    {
+      "text": "sour note on a game I&amp;#39;d nevertheless\nfound rather absorbing for its faults.",
+      "offset": 293.459,
+      "duration": 3.17
+    },
+    {
+      "text": "See, the game has this recurring\ncyberspace minigame",
+      "offset": 296.663,
+      "duration": 2.135
+    },
+    {
+      "text": "that plays a bit like Descent\nmeets Space Invaders",
+      "offset": 298.798,
+      "duration": 2.102
+    },
+    {
+      "text": "and is a little out of place,",
+      "offset": 300.9,
+      "duration": 1.101
+    },
+    {
+      "text": "but whatever, it&amp;#39;s a break from playing\nwall peekaboo with the mutant cyborgs.",
+      "offset": 302.001,
+      "duration": 3.537
+    },
+    {
+      "text": "But then the whole final boss fight\nis just an extended session of it",
+      "offset": 305.538,
+      "duration": 3.003
+    },
+    {
+      "text": "while SHODAN watches you in sulky silence,\nand SHODAN&amp;#39;s main distinguishing trait",
+      "offset": 308.541,
+      "duration": 3.504
+    },
+    {
+      "text": "is her constant articulate mouthing off\ncalling me a lowly insect.",
+      "offset": 312.045,
+      "duration": 3.203
+    },
+    {
+      "text": "And most of the women\nI know charge me for that service.",
+      "offset": 315.248,
+      "duration": 2.302
+    },
+    {
+      "text": "*Outro Music*",
+      "offset": 317.55,
+      "duration": 23.423
+    },
+    {
+      "text": "Closed Captions by @willcblogs",
+      "offset": 340.973,
+      "duration": 9.543
+    }
+  ],
+  "fetchedAt": "2025-12-14T10:18:18.485Z"
+}

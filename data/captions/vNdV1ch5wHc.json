@@ -1,0 +1,628 @@
+{
+  "video": {
+    "id": "vNdV1ch5wHc",
+    "title": "Babylon's Fall (Zero Punctuation)",
+    "url": "https://youtu.be/vNdV1ch5wHc",
+    "duration": 349,
+    "playlistId": "PLAbMhAYRuCUhawCEV2oXZGrienoKTN16X",
+    "playlistTitle": "Zero Punctuation"
+  },
+  "captions": [
+    {
+      "text": "*INTRO MUSIC*",
+      "offset": 0,
+      "duration": 12.012
+    },
+    {
+      "text": "So far this quarter&amp;#39;s been dropping out heavy hitters like a ",
+      "offset": 12.012,
+      "duration": 2.068
+    },
+    {
+      "text": "trapdoor in a domestic violence shelter, but we find ourselves in ",
+      "offset": 14.08,
+      "duration": 2.469
+    },
+    {
+      "text": "an in-betweeny sort of week so let&amp;#39;s look at something that might ",
+      "offset": 16.549,
+      "duration": 2.203
+    },
+    {
+      "text": "have fallen through the cracks. Or indeed something that fell out ",
+      "offset": 18.752,
+      "duration": 2.002
+    },
+    {
+      "text": "of a crack. And then proceeded to do a lot of crack. I tried out ",
+      "offset": 20.754,
+      "duration": 2.736
+    },
+    {
+      "text": "Babylon&amp;#39;s Fall, Platinum&amp;#39;s new live service hack and slashathon on ",
+      "offset": 23.49,
+      "duration": 2.969
+    },
+    {
+      "text": "PS5, or had a crack at it if you will, not that it made it easy. First it ",
+      "offset": 26.459,
+      "duration": 3.337
+    },
+    {
+      "text": "wouldn&amp;#39;t even start without a PS Plus subscription, even though I ",
+      "offset": 29.796,
+      "duration": 2.369
+    },
+    {
+      "text": "only wanted to play single player because y&amp;#39;know, humanity, it&amp;#39;s ",
+      "offset": 32.165,
+      "duration": 2.936
+    },
+    {
+      "text": "like a highway bypass: I understand why it needs to exist but I&amp;#39;d ",
+      "offset": 35.101,
+      "duration": 2.636
+    },
+    {
+      "text": "rather not have one in my house. Got past that and Babylon&amp;#39;s Fall ",
+      "offset": 37.737,
+      "duration": 2.67
+    },
+    {
+      "text": "still wouldn&amp;#39;t unbutton its top until I also signed into a Square Enix ",
+      "offset": 40.407,
+      "duration": 3.336
+    },
+    {
+      "text": "account. What the fuck possible benefit do you imagine I&amp;#39;d extract ",
+      "offset": 43.743,
+      "duration": 2.469
+    },
+    {
+      "text": "from signing up for another fucking account, Square Enix, other ",
+      "offset": 46.212,
+      "duration": 2.67
+    },
+    {
+      "text": "than one more excuse to never check my email? Christ, this is like ",
+      "offset": 48.882,
+      "duration": 2.669
+    },
+    {
+      "text": "trying to get through airport security with an inflatable novelty ",
+      "offset": 51.551,
+      "duration": 2.302
+    },
+    {
+      "text": "suitcase nuke. But eventually I got through it all and when I was on ",
+      "offset": 53.853,
+      "duration": 2.336
+    },
+    {
+      "text": "the other side of the metal detector putting my shoes back on and ",
+      "offset": 56.189,
+      "duration": 2.369
+    },
+    {
+      "text": "admiring the new tag they&amp;#39;d punched through my ear I cast a look ",
+      "offset": 58.558,
+      "duration": 2.603
+    },
+    {
+      "text": "around and thought to myself &amp;quot;Oooh. This looks like shit.&amp;quot;",
+      "offset": 61.161,
+      "duration": 3.003
+    },
+    {
+      "text": "As in, it literally resembles faecal matter, decked out mostly in ",
+      "offset": 64.164,
+      "duration": 2.502
+    },
+    {
+      "text": "glistening browns except for a streak of vibrant blue from an ",
+      "offset": 66.666,
+      "duration": 2.736
+    },
+    {
+      "text": "accidentally swallowed whiteboard marker. It looks like a PS3 ",
+      "offset": 69.402,
+      "duration": 2.603
+    },
+    {
+      "text": "game, all brown and flatly lit with characters textured and ",
+      "offset": 72.005,
+      "duration": 2.803
+    },
+    {
+      "text": "animated like a papier mache diorama about kitchen utensils. It ",
+      "offset": 74.808,
+      "duration": 3.069
+    },
+    {
+      "text": "even has a classic case of cheaping out on the cutscenes by just ",
+      "offset": 77.877,
+      "duration": 2.403
+    },
+    {
+      "text": "panning over still images with increasingly agonizing slowness. I ",
+      "offset": 80.28,
+      "duration": 2.836
+    },
+    {
+      "text": "thought the download size was suspiciously small. But I figured ",
+      "offset": 83.116,
+      "duration": 2.669
+    },
+    {
+      "text": "&amp;quot;Hey, have some faith, Yahtzee, this is Platinum Games, they of ",
+      "offset": 85.785,
+      "duration": 2.703
+    },
+    {
+      "text": "Bayonetta and Nier Automata and that Anarchy Reigns thing they ",
+      "offset": 88.488,
+      "duration": 2.97
+    },
+    {
+      "text": "probably hope no one will ever bring up again. There&amp;#39;s nothing ",
+      "offset": 91.458,
+      "duration": 1.901
+    },
+    {
+      "text": "wrong with eschewing the ridiculous graphical standards of today ",
+      "offset": 93.359,
+      "duration": 2.536
+    },
+    {
+      "text": "in favour of a deliberately retro look. They might be a few years ",
+      "offset": 95.895,
+      "duration": 2.77
+    },
+    {
+      "text": "too early for the PS3 nostalgia wave when brown and bloom will ",
+      "offset": 98.665,
+      "duration": 2.803
+    },
+    {
+      "text": "come back into fashion and we must resignedly headbutt the ",
+      "offset": 101.468,
+      "duration": 2.369
+    },
+    {
+      "text": "nearest wrought iron fence spike, but someone&amp;#39;s got to be the ",
+      "offset": 103.837,
+      "duration": 2.369
+    },
+    {
+      "text": "pioneer.&amp;quot; So I gave it a chance, and swiftly determined that ",
+      "offset": 106.206,
+      "duration": 2.569
+    },
+    {
+      "text": "Babylon&amp;#39;s Fall hasn&amp;#39;t so much gotten ahead of its time as gotten ",
+      "offset": 108.775,
+      "duration": 2.803
+    },
+    {
+      "text": "ITS head on a subway track.",
+      "offset": 111.578,
+      "duration": 1.301
+    },
+    {
+      "text": "Once you&amp;#39;re through the nine levels of DRM hell the game opens ",
+      "offset": 112.879,
+      "duration": 2.769
+    },
+    {
+      "text": "with the protagonist getting conscripted into some kind of militia ",
+      "offset": 115.648,
+      "duration": 2.369
+    },
+    {
+      "text": "and told that their job is to work their way through all the levels of ",
+      "offset": 118.017,
+      "duration": 1.869
+    },
+    {
+      "text": "the tower of Babylon in order to finally defeat the blue meanies ",
+      "offset": 119.886,
+      "duration": 2.836
+    },
+    {
+      "text": "and presumably in some way profit. The tutorial section walks us ",
+      "offset": 122.722,
+      "duration": 2.77
+    },
+    {
+      "text": "through the first, last and only gameplay thread of Babylon&amp;#39;s Fall: ",
+      "offset": 125.492,
+      "duration": 2.535
+    },
+    {
+      "text": "go to the next room and murder whatever baddies show up. To ",
+      "offset": 128.027,
+      "duration": 2.803
+    },
+    {
+      "text": "achieve this we have the ability to equip four different weapons at ",
+      "offset": 130.83,
+      "duration": 2.403
+    },
+    {
+      "text": "a time - one in the light attack hand, one in the heavy attack hand, ",
+      "offset": 133.233,
+      "duration": 2.535
+    },
+    {
+      "text": "and two ghost ones that hover awkwardly behind you like two ",
+      "offset": 135.768,
+      "duration": 2.536
+    },
+    {
+      "text": "Comicon attendees who&amp;#39;ve just noticed an attractive woman. So ",
+      "offset": 138.304,
+      "duration": 2.77
+    },
+    {
+      "text": "with four attack buttons and a jump and a dodge we defeat each ",
+      "offset": 141.074,
+      "duration": 2.369
+    },
+    {
+      "text": "serving of generic baddies and then in the grand Platinum Games ",
+      "offset": 143.443,
+      "duration": 2.302
+    },
+    {
+      "text": "tradition get an award for our performance. And in the grand ",
+      "offset": 145.745,
+      "duration": 2.336
+    },
+    {
+      "text": "Yahtzee playing Platinum Games tradition, I invariably got stone ",
+      "offset": 148.081,
+      "duration": 3.236
+    },
+    {
+      "text": "every fucking time. But in my defense, Platinum Games, you&amp;#39;ve ",
+      "offset": 151.317,
+      "duration": 2.403
+    },
+    {
+      "text": "thrown an awful lot at me in one go to get my head around. And ",
+      "offset": 153.72,
+      "duration": 2.402
+    },
+    {
+      "text": "also it&amp;#39;s difficult to time my dodges well when your visuals keep ",
+      "offset": 156.122,
+      "duration": 2.669
+    },
+    {
+      "text": "making my eyelids reflexively slam shut.",
+      "offset": 158.791,
+      "duration": 2.336
+    },
+    {
+      "text": "Maybe I&amp;#39;m overly sensitive but I always feel personally attacked by ",
+      "offset": 161.127,
+      "duration": 2.636
+    },
+    {
+      "text": "this performance award bullshit. Who are you to judge me, ",
+      "offset": 163.763,
+      "duration": 2.77
+    },
+    {
+      "text": "Babylon&amp;#39;s Fall? Maybe I&amp;#39;ll give you an award after every combat ",
+      "offset": 166.533,
+      "duration": 2.502
+    },
+    {
+      "text": "section. Hmm, that was another five of the same dudes I&amp;#39;ve been ",
+      "offset": 169.035,
+      "duration": 2.202
+    },
+    {
+      "text": "fighting for the last hour and the targeting system continues to be ",
+      "offset": 171.237,
+      "duration": 2.336
+    },
+    {
+      "text": "as reliable as a roller skate on the roof of a moving Volkswagen ",
+      "offset": 173.573,
+      "duration": 2.302
+    },
+    {
+      "text": "beetle, I hereby award you the bit of shiny foil that was still stuck ",
+      "offset": 175.875,
+      "duration": 2.836
+    },
+    {
+      "text": "to my creme egg after I thought I&amp;#39;d unwrapped it and put it in my ",
+      "offset": 178.711,
+      "duration": 2.169
+    },
+    {
+      "text": "mouth. Anyway, after a tutorial boss fight against a tortured fallen ",
+      "offset": 180.88,
+      "duration": 2.87
+    },
+    {
+      "text": "knight which kinda cemented the vibe I was getting of a typical ",
+      "offset": 183.75,
+      "duration": 2.602
+    },
+    {
+      "text": "Platinum Games combat system being pushed through a filter of ",
+      "offset": 186.352,
+      "duration": 2.436
+    },
+    {
+      "text": "original PS3 Demon&amp;#39;s Souls in all its unrefined potatoey glory, the ",
+      "offset": 188.788,
+      "duration": 3.837
+    },
+    {
+      "text": "actual game starts. And here we encounter the central challenge ",
+      "offset": 192.625,
+      "duration": 2.603
+    },
+    {
+      "text": "aspect of Babylon&amp;#39;s Fall: figuring out where the actual game is. I ",
+      "offset": 195.228,
+      "duration": 3.603
+    },
+    {
+      "text": "suppose it must be buried under all these menus somewhere. What ",
+      "offset": 198.831,
+      "duration": 2.636
+    },
+    {
+      "text": "with this being unashamedly a live service game your first port of ",
+      "offset": 201.467,
+      "duration": 2.57
+    },
+    {
+      "text": "call after every mission is the hub town area full of NPC merchants ",
+      "offset": 204.037,
+      "duration": 3.203
+    },
+    {
+      "text": "and service providers with icons of unclear meaning over their ",
+      "offset": 207.24,
+      "duration": 2.636
+    },
+    {
+      "text": "heads resembling belt buckles purchased at a renaissance faire, ",
+      "offset": 209.876,
+      "duration": 2.602
+    },
+    {
+      "text": "none of whom do anything so mundane as &amp;quot;sell you new ",
+      "offset": 212.478,
+      "duration": 2.47
+    },
+    {
+      "text": "equipment for in-game money.&amp;quot;",
+      "offset": 214.948,
+      "duration": 1.468
+    },
+    {
+      "text": "No, it&amp;#39;s all checking how far you are on the daily bonuses track and ",
+      "offset": 216.416,
+      "duration": 2.836
+    },
+    {
+      "text": "getting upsold armour packs so you can theme yourself to your ",
+      "offset": 219.252,
+      "duration": 2.502
+    },
+    {
+      "text": "preferred brand of cast iron cookware. Also this is the place ",
+      "offset": 221.754,
+      "duration": 2.536
+    },
+    {
+      "text": "where you take all the indistinct prizes you found in the last ",
+      "offset": 224.29,
+      "duration": 2.236
+    },
+    {
+      "text": "mission, shake off all the blood and cum and figure out if you&amp;#39;re ",
+      "offset": 226.526,
+      "duration": 2.502
+    },
+    {
+      "text": "supposed to swing them, shoot them or wear them on your balls. ",
+      "offset": 229.028,
+      "duration": 2.469
+    },
+    {
+      "text": "Now since the combat system involves having four distinct ",
+      "offset": 231.497,
+      "duration": 1.836
+    },
+    {
+      "text": "weapon slots and each weapon has different attacks depending ",
+      "offset": 233.333,
+      "duration": 2.135
+    },
+    {
+      "text": "on where you equip it, this obviously create a lot of variance, ",
+      "offset": 235.468,
+      "duration": 2.669
+    },
+    {
+      "text": "especially since you basically have to switch everything out for ",
+      "offset": 238.137,
+      "duration": 1.836
+    },
+    {
+      "text": "your newest shit after every mission to keep up with the difficulty ",
+      "offset": 239.973,
+      "duration": 2.569
+    },
+    {
+      "text": "curve, and that being the case you&amp;#39;ll want to try out your current ",
+      "offset": 242.542,
+      "duration": 2.135
+    },
+    {
+      "text": "weapon layout before you go on a mission with it. You&amp;#39;ll want to, ",
+      "offset": 244.677,
+      "duration": 2.67
+    },
+    {
+      "text": "but you can&amp;#39;t. You can&amp;#39;t attack outside missions. So if you&amp;#39;ve, say, ",
+      "offset": 247.347,
+      "duration": 3.27
+    },
+    {
+      "text": "equipped one of those magic staffs where after every use your ",
+      "offset": 250.617,
+      "duration": 2.235
+    },
+    {
+      "text": "character has to stand there picking sultanas out of their teeth for ",
+      "offset": 252.852,
+      "duration": 2.202
+    },
+    {
+      "text": "three seconds before they can dodge the encroaching giant ",
+      "offset": 255.054,
+      "duration": 2.403
+    },
+    {
+      "text": "sword the size of a beached whale, then there&amp;#39;s no way to know ",
+      "offset": 257.457,
+      "duration": 2.335
+    },
+    {
+      "text": "that until you&amp;#39;re locked into a mission and fucking stuck with it.",
+      "offset": 259.792,
+      "duration": 2.436
+    },
+    {
+      "text": "As I was in the first boss fight with - go on, have a guess! A ",
+      "offset": 262.228,
+      "duration": 2.936
+    },
+    {
+      "text": "tortured fallen knight? Eh! Petty Officer Pattern Recognition&amp;#39;s on ",
+      "offset": 265.164,
+      "duration": 2.903
+    },
+    {
+      "text": "the bridge! Now I&amp;#39;ve known my share of damage sponges but this ",
+      "offset": 268.067,
+      "duration": 2.536
+    },
+    {
+      "text": "motherfucker was a damage three-tier wedding cake with edible ",
+      "offset": 270.603,
+      "duration": 2.603
+    },
+    {
+      "text": "floral arrangement. Hitting his health bar with a fully charged hit ",
+      "offset": 273.206,
+      "duration": 2.636
+    },
+    {
+      "text": "from my multibow was like licking the end of a gigantic stick of ",
+      "offset": 275.842,
+      "duration": 2.502
+    },
+    {
+      "text": "rock with the word &amp;quot;CUNT&amp;quot; written down the side. But he wasn&amp;#39;t ",
+      "offset": 278.344,
+      "duration": 2.303
+    },
+    {
+      "text": "the least bit hard. I could easily dodge everything he threw out so I ",
+      "offset": 280.647,
+      "duration": 3.169
+    },
+    {
+      "text": "just hopped around outside his attack range firing arrows picking ",
+      "offset": 283.816,
+      "duration": 3.103
+    },
+    {
+      "text": "at his health like it was the wall of a prison cell and I had twenty ",
+      "offset": 286.919,
+      "duration": 2.336
+    },
+    {
+      "text": "years to kill. Would probably have won after about an hour or so ",
+      "offset": 289.255,
+      "duration": 2.536
+    },
+    {
+      "text": "but I got killed after forty-five minutes because the target lock ",
+      "offset": 291.791,
+      "duration": 2.703
+    },
+    {
+      "text": "system mysteriously stopped working and the autotargeter ",
+      "offset": 294.494,
+      "duration": 2.536
+    },
+    {
+      "text": "thought it more important that my arrows be aimed at the nearby ",
+      "offset": 297.03,
+      "duration": 2.135
+    },
+    {
+      "text": "box Ottoman instead. But I felt like I&amp;#39;d seen enough of Babylon&amp;#39;s ",
+      "offset": 299.165,
+      "duration": 2.669
+    },
+    {
+      "text": "Fall, I was so bored and sick of it already and both my middle ",
+      "offset": 301.834,
+      "duration": 2.67
+    },
+    {
+      "text": "fingers had reflexively extended so far they&amp;#39;d started to mess with ",
+      "offset": 304.504,
+      "duration": 2.369
+    },
+    {
+      "text": "the ceiling fan. Fuck you, Babylon&amp;#39;s Fall. I only reviewed you &amp;#39;cos ",
+      "offset": 306.873,
+      "duration": 3.336
+    },
+    {
+      "text": "the alternative was Shadow Warrior 3 and that was too short to ",
+      "offset": 310.209,
+      "duration": 2.47
+    },
+    {
+      "text": "say much about.",
+      "offset": 312.679,
+      "duration": 0.7
+    },
+    {
+      "text": "&amp;quot;How short is it, Yahtz?&amp;quot; Well, put it like this. It wa-",
+      "offset": 313.379,
+      "duration": 2.536
+    },
+    {
+      "text": "*OUTRO MUSIC*",
+      "offset": 315.915,
+      "duration": 18.752
+    },
+    {
+      "text": "This video was made possible by...",
+      "offset": 334.667,
+      "duration": 4.605
+    },
+    {
+      "text": "Closed Captions by @willcblogs",
+      "offset": 339.272,
+      "duration": 9.543
+    }
+  ],
+  "fetchedAt": "2025-12-14T10:21:36.965Z"
+}

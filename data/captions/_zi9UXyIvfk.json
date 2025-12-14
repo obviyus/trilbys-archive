@@ -1,0 +1,938 @@
+{
+  "video": {
+    "id": "_zi9UXyIvfk",
+    "title": "Call of Duty: Vanguard (Zero Punctuation)",
+    "url": "https://youtu.be/_zi9UXyIvfk",
+    "duration": 391,
+    "playlistId": "PLAbMhAYRuCUhawCEV2oXZGrienoKTN16X",
+    "playlistTitle": "Zero Punctuation"
+  },
+  "captions": [
+    {
+      "text": "This month, we&amp;#39;re asking for your support",
+      "offset": 0,
+      "duration": 1.368
+    },
+    {
+      "text": "through our premium programs via",
+      "offset": 1.368,
+      "duration": 1.134
+    },
+    {
+      "text": "The Escapist Plus and YouTube memberships.",
+      "offset": 2.502,
+      "duration": 1.301
+    },
+    {
+      "text": "Your support allows us to continue making",
+      "offset": 3.803,
+      "duration": 1.335
+    },
+    {
+      "text": "the content we want instead of chasing algorithms of ",
+      "offset": 5.138,
+      "duration": 1.501
+    },
+    {
+      "text": "the latest trends. ",
+      "offset": 6.639,
+      "duration": 0.568
+    },
+    {
+      "text": "Plus, you get a bunch of perks like ad free viewing via the Escapist Plus ",
+      "offset": 7.207,
+      "duration": 2.102
+    },
+    {
+      "text": "on our website, early access on YouTube memberships,",
+      "offset": 9.309,
+      "duration": 2.035
+    },
+    {
+      "text": "and bonus content like our monthly Ask the Creators videos series,",
+      "offset": 11.344,
+      "duration": 2.036
+    },
+    {
+      "text": "where we answer your burning questions. ",
+      "offset": 13.38,
+      "duration": 1.034
+    },
+    {
+      "text": "We’ve also added three new perks for our $5 tier,",
+      "offset": 14.414,
+      "duration": 2.069
+    },
+    {
+      "text": "including a 15% discount on merch via our Teespring shop, ",
+      "offset": 16.483,
+      "duration": 2.135
+    },
+    {
+      "text": "new pieces of bonus content called Escapist Highlights,",
+      "offset": 18.618,
+      "duration": 1.935
+    },
+    {
+      "text": "featuring the best moments from our streams each month,",
+      "offset": 20.553,
+      "duration": 1.635
+    },
+    {
+      "text": "and a new members-only live stream, The State of The Escapist, ",
+      "offset": 22.188,
+      "duration": 2.102
+    },
+    {
+      "text": "where you get a quarterly update on how the site is doing from our",
+      "offset": 24.29,
+      "duration": 1.936
+    },
+    {
+      "text": "Editor and Chief. ",
+      "offset": 26.226,
+      "duration": 0.634
+    },
+    {
+      "text": "New merch is also now available for Adventure is Nigh, ",
+      "offset": 26.86,
+      "duration": 2.235
+    },
+    {
+      "text": "Zero Punctuation, and more. ",
+      "offset": 29.095,
+      "duration": 1.168
+    },
+    {
+      "text": "Thanks to our fan&amp;#39;s continuing support, The Escapist is on track",
+      "offset": 30.263,
+      "duration": 2.369
+    },
+    {
+      "text": " for our best year yet! ",
+      "offset": 32.632,
+      "duration": 1.068
+    },
+    {
+      "text": "Was that slow enough, Nick (Jerome)?",
+      "offset": 33.7,
+      "duration": 1.635
+    },
+    {
+      "text": "*INTRO MUSIC*",
+      "offset": 37.404,
+      "duration": 12.078
+    },
+    {
+      "text": "Well go on then, Yahtz, ",
+      "offset": 49.482,
+      "duration": 0.968
+    },
+    {
+      "text": "tell us World War 2 shooters are overdone. ",
+      "offset": 50.45,
+      "duration": 1.668
+    },
+    {
+      "text": "And while you&amp;#39;re at it, ",
+      "offset": 52.118,
+      "duration": 0.734
+    },
+    {
+      "text": "be sure to inform us that water is wet ",
+      "offset": 52.852,
+      "duration": 1.535
+    },
+    {
+      "text": "and modern political discourse is fucked. ",
+      "offset": 54.387,
+      "duration": 1.935
+    },
+    {
+      "text": "Ironically, pointing out World War 2 shooters are overdone,",
+      "offset": 56.322,
+      "duration": 2.036
+    },
+    {
+      "text": "itself, overdone. ",
+      "offset": 58.358,
+      "duration": 1.068
+    },
+    {
+      "text": "We&amp;#39;re stuck in the fucking ouroboros of tedium, ",
+      "offset": 59.426,
+      "duration": 1.868
+    },
+    {
+      "text": "the snake eating its own tail while complaining that the ",
+      "offset": 61.294,
+      "duration": 2.102
+    },
+    {
+      "text": "seasoning is bland. ",
+      "offset": 63.396,
+      "duration": 0.934
+    },
+    {
+      "text": "Actually, I wasn&amp;#39;t going to rag on Call of Duty for going Nazi-fartsy",
+      "offset": 64.33,
+      "duration": 3.204
+    },
+    {
+      "text": "on us again because I&amp;#39;ve come to accept that while shooters ",
+      "offset": 67.534,
+      "duration": 1.935
+    },
+    {
+      "text": "can&amp;#39;t seem to get away from World War 2,",
+      "offset": 69.469,
+      "duration": 1.501
+    },
+    {
+      "text": "it definitely hasn&amp;#39;t been for want of trying. ",
+      "offset": 70.97,
+      "duration": 2.169
+    },
+    {
+      "text": "The Modern Warfare trend was about as valiant an attempt as one ",
+      "offset": 73.139,
+      "duration": 2.436
+    },
+    {
+      "text": "could expect and we all know where that ended so, ",
+      "offset": 75.575,
+      "duration": 2.035
+    },
+    {
+      "text": "fuck it, let shooters have their fucking comfort zone. ",
+      "offset": 77.61,
+      "duration": 2.169
+    },
+    {
+      "text": "It&amp;#39;s the only uncomplicatedly good setting for a quote ",
+      "offset": 79.779,
+      "duration": 2.336
+    },
+    {
+      "text": "&amp;quot;realistic&amp;quot; shooter.",
+      "offset": 82.115,
+      "duration": 1.101
+    },
+    {
+      "text": "Get too close to the present and war&amp;#39;s mainly decided not by the",
+      "offset": 83.216,
+      "duration": 2.302
+    },
+    {
+      "text": "ground-level machine gun exchanges that FPSes bank on ",
+      "offset": 85.518,
+      "duration": 2.536
+    },
+    {
+      "text": "but by whose tech can make the biggest explosion happen the",
+      "offset": 88.054,
+      "duration": 2.336
+    },
+    {
+      "text": "furthest away. ",
+      "offset": 90.39,
+      "duration": 0.701
+    },
+    {
+      "text": "Also it&amp;#39;s still the war with the best narrative. ",
+      "offset": 91.091,
+      "duration": 1.968
+    },
+    {
+      "text": "Where the writers weren&amp;#39;t trying to frame the side with aircraft ",
+      "offset": 93.059,
+      "duration": 2.069
+    },
+    {
+      "text": "carriers and predator drones as the plucky underdogs struggling",
+      "offset": 95.128,
+      "duration": 3.003
+    },
+    {
+      "text": "valiantly against an opponent armed mainly with harsh language ",
+      "offset": 98.131,
+      "duration": 2.502
+    },
+    {
+      "text": "and angry livestock.",
+      "offset": 100.633,
+      "duration": 0.968
+    },
+    {
+      "text": "Besides, the lesson &amp;quot;don&amp;#39;t be like the Nazis you stupid fucks&amp;quot;",
+      "offset": 101.601,
+      "duration": 3.604
+    },
+    {
+      "text": "is one that certain audiences still haven&amp;#39;t properly internalised in",
+      "offset": 105.205,
+      "duration": 2.636
+    },
+    {
+      "text": "this modern age apparently, so fuck it, all is forgiven, ",
+      "offset": 107.841,
+      "duration": 2.002
+    },
+    {
+      "text": "World War 2 shooters. ",
+      "offset": 109.843,
+      "duration": 0.934
+    },
+    {
+      "text": "I mean, there were so many different people and places and levels ",
+      "offset": 110.777,
+      "duration": 2.035
+    },
+    {
+      "text": "of technology involved it&amp;#39;s basically just as versatile as setting a",
+      "offset": 112.812,
+      "duration": 2.536
+    },
+    {
+      "text": "shooter in space.  ",
+      "offset": 115.348,
+      "duration": 0.734
+    },
+    {
+      "text": "Not that I think you should set them in space.",
+      "offset": 116.082,
+      "duration": 1.402
+    },
+    {
+      "text": "Hey! Call of Duty! I said don&amp;#39;t do that! ",
+      "offset": 117.484,
+      "duration": 1.635
+    },
+    {
+      "text": "No, stop! Oh fuck, they set one in space. ",
+      "offset": 119.119,
+      "duration": 1.968
+    },
+    {
+      "text": "Fetch the mop. ",
+      "offset": 121.087,
+      "duration": 0.667
+    },
+    {
+      "text": "Of course, having said it&amp;#39;s a versatile setting, ",
+      "offset": 121.754,
+      "duration": 1.669
+    },
+    {
+      "text": "it would be nice if more World War 2 shooters made the most of",
+      "offset": 123.423,
+      "duration": 2.169
+    },
+    {
+      "text": "that and not come back to D-Day all the fucking time. ",
+      "offset": 125.592,
+      "duration": 2.135
+    },
+    {
+      "text": "How many times now have I played a WW2 game where we have ",
+      "offset": 127.727,
+      "duration": 2.102
+    },
+    {
+      "text": "to do something to ensure the success of D-Day? ",
+      "offset": 129.829,
+      "duration": 2.069
+    },
+    {
+      "text": "I feel like lone wolf Allied commandos could have held a fucking",
+      "offset": 131.898,
+      "duration": 2.336
+    },
+    {
+      "text": "convention behind the German firing lines at this point. ",
+      "offset": 134.234,
+      "duration": 2.168
+    },
+    {
+      "text": "Yes, CoD Vanguard does D-Day, ",
+      "offset": 136.402,
+      "duration": 2.103
+    },
+    {
+      "text": "as well as Stalingrad and the fall of Berlin ",
+      "offset": 138.505,
+      "duration": 1.868
+    },
+    {
+      "text": "and all the other classic hits, ",
+      "offset": 140.373,
+      "duration": 1.235
+    },
+    {
+      "text": "with the framing device being the interrogation by evil sneering",
+      "offset": 141.608,
+      "duration": 2.769
+    },
+    {
+      "text": "Nazis of an Allied Commando unit more heartwarmingly diverse ",
+      "offset": 144.377,
+      "duration": 3.203
+    },
+    {
+      "text": "than a Great British Bake-off semifinal.",
+      "offset": 147.58,
+      "duration": 1.702
+    },
+    {
+      "text": "There&amp;#39;s Black British soldier,",
+      "offset": 149.282,
+      "duration": 1.435
+    },
+    {
+      "text": "a grim Russian lady who&amp;#39;s a sniper because aren&amp;#39;t they ",
+      "offset": 150.717,
+      "duration": 1.902
+    },
+    {
+      "text": "fucking always,",
+      "offset": 152.619,
+      "duration": 0.7
+    },
+    {
+      "text": "a mouthy Australian who peppers his dialogue with words from the",
+      "offset": 153.319,
+      "duration": 2.269
+    },
+    {
+      "text": "hack screenwriter&amp;#39;s little book of international slang, ",
+      "offset": 155.588,
+      "duration": 2.303
+    },
+    {
+      "text": "and a cocky American pilot to occasionally tank a much deserved ",
+      "offset": 157.891,
+      "duration": 2.802
+    },
+    {
+      "text": "biff to the chops. ",
+      "offset": 160.693,
+      "duration": 0.835
+    },
+    {
+      "text": "And yes, obviously the Nazis are racist as all bollocks towards them ",
+      "offset": 161.528,
+      "duration": 2.636
+    },
+    {
+      "text": "And yes, obviously the Nazis are racist as all bollocks towards them ",
+      "offset": 164.164,
+      "duration": 0.066
+    },
+    {
+      "text": "but people were racist across the board in the forties and the most ",
+      "offset": 164.23,
+      "duration": 2.503
+    },
+    {
+      "text": "racism that Allied NPCs ever display is directed at the Australian. ",
+      "offset": 166.733,
+      "duration": 3.403
+    },
+    {
+      "text": "Oh, and the American pilot&amp;#39;s chapter features him teaming up with",
+      "offset": 170.136,
+      "duration": 2.469
+    },
+    {
+      "text": "a coloured regiment in the Pacific Theater and they complain",
+      "offset": 172.605,
+      "duration": 1.569
+    },
+    {
+      "text": "and they complain about their systematic oppression at the hands",
+      "offset": 174.174,
+      "duration": 1.868
+    },
+    {
+      "text": "of their own government with the eye rolling tolerance of high",
+      "offset": 176.042,
+      "duration": 2.102
+    },
+    {
+      "text": "schoolers complaining about the mean girls clique. ",
+      "offset": 178.144,
+      "duration": 1.969
+    },
+    {
+      "text": "I&amp;#39;d say make up your own war if you&amp;#39;re going to revise history ",
+      "offset": 180.113,
+      "duration": 2.335
+    },
+    {
+      "text": "but we&amp;#39;ve established this is the only setting shooter audiences ",
+      "offset": 182.448,
+      "duration": 2.403
+    },
+    {
+      "text": "are interested in.",
+      "offset": 184.851,
+      "duration": 0.667
+    },
+    {
+      "text": "Oh no! Historical inaccuracy in a war shooter, Yahtzee? ",
+      "offset": 185.518,
+      "duration": 2.469
+    },
+    {
+      "text": "Don&amp;#39;t forget to also point out that in real life you can&amp;#39;t heal gunshot ",
+      "offset": 187.987,
+      "duration": 2.836
+    },
+    {
+      "text": "wounds just by sucking on a floor tile for four seconds",
+      "offset": 190.823,
+      "duration": 2.236
+    },
+    {
+      "text": "and that most Allied soldiers didn&amp;#39;t have cameras grafted ",
+      "offset": 193.059,
+      "duration": 2.169
+    },
+    {
+      "text": "to their noggins.",
+      "offset": 195.228,
+      "duration": 0.767
+    },
+    {
+      "text": "Okay,",
+      "offset": 195.995,
+      "duration": 0.601
+    },
+    {
+      "text": "but before you run to the comments to start ",
+      "offset": 196.596,
+      "duration": 1.401
+    },
+    {
+      "text": "bayonetting those strawmen,",
+      "offset": 197.997,
+      "duration": 1.168
+    },
+    {
+      "text": "let me clarify that it&amp;#39;s not inaccuracy that bothers me. ",
+      "offset": 199.165,
+      "duration": 2.669
+    },
+    {
+      "text": "Because you know what else isn&amp;#39;t historically accurate?",
+      "offset": 201.834,
+      "duration": 2.002
+    },
+    {
+      "text": "Wolfenstein: The New Order. ",
+      "offset": 203.836,
+      "duration": 1.235
+    },
+    {
+      "text": "And you know what kicks arse? ",
+      "offset": 205.071,
+      "duration": 1.268
+    },
+    {
+      "text": "A disgruntled mule in a crowded bathhouse. ",
+      "offset": 206.339,
+      "duration": 1.902
+    },
+    {
+      "text": "And Wolfenstein: The New Order. ",
+      "offset": 208.241,
+      "duration": 1.268
+    },
+    {
+      "text": "Because in between fighting space Nazis on the moon and cyborg",
+      "offset": 209.509,
+      "duration": 2.536
+    },
+    {
+      "text": "Rottweilers with cheese graters for faces the story actually",
+      "offset": 212.045,
+      "duration": 2.335
+    },
+    {
+      "text": "addressed things like racial tensions within Allied nations",
+      "offset": 214.38,
+      "duration": 2.336
+    },
+    {
+      "text": "and the emotional toll that war has upon those who fight it. ",
+      "offset": 216.716,
+      "duration": 2.369
+    },
+    {
+      "text": "It also featured characters who fuck. ",
+      "offset": 219.085,
+      "duration": 1.969
+    },
+    {
+      "text": "And that&amp;#39;s Call of Duty&amp;#39;s problem. ",
+      "offset": 221.054,
+      "duration": 1.301
+    },
+    {
+      "text": "You don&amp;#39;t get a sense that any of its characters fuck. ",
+      "offset": 222.355,
+      "duration": 2.069
+    },
+    {
+      "text": "Or want to go home or play snooker or do anything other than fight ",
+      "offset": 224.424,
+      "duration": 3.003
+    },
+    {
+      "text": "the war because they&amp;#39;re so bloody patriotic even their genital warts",
+      "offset": 227.427,
+      "duration": 2.869
+    },
+    {
+      "text": "are red, white and blue. ",
+      "offset": 230.296,
+      "duration": 0.834
+    },
+    {
+      "text": "When they lock horns with their superiors it&amp;#39;s not because they&amp;#39;re",
+      "offset": 231.13,
+      "duration": 2.002
+    },
+    {
+      "text": "being forced to kill their fellow man, ",
+      "offset": 233.132,
+      "duration": 1.268
+    },
+    {
+      "text": "it&amp;#39;s only ever because they disagree on how to kill their fellow man",
+      "offset": 234.4,
+      "duration": 2.603
+    },
+    {
+      "text": "with maximum efficiency. ",
+      "offset": 237.003,
+      "duration": 1.401
+    },
+    {
+      "text": "It&amp;#39;s all so bloody lacking in introspection. ",
+      "offset": 238.404,
+      "duration": 1.936
+    },
+    {
+      "text": "The Germans are all sneers and moustache-twirling evil",
+      "offset": 240.34,
+      "duration": 2.502
+    },
+    {
+      "text": "and the Allies are good and therefore must have been progressive",
+      "offset": 242.842,
+      "duration": 2.202
+    },
+    {
+      "text": "and diverse because those things are also good. ",
+      "offset": 245.044,
+      "duration": 1.802
+    },
+    {
+      "text": "And incidentally we have always been at war with Eurasia.",
+      "offset": 246.846,
+      "duration": 2.403
+    },
+    {
+      "text": "Throughout the arc story our heroes are interrogated and tortured ",
+      "offset": 249.249,
+      "duration": 2.535
+    },
+    {
+      "text": "one by one as the Nazis attempt to turn them against each other, ",
+      "offset": 251.784,
+      "duration": 2.369
+    },
+    {
+      "text": "which might have been harrowing if all the tension wasn&amp;#39;t",
+      "offset": 254.153,
+      "duration": 2.002
+    },
+    {
+      "text": "constantly being flushed straight down the toilet by the narration. ",
+      "offset": 256.155,
+      "duration": 2.736
+    },
+    {
+      "text": "&amp;quot;Little did those silly Nazis know we were putting on an act and just",
+      "offset": 258.891,
+      "duration": 2.803
+    },
+    {
+      "text": "pretending to betray each other to gather information! ",
+      "offset": 261.694,
+      "duration": 2.202
+    },
+    {
+      "text": "Ha ha stupid Krauts let&amp;#39;s all laugh at their little snivelly noses",
+      "offset": 263.896,
+      "duration": 3.17
+    },
+    {
+      "text": "and overly tight uniforms and little goose-stepping adorable ",
+      "offset": 267.066,
+      "duration": 2.703
+    },
+    {
+      "text": "buttocks - fuck, where&amp;#39;d that come from?&amp;quot; ",
+      "offset": 269.769,
+      "duration": 1.468
+    },
+    {
+      "text": "Could&amp;#39;ve been effective if they&amp;#39;d saved that reveal for a final",
+      "offset": 271.237,
+      "duration": 1.969
+    },
+    {
+      "text": "act twist",
+      "offset": 273.206,
+      "duration": 0.767
+    },
+    {
+      "text": "just when we think all is lost",
+      "offset": 273.973,
+      "duration": 1.235
+    },
+    {
+      "text": "but we have zero introspection, remember,",
+      "offset": 275.208,
+      "duration": 1.601
+    },
+    {
+      "text": "so our characters can&amp;#39;t even for a moment not be waddling under",
+      "offset": 276.809,
+      "duration": 2.57
+    },
+    {
+      "text": "the weight of the biggest fucking bollocks in the room. ",
+      "offset": 279.379,
+      "duration": 1.902
+    },
+    {
+      "text": "You gonna talk about the gameplay at all, Yahtz? ",
+      "offset": 281.281,
+      "duration": 1.868
+    },
+    {
+      "text": "Oh must we, viewer?",
+      "offset": 283.149,
+      "duration": 1.335
+    },
+    {
+      "text": "It&amp;#39;s Call of fucking Duty. ",
+      "offset": 284.484,
+      "duration": 1.434
+    },
+    {
+      "text": "You point at everything vaguely head-shaped that&amp;#39;s poking out ",
+      "offset": 285.918,
+      "duration": 2.269
+    },
+    {
+      "text": "from cover like nipples at the touch of a questing hand,",
+      "offset": 288.187,
+      "duration": 2.136
+    },
+    {
+      "text": "then move up when the game says to. ",
+      "offset": 290.323,
+      "duration": 1.635
+    },
+    {
+      "text": "And not before,",
+      "offset": 291.958,
+      "duration": 0.967
+    },
+    {
+      "text": "because if you do anything other than what the predetermined plot",
+      "offset": 292.925,
+      "duration": 1.969
+    },
+    {
+      "text": "says to do then it&amp;#39;ll usually just explode your fucking head like ",
+      "offset": 294.894,
+      "duration": 2.202
+    },
+    {
+      "text": "you&amp;#39;re in the fucking Suicide Squad.",
+      "offset": 297.096,
+      "duration": 1.335
+    },
+    {
+      "text": "The final boss fight, fingerquotes the size of Bratwurst,",
+      "offset": 298.431,
+      "duration": 2.669
+    },
+    {
+      "text": "entails chasing a Nazi across an airfield and tackling them. ",
+      "offset": 301.1,
+      "duration": 2.77
+    },
+    {
+      "text": "I had to repeat it three times.",
+      "offset": 303.87,
+      "duration": 1.701
+    },
+    {
+      "text": "The first time because the game never mentioned that I was ",
+      "offset": 305.571,
+      "duration": 1.635
+    },
+    {
+      "text": "supposed to tackle him, ",
+      "offset": 307.206,
+      "duration": 0.868
+    },
+    {
+      "text": "so when I shot his prone defenseless form,",
+      "offset": 308.074,
+      "duration": 1.735
+    },
+    {
+      "text": "he instakilled my nigh-invulnerable ass with a single pistol shot.",
+      "offset": 309.809,
+      "duration": 2.936
+    },
+    {
+      "text": "The second time I tried to short cut my way through a spot that",
+      "offset": 312.745,
+      "duration": 2.336
+    },
+    {
+      "text": "apparently wasn&amp;#39;t part of the designated chase path",
+      "offset": 315.081,
+      "duration": 2.169
+    },
+    {
+      "text": "and the game exploded my head. ",
+      "offset": 317.25,
+      "duration": 1.401
+    },
+    {
+      "text": "Yeah, just yank on my fucking strings, game, ",
+      "offset": 318.651,
+      "duration": 2.169
+    },
+    {
+      "text": "for I am ever thy errant marionette. ",
+      "offset": 320.82,
+      "duration": 1.802
+    },
+    {
+      "text": "Alright, fine. The gameplay has some highlights. ",
+      "offset": 322.622,
+      "duration": 1.835
+    },
+    {
+      "text": "The Russian lady&amp;#39;s final boss was an intense Condemned-style",
+      "offset": 324.457,
+      "duration": 2.736
+    },
+    {
+      "text": "close quarters sneaky stabathon",
+      "offset": 327.193,
+      "duration": 1.401
+    },
+    {
+      "text": "that was a nice break from the usual shootout conveyer belt, ",
+      "offset": 328.594,
+      "duration": 2.436
+    },
+    {
+      "text": "but none of the other characters have unique abilities ",
+      "offset": 331.03,
+      "duration": 1.669
+    },
+    {
+      "text": "that fundamentally alter the gameplay.",
+      "offset": 332.699,
+      "duration": 1.601
+    },
+    {
+      "text": "One of them can carry more grenades. ",
+      "offset": 334.3,
+      "duration": 1.402
+    },
+    {
+      "text": "Ooh, break out the min-maxing algorithm. ",
+      "offset": 335.702,
+      "duration": 1.835
+    },
+    {
+      "text": "Oh and the leader dude has leader powers. ",
+      "offset": 337.537,
+      "duration": 1.868
+    },
+    {
+      "text": "Sometimes you can direct your NPC helpers to shoot a specific",
+      "offset": 339.405,
+      "duration": 2.369
+    },
+    {
+      "text": "target if you feel like it&amp;#39;d help. ",
+      "offset": 341.774,
+      "duration": 1.635
+    },
+    {
+      "text": "Everyone&amp;#39;s shooting everyone else already, o&amp;#39;course, ",
+      "offset": 343.409,
+      "duration": 1.902
+    },
+    {
+      "text": "so it feels like trying to direct a primary school swimming class to",
+      "offset": 345.311,
+      "duration": 2.403
+    },
+    {
+      "text": "piss in one specific part of the pool. ",
+      "offset": 347.714,
+      "duration": 1.701
+    },
+    {
+      "text": "Good analogy for the whole game, actually. ",
+      "offset": 349.415,
+      "duration": 1.468
+    },
+    {
+      "text": "A great big splashy arse about in a kiddie pool version of history",
+      "offset": 350.883,
+      "duration": 3.103
+    },
+    {
+      "text": "without the introspection to notice when the water&amp;#39;s",
+      "offset": 353.986,
+      "duration": 2.236
+    },
+    {
+      "text": "getting suspiciously warm.",
+      "offset": 356.222,
+      "duration": 1.335
+    },
+    {
+      "text": "*OUTRO MUSIC*",
+      "offset": 357.657,
+      "duration": 18.985
+    },
+    {
+      "text": "This video was made possible by...",
+      "offset": 376.642,
+      "duration": 4.071
+    },
+    {
+      "text": "Check out some other content here.",
+      "offset": 380.713,
+      "duration": 9.743
+    }
+  ],
+  "fetchedAt": "2025-12-14T10:22:03.055Z"
+}

@@ -1,0 +1,773 @@
+{
+  "video": {
+    "id": "oynuVwE9EJM",
+    "title": "Resident Evil 4 VR and Oculus Quest 2 (Zero Punctuation)",
+    "url": "https://youtu.be/oynuVwE9EJM",
+    "duration": 368,
+    "playlistId": "PLAbMhAYRuCUhawCEV2oXZGrienoKTN16X",
+    "playlistTitle": "Zero Punctuation"
+  },
+  "captions": [
+    {
+      "text": "I&amp;#39;ve got a new book available on Audible.com from December 9th",
+      "offset": 0.133,
+      "duration": 2.669
+    },
+    {
+      "text": "It&amp;#39;s called Existentially Challenged",
+      "offset": 2.802,
+      "duration": 1.535
+    },
+    {
+      "text": "and it&amp;#39;s a hilarous supernatural murder mystery",
+      "offset": 4.337,
+      "duration": 1.669
+    },
+    {
+      "text": "set in a world getting to grips with the british government",
+      "offset": 6.006,
+      "duration": 1.735
+    },
+    {
+      "text": "having declassifed the existance of magic.",
+      "offset": 7.741,
+      "duration": 1.534
+    },
+    {
+      "text": "To answer all of the anticipated questions",
+      "offset": 9.275,
+      "duration": 1.602
+    },
+    {
+      "text": "Yes, it&amp;#39;s a sequel to Differently Morphous.",
+      "offset": 10.877,
+      "duration": 1.535
+    },
+    {
+      "text": "Yes, it&amp;#39;s only an audiobook at the moment.",
+      "offset": 12.412,
+      "duration": 1.535
+    },
+    {
+      "text": "Yes, it&amp;#39;s read by me.",
+      "offset": 13.947,
+      "duration": 1.001
+    },
+    {
+      "text": "Yes, a print verison will be out next year sometime.",
+      "offset": 14.948,
+      "duration": 1.868
+    },
+    {
+      "text": "And no, I don&amp;#39;t still wear this hat in real life.",
+      "offset": 16.816,
+      "duration": 2.036
+    },
+    {
+      "text": "*INTRO MUSIC*",
+      "offset": 18.852,
+      "duration": 12.078
+    },
+    {
+      "text": "I suppose it&amp;#39;s technically Shooter Season thanks to Halo ",
+      "offset": 30.93,
+      "duration": 2.169
+    },
+    {
+      "text": "and Call of Duty and Battlefield. ",
+      "offset": 33.099,
+      "duration": 1.769
+    },
+    {
+      "text": "I know that a &amp;quot;season&amp;quot; should by rights consist of more than ",
+      "offset": 34.868,
+      "duration": 2.102
+    },
+    {
+      "text": "three fucking games, unless you&amp;#39;re Leeds United",
+      "offset": 36.97,
+      "duration": 2.235
+    },
+    {
+      "text": "could someone who understands sport let me know if that joke ",
+      "offset": 39.205,
+      "duration": 2.002
+    },
+    {
+      "text": "made any sense",
+      "offset": 41.207,
+      "duration": 0.634
+    },
+    {
+      "text": "but they alone seem to have scared every other big release out of ",
+      "offset": 41.841,
+      "duration": 2.303
+    },
+    {
+      "text": "the pre-Christmas sales period so fuck it, let&amp;#39;s stick some iron sights ",
+      "offset": 44.144,
+      "duration": 2.636
+    },
+    {
+      "text": "up our noses and point at peoples&amp;#39; heads all day like a rude six year",
+      "offset": 46.78,
+      "duration": 2.802
+    },
+    {
+      "text": " old in a boil clinic. ",
+      "offset": 49.582,
+      "duration": 0.801
+    },
+    {
+      "text": "And you know what&amp;#39;s good for shooters? ",
+      "offset": 50.383,
+      "duration": 1.335
+    },
+    {
+      "text": "Civic unrest and dysfunction of authority. ",
+      "offset": 51.718,
+      "duration": 1.968
+    },
+    {
+      "text": "And you know what&amp;#39;s good for video game shooters? ",
+      "offset": 53.686,
+      "duration": 1.736
+    },
+    {
+      "text": "VR.",
+      "offset": 55.422,
+      "duration": 0.834
+    },
+    {
+      "text": "I finally got hold of an Oculus Quest 2 this week, ",
+      "offset": 56.256,
+      "duration": 1.935
+    },
+    {
+      "text": "which I&amp;#39;ve been particularly intrigued by since I heard it boasted a",
+      "offset": 58.191,
+      "duration": 2.502
+    },
+    {
+      "text": "a wireless headset.",
+      "offset": 60.693,
+      "duration": 1.035
+    },
+    {
+      "text": "I&amp;#39;m still a great believer in VR: It gives you headaches and makes ",
+      "offset": 61.728,
+      "duration": 2.602
+    },
+    {
+      "text": "weird things happen before your eyes, ",
+      "offset": 64.33,
+      "duration": 1.435
+    },
+    {
+      "text": "it&amp;#39;s all the fun of severe dehydration without the chapped lips. ",
+      "offset": 65.765,
+      "duration": 2.736
+    },
+    {
+      "text": "But one thing I&amp;#39;ve always thought holds it back is how you need ",
+      "offset": 68.501,
+      "duration": 1.902
+    },
+    {
+      "text": "nineteen cables and the morning off to get it all set up. ",
+      "offset": 70.403,
+      "duration": 2.369
+    },
+    {
+      "text": "And then you&amp;#39;ve always got cables stuck in your head running ",
+      "offset": 72.772,
+      "duration": 1.869
+    },
+    {
+      "text": "down your shoulder killing your immersion, ",
+      "offset": 74.641,
+      "duration": 1.435
+    },
+    {
+      "text": "and if your wife walks in while you&amp;#39;re nailing VR anime broads ",
+      "offset": 76.076,
+      "duration": 2.602
+    },
+    {
+      "text": "and you spin around too quick you run the risk of hanging yourself, ",
+      "offset": 78.678,
+      "duration": 2.669
+    },
+    {
+      "text": "and that&amp;#39;s a niche sexual thrill at best.",
+      "offset": 81.347,
+      "duration": 1.769
+    },
+    {
+      "text": "But not only is Oculus Quest 2 wireless, you also don&amp;#39;t need to rig ",
+      "offset": 83.116,
+      "duration": 2.703
+    },
+    {
+      "text": "cameras up around the room like a very unsubtle CIA operative, ",
+      "offset": 85.819,
+      "duration": 2.702
+    },
+    {
+      "text": "you don&amp;#39;t need a separate computer or console to run it off ",
+      "offset": 88.521,
+      "duration": 2.403
+    },
+    {
+      "text": "and compared to its peers it&amp;#39;s astonishingly affordable. ",
+      "offset": 90.924,
+      "duration": 2.402
+    },
+    {
+      "text": "Which it had fucking better be considering Facebook are backing it ",
+      "offset": 93.326,
+      "duration": 2.603
+    },
+    {
+      "text": "and those motherfuckers can eat loss like it&amp;#39;s Thanksgiving dinner. ",
+      "offset": 95.929,
+      "duration": 2.636
+    },
+    {
+      "text": "Which might as well bring us to the two major cons of the Q2: ",
+      "offset": 98.565,
+      "duration": 2.469
+    },
+    {
+      "text": "Firstly that you can only get it in white, and someone didn&amp;#39;t learn ",
+      "offset": 101.034,
+      "duration": 2.335
+    },
+    {
+      "text": "the lesson from the Wii that white is only the pupal stage of game ",
+      "offset": 103.369,
+      "duration": 2.636
+    },
+    {
+      "text": "peripherals before they blossom into &amp;quot;unpleasantly yellowish with ",
+      "offset": 106.005,
+      "duration": 2.603
+    },
+    {
+      "text": "bits down all the seams.&amp;quot; ",
+      "offset": 108.608,
+      "duration": 1.668
+    },
+    {
+      "text": "And secondly it forces you to pay obeisance to Big Tech and ",
+      "offset": 110.276,
+      "duration": 2.636
+    },
+    {
+      "text": "the mere act of buying it pencils you in for a spot against the wall ",
+      "offset": 112.912,
+      "duration": 2.536
+    },
+    {
+      "text": "when the revolution comes. ",
+      "offset": 115.448,
+      "duration": 1.135
+    },
+    {
+      "text": "Even more than VR usually does, I mean. ",
+      "offset": 116.583,
+      "duration": 1.768
+    },
+    {
+      "text": "You need a Facebook account to use it and there&amp;#39;s basically no way ",
+      "offset": 118.351,
+      "duration": 2.536
+    },
+    {
+      "text": "this thing isn&amp;#39;t stealing your retinal data for use in the upcoming ",
+      "offset": 120.887,
+      "duration": 2.436
+    },
+    {
+      "text": "sinister cyberpunk dystopia, but being falsely accused of info ",
+      "offset": 123.323,
+      "duration": 2.903
+    },
+    {
+      "text": "heisting and getting swatted by Corpo enforcement is a problem for ",
+      "offset": 126.226,
+      "duration": 3.036
+    },
+    {
+      "text": "future Yahtzee. ",
+      "offset": 129.262,
+      "duration": 0.901
+    },
+    {
+      "text": "Present Yahtzee&amp;#39;s been bedazzled by fancy VR tech upgrades ",
+      "offset": 130.163,
+      "duration": 2.803
+    },
+    {
+      "text": "like turning around.",
+      "offset": 132.966,
+      "duration": 1.234
+    },
+    {
+      "text": "At first I was still clicking the right analog stick to turn bit by bit like ",
+      "offset": 134.2,
+      "duration": 2.67
+    },
+    {
+      "text": "a roomba in a furniture storage warehouse until I managed to ",
+      "offset": 136.87,
+      "duration": 2.235
+    },
+    {
+      "text": "resequence the old instincts and learn to just, you know, ",
+      "offset": 139.105,
+      "duration": 2.469
+    },
+    {
+      "text": "fucking turn around. ",
+      "offset": 141.574,
+      "duration": 1.068
+    },
+    {
+      "text": "I also like the feature where you can at any time switch to a view ",
+      "offset": 142.642,
+      "duration": 2.369
+    },
+    {
+      "text": "of the room around you because if people come into the room ",
+      "offset": 145.011,
+      "duration": 1.802
+    },
+    {
+      "text": "while you&amp;#39;re playing you can touch all of their bottoms and pretend ",
+      "offset": 146.813,
+      "duration": 1.935
+    },
+    {
+      "text": "it was an accident. ",
+      "offset": 148.748,
+      "duration": 0.667
+    },
+    {
+      "text": "Controllers are fine, they don&amp;#39;t quite have the comfort or the ",
+      "offset": 149.415,
+      "duration": 2.203
+    },
+    {
+      "text": "satisfying heft of the Valve Index controllers, but if we&amp;#39;re comparing ",
+      "offset": 151.618,
+      "duration": 2.736
+    },
+    {
+      "text": "it to the VR market, the fact that it&amp;#39;s only a slightly more expensive ",
+      "offset": 154.354,
+      "duration": 2.169
+    },
+    {
+      "text": "option than tying a smartphone to your face with the cord from an ",
+      "offset": 156.523,
+      "duration": 2.636
+    },
+    {
+      "text": "old bathrobe can compensate for a lot. ",
+      "offset": 159.159,
+      "duration": 2.002
+    },
+    {
+      "text": "So there you go, Yahtzee&amp;#39;s holiday buyer&amp;#39;s guide: the perfect gift ",
+      "offset": 161.161,
+      "duration": 2.736
+    },
+    {
+      "text": "for the hardcore gaming corporate bootlicker in your life. ",
+      "offset": 163.897,
+      "duration": 2.402
+    },
+    {
+      "text": "And good luck getting your hands on one before Christmas now, ",
+      "offset": 166.299,
+      "duration": 2.269
+    },
+    {
+      "text": "fuckface. ",
+      "offset": 168.568,
+      "duration": 0.667
+    },
+    {
+      "text": "But the other reason I sought out the Quest 2 is because it&amp;#39;s ",
+      "offset": 169.235,
+      "duration": 2.002
+    },
+    {
+      "text": "currently the only way to play Resident Evil 4 VR. ",
+      "offset": 171.237,
+      "duration": 2.136
+    },
+    {
+      "text": "Crafty buggers. ",
+      "offset": 173.373,
+      "duration": 1.001
+    },
+    {
+      "text": "This little English sheepdog ain&amp;#39;t willing to wait for that ",
+      "offset": 174.374,
+      "duration": 2.002
+    },
+    {
+      "text": "questionably secure hotdog to fall off the kitchen counter.",
+      "offset": 176.376,
+      "duration": 2.402
+    },
+    {
+      "text": "I feel like in the course of ZP I&amp;#39;ve reviewed Resident Evil 4 like nine ",
+      "offset": 178.778,
+      "duration": 2.903
+    },
+    {
+      "text": "times with varying degrees of directness so just to give you ",
+      "offset": 181.681,
+      "duration": 2.169
+    },
+    {
+      "text": "the quick summary: Third person shooty shooty angry europeans ",
+      "offset": 183.85,
+      "duration": 2.903
+    },
+    {
+      "text": "bad dialogue campy campy ooh scary scary monster fights village ",
+      "offset": 186.753,
+      "duration": 3.069
+    },
+    {
+      "text": "castle island big tits jug ears heeelp leooon smuggety smug ",
+      "offset": 189.822,
+      "duration": 3.637
+    },
+    {
+      "text": "deadety dead. ",
+      "offset": 193.459,
+      "duration": 0.634
+    },
+    {
+      "text": "One of my favourite games of its era and I was keen to see how VR ",
+      "offset": 194.093,
+      "duration": 2.536
+    },
+    {
+      "text": "would enhance its trademark intense back-to-the-wall ",
+      "offset": 196.629,
+      "duration": 2.136
+    },
+    {
+      "text": "poo-to-the-underpants combat. ",
+      "offset": 198.765,
+      "duration": 1.368
+    },
+    {
+      "text": "Well, first of all it&amp;#39;s hard to get immersed from the way the action ",
+      "offset": 200.133,
+      "duration": 2.269
+    },
+    {
+      "text": "keeps switching to video player mode to show Leon ",
+      "offset": 202.402,
+      "duration": 2.035
+    },
+    {
+      "text": "sommersaulting through a window or a quick establishing shot of ",
+      "offset": 204.437,
+      "duration": 2.269
+    },
+    {
+      "text": "the area we just entered, but in fairness, how are you supposed to ",
+      "offset": 206.706,
+      "duration": 2.369
+    },
+    {
+      "text": "translate those to VR? ",
+      "offset": 209.075,
+      "duration": 1.168
+    },
+    {
+      "text": "Make the player do a sommersault? ",
+      "offset": 210.243,
+      "duration": 1.435
+    },
+    {
+      "text": "Let them look at the area themselves with their eyeballs? ",
+      "offset": 211.678,
+      "duration": 2.502
+    },
+    {
+      "text": "But then immersion is always difficult in any VR shooter with a ",
+      "offset": 214.18,
+      "duration": 2.436
+    },
+    {
+      "text": "focus on two-handed weapons. ",
+      "offset": 216.616,
+      "duration": 1.201
+    },
+    {
+      "text": "How&amp;#39;s this for a million dollar idea - VR hand controllers that clip ",
+      "offset": 217.817,
+      "duration": 3.203
+    },
+    {
+      "text": "together for whenever you switch to a two-handed gun",
+      "offset": 221.02,
+      "duration": 2.203
+    },
+    {
+      "text": "so you&amp;#39;re not having to stand with one hand awkwardly hanging in ",
+      "offset": 223.223,
+      "duration": 2.135
+    },
+    {
+      "text": "empty air while the in-game barrel bounces up and down like a ",
+      "offset": 225.358,
+      "duration": 2.669
+    },
+    {
+      "text": "public opinion poll in an election debate.",
+      "offset": 228.027,
+      "duration": 1.802
+    },
+    {
+      "text": "And maybe the connecting element could telescope so you could ",
+      "offset": 229.829,
+      "duration": 2.035
+    },
+    {
+      "text": "adjust the length and do the shotgun pumping thing, and maybe ",
+      "offset": 231.864,
+      "duration": 2.303
+    },
+    {
+      "text": "the interior of it could be lined with ground beef so it doubles as a",
+      "offset": 234.167,
+      "duration": 2.803
+    },
+    {
+      "text": "peripheral for the anime porn users. ",
+      "offset": 236.97,
+      "duration": 1.668
+    },
+    {
+      "text": "Besides that, it certainly is a different experience to play RE4 in VR ",
+      "offset": 238.638,
+      "duration": 3.27
+    },
+    {
+      "text": "because one of the central characteristics of the gameplay was the ",
+      "offset": 241.908,
+      "duration": 2.002
+    },
+    {
+      "text": "fact that Leon turned like a forklift and moved like he was ",
+      "offset": 243.91,
+      "duration": 2.569
+    },
+    {
+      "text": "moonwalking the wrong way up an escalator, so now we can move ",
+      "offset": 246.479,
+      "duration": 2.402
+    },
+    {
+      "text": "freely, shoot without stopping and turn as quickly as our ageing ",
+      "offset": 248.881,
+      "duration": 2.803
+    },
+    {
+      "text": "spines will allow, parts of it get a lot easier. ",
+      "offset": 251.684,
+      "duration": 2.069
+    },
+    {
+      "text": "The fights with big monsters are all completely trivial because ",
+      "offset": 253.753,
+      "duration": 2.302
+    },
+    {
+      "text": "they&amp;#39;re over there laboriously winding up an attack on the spot I ",
+      "offset": 256.055,
+      "duration": 2.803
+    },
+    {
+      "text": "briefly passed through nine minutes ago on my way to drop ",
+      "offset": 258.858,
+      "duration": 2.169
+    },
+    {
+      "text": "incendiary grenades down their exposed bum crack. ",
+      "offset": 261.027,
+      "duration": 2.369
+    },
+    {
+      "text": "But on the other hand combat gets a lot harder in the bits when ",
+      "offset": 263.396,
+      "duration": 2.369
+    },
+    {
+      "text": "you&amp;#39;re having to look out for old marshmallow tits Ashley ",
+      "offset": 265.765,
+      "duration": 2.302
+    },
+    {
+      "text": "&amp;quot;the escort quest that perforated the eardrums of a generation&amp;quot; ",
+      "offset": 268.067,
+      "duration": 2.87
+    },
+    {
+      "text": "Graham. Who was previously good at staying behind Leon back ",
+      "offset": 270.937,
+      "duration": 2.636
+    },
+    {
+      "text": "when he moved like a wardrobe on a dessert trolley but all his",
+      "offset": 273.573,
+      "duration": 2.135
+    },
+    {
+      "text": " newfound mobility makes the little hamster wheel in her brain ",
+      "offset": 275.708,
+      "duration": 2.469
+    },
+    {
+      "text": "fall off its axle.",
+      "offset": 278.177,
+      "duration": 0.801
+    },
+    {
+      "text": "So she gets grabbed by enemies a lot because she didn&amp;#39;t follow me ",
+      "offset": 278.978,
+      "duration": 2.202
+    },
+    {
+      "text": "into cover and got distracted by a brightly-coloured skirting board, ",
+      "offset": 281.18,
+      "duration": 2.636
+    },
+    {
+      "text": "but between protecting her and yourself and keeping an eye on the ",
+      "offset": 283.816,
+      "duration": 2.536
+    },
+    {
+      "text": "enemies and weapon switching and those lovely immersive reloads ",
+      "offset": 286.352,
+      "duration": 3.037
+    },
+    {
+      "text": "where you unconsciously hip thrust every time you snap your ",
+      "offset": 289.389,
+      "duration": 1.902
+    },
+    {
+      "text": "revolver shut, you have yourself a pretty engaging night in VR ",
+      "offset": 291.291,
+      "duration": 3.003
+    },
+    {
+      "text": "shooter town, my friend. There&amp;#39;s still all those fucking quick time ",
+      "offset": 294.294,
+      "duration": 2.736
+    },
+    {
+      "text": "events that RE4 indulged back before we realised QTEs are to ",
+      "offset": 297.03,
+      "duration": 3.103
+    },
+    {
+      "text": "game design what a turd in a pencilcase is to a beef wellington, ",
+      "offset": 300.133,
+      "duration": 2.769
+    },
+    {
+      "text": "but they&amp;#39;ve been slowed down with an obvious sound cue to make ",
+      "offset": 302.902,
+      "duration": 2.236
+    },
+    {
+      "text": "them less annoying. The least annoying thing would&amp;#39;ve been to ",
+      "offset": 305.138,
+      "duration": 2.035
+    },
+    {
+      "text": "remove them altogether but it&amp;#39;s important we remember our ",
+      "offset": 307.173,
+      "duration": 1.935
+    },
+    {
+      "text": "mistakes, and if one of my favourite games has to be branded on ",
+      "offset": 309.108,
+      "duration": 2.903
+    },
+    {
+      "text": "the forehead with a scarlet Q for all time then I&amp;#39;m in favour if it&amp;#39;ll ",
+      "offset": 312.011,
+      "duration": 3.237
+    },
+    {
+      "text": "stop its descendants from dicking about. In brief, a good game on a ",
+      "offset": 315.248,
+      "duration": 2.903
+    },
+    {
+      "text": "decent bit of tech, but with the wireless thing cracked here are my ",
+      "offset": 318.151,
+      "duration": 2.636
+    },
+    {
+      "text": "next points for VR to work on: keep getting smaller and lighter so it ",
+      "offset": 320.787,
+      "duration": 3.036
+    },
+    {
+      "text": "doesn&amp;#39;t hang uncomfortably off my face like a pair of 80s ",
+      "offset": 323.823,
+      "duration": 2.169
+    },
+    {
+      "text": "sunglasses made from depleted uranium, and think about weaning ",
+      "offset": 325.992,
+      "duration": 2.569
+    },
+    {
+      "text": "yourself off the corporate dicksucking. How about we start by ",
+      "offset": 328.561,
+      "duration": 2.669
+    },
+    {
+      "text": "cutting back to five bellends a week? Yes, fine, you can deepthroat ",
+      "offset": 331.23,
+      "duration": 2.903
+    },
+    {
+      "text": "on cheat day.",
+      "offset": 334.133,
+      "duration": 1.068
+    },
+    {
+      "text": "*OUTRO MUSIC",
+      "offset": 335.201,
+      "duration": 18.652
+    },
+    {
+      "text": "This video was made possible by...",
+      "offset": 353.853,
+      "duration": 4.505
+    },
+    {
+      "text": "Check out some other content here.",
+      "offset": 358.358,
+      "duration": 9.609
+    }
+  ],
+  "fetchedAt": "2025-12-14T10:21:57.486Z"
+}

@@ -1,0 +1,653 @@
+{
+  "video": {
+    "id": "gEvXNwCsRSg",
+    "title": "The Weird Story of \"Bob's Game\" (Zero Punctuation)",
+    "url": "https://youtu.be/gEvXNwCsRSg",
+    "duration": 381,
+    "playlistId": "PLAbMhAYRuCUhawCEV2oXZGrienoKTN16X",
+    "playlistTitle": "Zero Punctuation"
+  },
+  "captions": [
+    {
+      "text": "*INTRO MUSIC*",
+      "offset": 0,
+      "duration": 12.012
+    },
+    {
+      "text": "Let&amp;#39;s all laugh at an industry\nthat never learned anything, tee-hee hee",
+      "offset": 12.012,
+      "duration": 4.17
+    },
+    {
+      "text": "The greatest experiences in life are\nhad by yourself. A serene walk upon",
+      "offset": 16.182,
+      "duration": 3.37
+    },
+    {
+      "text": "a grassy hillside. A cold drink at the\nend of a long day. And of course the",
+      "offset": 19.552,
+      "duration": 2.903
+    },
+    {
+      "text": "vile thing you&amp;#39;re thinking of that\ndecency prevents me from spelling ",
+      "offset": 22.455,
+      "duration": 2.369
+    },
+    {
+      "text": "out. But speaking of ropey cum\nblasts, for our newest episode of",
+      "offset": 24.824,
+      "duration": 2.703
+    },
+    {
+      "text": "the Zero Punctuation occasional\nguide to whoops we don&amp;#39;t say that ",
+      "offset": 27.527,
+      "duration": 2.069
+    },
+    {
+      "text": "anymore moments in gaming\nhistory, we turn to the world of solo ",
+      "offset": 29.596,
+      "duration": 2.469
+    },
+    {
+      "text": "developed indie games. It&amp;#39;s a world\nof contrasts: for every Undertale or ",
+      "offset": 32.065,
+      "duration": 3.303
+    },
+    {
+      "text": "Stardew Valley there&amp;#39;s a Yandere \nSimulator standing behind them ",
+      "offset": 35.368,
+      "duration": 2.469
+    },
+    {
+      "text": "breathing loudly through its mouth. \nBut at least you can be assured of a ",
+      "offset": 37.837,
+      "duration": 2.403
+    },
+    {
+      "text": "purity of vision, suspect and\nweebish and slightly humiliating to ",
+      "offset": 40.24,
+      "duration": 3.203
+    },
+    {
+      "text": "bring up in mixed company though\nit may be, and they provide an ",
+      "offset": 43.443,
+      "duration": 2.469
+    },
+    {
+      "text": "unmatched insight into the mind\nand perceptions of an auteur. Of",
+      "offset": 45.912,
+      "duration": 2.769
+    },
+    {
+      "text": "course, for that to work, there\nactually has to be a video game to",
+      "offset": 48.681,
+      "duration": 2.703
+    },
+    {
+      "text": "deliver that message, and that was\nthe sticking point for today&amp;#39;s",
+      "offset": 51.384,
+      "duration": 2.202
+    },
+    {
+      "text": "subject: a game by someone named\nBob called Bob&amp;#39;s Game. There&amp;#39;s that",
+      "offset": 53.586,
+      "duration": 3.737
+    },
+    {
+      "text": "purity of artistic vision I was talking \nabout.",
+      "offset": 57.323,
+      "duration": 1.869
+    },
+    {
+      "text": "THE BALLAD OF BOB&amp;#39;S GAME",
+      "offset": 59.192,
+      "duration": 1.768
+    },
+    {
+      "text": "In August 2008, the president of\nMauritania was deposed in a",
+      "offset": 60.96,
+      "duration": 2.736
+    },
+    {
+      "text": "military coup, eleven mountaineers\ndied in the K2 disaster, and then",
+      "offset": 63.696,
+      "duration": 3.337
+    },
+    {
+      "text": "something really tragic happened.\nSome dude called Robert Pelloni ",
+      "offset": 67.033,
+      "duration": 2.603
+    },
+    {
+      "text": "released a trailer for the 16-bit style\npixel art RPG he claimed to have ",
+      "offset": 69.636,
+      "duration": 2.869
+    },
+    {
+      "text": "been working on for the last five\nyears and had just about finished.  ",
+      "offset": 72.505,
+      "duration": 2.536
+    },
+    {
+      "text": "And the response worldwide was a\nresounding &amp;quot;Okay.&amp;quot; Literally titled ",
+      "offset": 75.041,
+      "duration": 3.57
+    },
+    {
+      "text": "Bob&amp;#39;s Game and looking about as\ngood as one could expect from a",
+      "offset": 78.611,
+      "duration": 2.369
+    },
+    {
+      "text": "game whose lead artist, when the\nproject started, just about knew",
+      "offset": 80.98,
+      "duration": 2.503
+    },
+    {
+      "text": "how to draw the curtains, the\nresponse was generally positive and",
+      "offset": 83.483,
+      "duration": 2.569
+    },
+    {
+      "text": "the trailer clocked 100k views.\nWhich these days is worth about",
+      "offset": 86.052,
+      "duration": 2.536
+    },
+    {
+      "text": "half a McDonalds sandwich but was\na minor phenomenon in 2008 ",
+      "offset": 88.588,
+      "duration": 2.936
+    },
+    {
+      "text": "Youtube dollars. It had its charms \nand viewers expressed an interest ",
+      "offset": 91.524,
+      "duration": 2.803
+    },
+    {
+      "text": "in playing, even while it wasn&amp;#39;t\nentirely clear what the game was",
+      "offset": 94.327,
+      "duration": 2.336
+    },
+    {
+      "text": "even about or why the creator was\ngrandstanding so much about it",
+      "offset": 96.663,
+      "duration": 2.602
+    },
+    {
+      "text": "being a solo project when the solo-\ncreated Cave Story that basically",
+      "offset": 99.265,
+      "duration": 3.17
+    },
+    {
+      "text": "codified the modern concept of PC \nindie games had eaten that ",
+      "offset": 102.435,
+      "duration": 2.67
+    },
+    {
+      "text": "particular lunch years ago. But in \nthe mind of its creator, Bob&amp;#39;s Game",
+      "offset": 105.105,
+      "duration": 2.969
+    },
+    {
+      "text": "was so much more than a pixellated \ndistraction any halfway competent",
+      "offset": 108.074,
+      "duration": 2.503
+    },
+    {
+      "text": "RPG Maker user could&amp;#39;ve farted out \nin a month - Bob&amp;#39;s Game was a",
+      "offset": 110.577,
+      "duration": 2.903
+    },
+    {
+      "text": "vision. One to which only one \nplatform could do proper justice,",
+      "offset": 113.48,
+      "duration": 2.802
+    },
+    {
+      "text": "and that was a Nintendo handheld. \nSo he eschewed the small",
+      "offset": 116.282,
+      "duration": 2.603
+    },
+    {
+      "text": "publishers that expressed interest\nand applied for an official Nintendo",
+      "offset": 118.885,
+      "duration": 2.769
+    },
+    {
+      "text": "DS development kit. Now, Nintendo \nis a big company with a lot on their",
+      "offset": 121.654,
+      "duration": 2.87
+    },
+    {
+      "text": "plate between making Mario \npencilcases and removing Princess",
+      "offset": 124.524,
+      "duration": 2.669
+    },
+    {
+      "text": "Peach panty shots from Smash \nBros, so they did with Pelloni&amp;#39;s ",
+      "offset": 127.193,
+      "duration": 2.436
+    },
+    {
+      "text": "application what they presumably \ndo with any correspondence from",
+      "offset": 129.629,
+      "duration": 2.469
+    },
+    {
+      "text": "wide-eyed random no-name twats: \nshunted it to the end of the priority",
+      "offset": 132.098,
+      "duration": 2.903
+    },
+    {
+      "text": "list between trimming Donkey \nKong&amp;#39;s eyelashes and designing a",
+      "offset": 135.001,
+      "duration": 2.402
+    },
+    {
+      "text": "controller that doesn&amp;#39;t suck. And \nthis is where the story of Bob&amp;#39;s",
+      "offset": 137.403,
+      "duration": 2.503
+    },
+    {
+      "text": "Game takes its whoops we don&amp;#39;t \nsay that anymore turn. You might",
+      "offset": 139.906,
+      "duration": 2.436
+    },
+    {
+      "text": "charitably say that Robert Pelloni \nwas one of those people who had",
+      "offset": 142.342,
+      "duration": 2.536
+    },
+    {
+      "text": "little time for the world outside his \nown mind. I might less charitably",
+      "offset": 144.878,
+      "duration": 3.003
+    },
+    {
+      "text": "say he had his head so far up his \narse he was getting teabagged by",
+      "offset": 147.881,
+      "duration": 2.769
+    },
+    {
+      "text": "his own gallbladder. And he didn&amp;#39;t \nseem to understand that the",
+      "offset": 150.65,
+      "duration": 2.169
+    },
+    {
+      "text": "game&amp;#39;s significance within his own \nlife didn&amp;#39;t translate into significance",
+      "offset": 152.819,
+      "duration": 2.803
+    },
+    {
+      "text": "to anyone else. As the wait for \nNintendo&amp;#39;s response stretched into",
+      "offset": 155.622,
+      "duration": 2.669
+    },
+    {
+      "text": "months, Bob decided this was some \nconspiracy or deliberate snub",
+      "offset": 158.291,
+      "duration": 2.97
+    },
+    {
+      "text": "rather than, say, Nintendo having \nliterally anything better to do, and",
+      "offset": 161.261,
+      "duration": 2.903
+    },
+    {
+      "text": "so he declared that until they \nacknowledged the game he&amp;#39;d",
+      "offset": 164.164,
+      "duration": 1.935
+    },
+    {
+      "text": "sequestered for five years to make, \nhe would publicly protest by",
+      "offset": 166.099,
+      "duration": 2.969
+    },
+    {
+      "text": "sequestering some more. Now with \na webcam on him and with the",
+      "offset": 169.068,
+      "duration": 2.67
+    },
+    {
+      "text": "doors locked for a hundred days. \nThis was successful in that it made ",
+      "offset": 171.738,
+      "duration": 2.702
+    },
+    {
+      "text": "him famous amid that sector of the \ninternet that loves to encourage",
+      "offset": 174.44,
+      "duration": 2.536
+    },
+    {
+      "text": "weirdos, especially as he posted a \nseries of increasingly deranged blog",
+      "offset": 176.976,
+      "duration": 3.237
+    },
+    {
+      "text": "posts declaring himself the greatest \ngame designer who ever lived and",
+      "offset": 180.213,
+      "duration": 2.736
+    },
+    {
+      "text": "accusing Nintendo, multibillion \ndollar company and controller of",
+      "offset": 182.949,
+      "duration": 2.669
+    },
+    {
+      "text": "many of gaming&amp;#39;s best known IPs, \nof being jealous of him, penniless",
+      "offset": 185.618,
+      "duration": 3.304
+    },
+    {
+      "text": "suburban twat. Exactly how much \none should read into all this is",
+      "offset": 188.922,
+      "duration": 2.535
+    },
+    {
+      "text": "debatable as after the thirtieth day \nof his protest when he appeared to",
+      "offset": 191.457,
+      "duration": 2.67
+    },
+    {
+      "text": "be lying motionless in a ransacked \nbedroom, he claimed to both the",
+      "offset": 194.127,
+      "duration": 2.869
+    },
+    {
+      "text": "internet and the nice helpful police \nofficer that broke down his door",
+      "offset": 196.996,
+      "duration": 2.636
+    },
+    {
+      "text": "that it was all pretend. The protest \nand insane blog posts had been a",
+      "offset": 199.632,
+      "duration": 2.77
+    },
+    {
+      "text": "viral marketing campaign that we&amp;#39;d \nall fallen for like the credulous",
+      "offset": 202.402,
+      "duration": 2.869
+    },
+    {
+      "text": "normal-brained people we were. To \nwhich the internet responded with",
+      "offset": 205.271,
+      "duration": 2.603
+    },
+    {
+      "text": "a resounding &amp;quot;Okay.&amp;quot; Not long\nafterwards Nintendo glanced up",
+      "offset": 207.874,
+      "duration": 3.07
+    },
+    {
+      "text": "from its money sandwich to rattle \nhim off their standard form letter",
+      "offset": 210.944,
+      "duration": 2.636
+    },
+    {
+      "text": "saying no you can&amp;#39;t have a dev kit, \nobviously, because you&amp;#39;re clearly",
+      "offset": 213.58,
+      "duration": 2.769
+    },
+    {
+      "text": "not a professional studio, you&amp;#39;re a \nnutter with a broken desk. But",
+      "offset": 216.349,
+      "duration": 2.736
+    },
+    {
+      "text": "then, just as we were ready to \nrelease the sarcastic intake of",
+      "offset": 219.085,
+      "duration": 2.569
+    },
+    {
+      "text": "breath we&amp;#39;d all made when the \nprotest began, Bob released a",
+      "offset": 221.654,
+      "duration": 2.336
+    },
+    {
+      "text": "playable demo of Bob&amp;#39;s Game. It \nwas only playable on an DS/GBA",
+      "offset": 223.99,
+      "duration": 3.904
+    },
+    {
+      "text": "emulator because Bob was \nabsolutely committed to not giving ",
+      "offset": 227.894,
+      "duration": 2.536
+    },
+    {
+      "text": "it a fucking rest with that shit, but \nplayable it was. And it was... a bit",
+      "offset": 230.43,
+      "duration": 3.57
+    },
+    {
+      "text": "lame. It was a retro RPG about \nsome twat in the suburbs",
+      "offset": 234,
+      "duration": 2.769
+    },
+    {
+      "text": "apparently written by someone \nwho was processing a few things",
+      "offset": 236.769,
+      "duration": 1.902
+    },
+    {
+      "text": "from their childhood, broken up by \noverlong minigames of Tetris and",
+      "offset": 238.671,
+      "duration": 2.77
+    },
+    {
+      "text": "Pong. Some people saw charm in it. \nI mean, from the way Bob had been",
+      "offset": 241.441,
+      "duration": 2.636
+    },
+    {
+      "text": "going on we were expecting \nsomething that handed out",
+      "offset": 244.077,
+      "duration": 1.768
+    },
+    {
+      "text": "printable blowjob coupons or at \nleast didn&amp;#39;t look like half the art",
+      "offset": 245.845,
+      "duration": 2.669
+    },
+    {
+      "text": "credit should go to the MS Paint \nstraight line tool. But interest in the",
+      "offset": 248.514,
+      "duration": 2.837
+    },
+    {
+      "text": "full release was partially renewed. \nShame then that this was the last ",
+      "offset": 251.351,
+      "duration": 2.836
+    },
+    {
+      "text": "anyone saw or heard of Bob&amp;#39;s Game \nthe RPG until two years later when",
+      "offset": 254.187,
+      "duration": 3.67
+    },
+    {
+      "text": "Bob announced that Bob&amp;#39;s Game \nwould be the launch and as far as",
+      "offset": 257.857,
+      "duration": 2.136
+    },
+    {
+      "text": "anyone knew ONLY title for a new \nhandheld he had invented. Nothing",
+      "offset": 259.993,
+      "duration": 3.67
+    },
+    {
+      "text": "came of that, apparently \nmanufacturing his own hardware ",
+      "offset": 263.663,
+      "duration": 2.135
+    },
+    {
+      "text": "line wasn&amp;#39;t the reasonable solution \nit had seemed like back when he&amp;#39;d",
+      "offset": 265.798,
+      "duration": 2.536
+    },
+    {
+      "text": "been slamming barbiturates on \nOpposite Day. So another two years",
+      "offset": 268.334,
+      "duration": 3.103
+    },
+    {
+      "text": "later he discovered Kickstarter, the \neternal promised land of the",
+      "offset": 271.437,
+      "duration": 2.87
+    },
+    {
+      "text": "overhyped vaporware-peddling \nmaniac, and successfully",
+      "offset": 274.307,
+      "duration": 2.569
+    },
+    {
+      "text": "campaigned for 10,000 bucks to \nbuild a custom van from which he",
+      "offset": 276.876,
+      "duration": 2.669
+    },
+    {
+      "text": "could both finish the game and \nsolve the mystery of the haunted",
+      "offset": 279.545,
+      "duration": 2.536
+    },
+    {
+      "text": "amusement park. The kickstarter \npage is still online, and you can go",
+      "offset": 282.081,
+      "duration": 2.67
+    },
+    {
+      "text": "there to read Bob describing his \ngame as, quote, &amp;quot;a tour de force",
+      "offset": 284.751,
+      "duration": 2.769
+    },
+    {
+      "text": "masterpiece ... written by a self-\ntaught genius prophet&amp;quot; and &amp;quot;a new",
+      "offset": 287.52,
+      "duration": 3.47
+    },
+    {
+      "text": "religion for the modern world&amp;quot;, just \nin case you were worried the whole",
+      "offset": 290.99,
+      "duration": 2.67
+    },
+    {
+      "text": "van idea sounded \nuncharacteristically sane. Anyway,",
+      "offset": 293.66,
+      "duration": 2.669
+    },
+    {
+      "text": "the kickstarter succeeded, \nwhereupon Bob sheepishly",
+      "offset": 296.329,
+      "duration": 1.902
+    },
+    {
+      "text": "announced he was packing the \nwhole thing in and giving the",
+      "offset": 298.231,
+      "duration": 1.768
+    },
+    {
+      "text": "money back before his game \naccidentally caused the rapture or",
+      "offset": 299.999,
+      "duration": 2.503
+    },
+    {
+      "text": "whatever he was on about. To \nwhich the internet responded with",
+      "offset": 302.502,
+      "duration": 2.002
+    },
+    {
+      "text": "a resounding &amp;quot;Sorry, who&amp;#39;s Bob \nagain?&amp;quot;",
+      "offset": 304.504,
+      "duration": 1.902
+    },
+    {
+      "text": "THE LESSONS NOBODY LEARNED",
+      "offset": 306.406,
+      "duration": 1.735
+    },
+    {
+      "text": "There are countless tales of \noverpromising devs who couldn&amp;#39;t",
+      "offset": 308.141,
+      "duration": 2.435
+    },
+    {
+      "text": "deliver. What made the saga of Bob \nso trainwreck fascinating is that he",
+      "offset": 310.576,
+      "duration": 3.17
+    },
+    {
+      "text": "could have delivered. He had talent \nand drive and a mostly finished",
+      "offset": 313.746,
+      "duration": 2.97
+    },
+    {
+      "text": "product that clearly resonated with \npeople. But fatally he also had an",
+      "offset": 316.716,
+      "duration": 3.17
+    },
+    {
+      "text": "ego like a crashing blimp at a \nwedding photoshoot. If you go to",
+      "offset": 319.886,
+      "duration": 2.702
+    },
+    {
+      "text": "his site now all you&amp;#39;ll find is some \nweird rambling about believing in",
+      "offset": 322.588,
+      "duration": 2.77
+    },
+    {
+      "text": "Jesus so one might say the main \nlesson from this is don&amp;#39;t be a",
+      "offset": 325.358,
+      "duration": 2.536
+    },
+    {
+      "text": "Cadbury&amp;#39;s Fruit and Nutcase, but \nthere is another important moral:",
+      "offset": 327.894,
+      "duration": 2.869
+    },
+    {
+      "text": "never put too much of yourself into \none creation. One shitty released",
+      "offset": 330.763,
+      "duration": 3.737
+    },
+    {
+      "text": "game is worth more than an infinite \nnumber of unfinished career-",
+      "offset": 334.5,
+      "duration": 2.77
+    },
+    {
+      "text": "defining masterpieces. And if you \nwant to be a creative but refuse to",
+      "offset": 337.27,
+      "duration": 2.769
+    },
+    {
+      "text": "work within the established \nsystems out of fear of ",
+      "offset": 340.039,
+      "duration": 2.102
+    },
+    {
+      "text": "compromising your perfect artistic \nvision, then there&amp;#39;s only one thing",
+      "offset": 342.141,
+      "duration": 2.803
+    },
+    {
+      "text": "to be said to you: yes, I would like \nfries with that.",
+      "offset": 344.944,
+      "duration": 2.703
+    },
+    {
+      "text": "*OUTRO MUSIC*",
+      "offset": 347.647,
+      "duration": 19.086
+    },
+    {
+      "text": "This video was made possible by...",
+      "offset": 366.733,
+      "duration": 4.604
+    },
+    {
+      "text": "Closed Captions by @willcblogs",
+      "offset": 371.337,
+      "duration": 9.243
+    }
+  ],
+  "fetchedAt": "2025-12-14T10:21:09.058Z"
+}

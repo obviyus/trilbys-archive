@@ -1,0 +1,533 @@
+{
+  "video": {
+    "id": "jIv0qTb-RPA",
+    "title": "Revisiting No Man's Sky (Zero Punctuation)",
+    "url": "https://youtu.be/jIv0qTb-RPA",
+    "duration": 336,
+    "playlistId": "PLAbMhAYRuCUhawCEV2oXZGrienoKTN16X",
+    "playlistTitle": "Zero Punctuation"
+  },
+  "captions": [
+    {
+      "text": "*INTRO MUSIC*",
+      "offset": 0,
+      "duration": 11.978
+    },
+    {
+      "text": "Every week for a while now I go to Nick\nthe editor and say &amp;quot;Have we got any ",
+      "offset": 11.978,
+      "duration": 3.003
+    },
+    {
+      "text": "new review codes worth looking at?&amp;quot; \nand Nick replies &amp;quot;Please stop resting  ",
+      "offset": 14.981,
+      "duration": 2.97
+    },
+    {
+      "text": "your cock on my shoulder.&amp;quot; He then \nadds, &amp;quot;Here&amp;#39;s an idea, have you ",
+      "offset": 17.951,
+      "duration": 2.502
+    },
+    {
+      "text": "thought about re-reviewing No Man&amp;#39;s \nSky? People keep asking you to now it&amp;#39;s  ",
+      "offset": 20.453,
+      "duration": 3.137
+    },
+    {
+      "text": "been patched into serviceability like a \nsheep with two robot legs.&amp;quot; And I say ",
+      "offset": 23.59,
+      "duration": 3.136
+    },
+    {
+      "text": "&amp;quot;What? Go back to a game I&amp;#39;ve already \nreviewed? What is this, Eyes Wide ",
+      "offset": 26.726,
+      "duration": 2.803
+    },
+    {
+      "text": "Shut? Maybe while I&amp;#39;m at it I should \nstick a disabled war veteran&amp;#39;s ",
+      "offset": 29.529,
+      "duration": 2.569
+    },
+    {
+      "text": "prosthetic hand up my arse and use \nthat to type.&amp;quot; But by all accounts, the ",
+      "offset": 32.098,
+      "duration": 3.17
+    },
+    {
+      "text": "No Man&amp;#39;s Sky of today is a very \ndifferent beast to the partially ",
+      "offset": 35.268,
+      "duration": 2.336
+    },
+    {
+      "text": "developed foetus that plopped out on \nlaunch day like a mostly dead mouse ",
+      "offset": 37.604,
+      "duration": 2.702
+    },
+    {
+      "text": "from the mouth of an unduly pleased \nwith itself cat. &amp;quot;Oh, that was mostly the ",
+      "offset": 40.306,
+      "duration": 2.703
+    },
+    {
+      "text": "publisher&amp;#39;s fault, Yahtz.&amp;quot; Yeah, heard \nthat one before. Fuckin&amp;#39; number one ",
+      "offset": 43.009,
+      "duration": 3.037
+    },
+    {
+      "text": "go-to developer excuse, that one, \nright up there with &amp;quot;Well it was working  ",
+      "offset": 46.046,
+      "duration": 2.802
+    },
+    {
+      "text": "before Windows updated.&amp;quot; But \nnevertheless I gave it a go, and after it  ",
+      "offset": 48.848,
+      "duration": 2.77
+    },
+    {
+      "text": "drew me in for most of the week, I have \nto admit, there has been a significant  ",
+      "offset": 51.618,
+      "duration": 2.602
+    },
+    {
+      "text": "unfuckupening. It&amp;#39;s got a third person \ncamera now, for one thing, that&amp;#39;s a big ",
+      "offset": 54.22,
+      "duration": 3.504
+    },
+    {
+      "text": "tick. 200% more buttocks flapping \naround at any given moment. No Man&amp;#39;s  ",
+      "offset": 57.724,
+      "duration": 3.27
+    },
+    {
+      "text": "Sky by &amp;quot;Hello, games!&amp;quot; is a crafting \nsurvival exploration space shooter ",
+      "offset": 60.994,
+      "duration": 3.236
+    },
+    {
+      "text": "with an infinite procedural universe \nwhere you can go from interstellar  ",
+      "offset": 64.23,
+      "duration": 2.203
+    },
+    {
+      "text": "flight to waddling about with your \ntrousers down looking for the least  ",
+      "offset": 66.433,
+      "duration": 2.168
+    },
+    {
+      "text": "classy-looking bush in a meadow with \nseamless transitions all the way, and  ",
+      "offset": 68.601,
+      "duration": 3.204
+    },
+    {
+      "text": "obviously that&amp;#39;s so massive in scope it&amp;#39;s \ngoing to bring down the entire  ",
+      "offset": 71.805,
+      "duration": 2.602
+    },
+    {
+      "text": "mouthwash industry. So perhaps a little \nwobbliness was understandable when  ",
+      "offset": 74.407,
+      "duration": 2.87
+    },
+    {
+      "text": "we loaded down a newborn baby with \na rucksack full of expectations and  ",
+      "offset": 77.277,
+      "duration": 2.769
+    },
+    {
+      "text": "demanded it take its first step. But let&amp;#39;s \ndo this properly. Let&amp;#39;s go over the",
+      "offset": 80.046,
+      "duration": 2.903
+    },
+    {
+      "text": "points I made in my first review of No \nMore Skeroes back in 2016 and see if ",
+      "offset": 82.949,
+      "duration": 3.437
+    },
+    {
+      "text": "they&amp;#39;ve been addressed. Alright, scroll, \nscroll, snarky opening, clumsy analogy,  ",
+      "offset": 86.386,
+      "duration": 3.637
+    },
+    {
+      "text": "ah: &amp;quot;The thing about exploration, my \nlittle pubic louse, is that the appeal lies  ",
+      "offset": 90.023,
+      "duration": 3.67
+    },
+    {
+      "text": "in the finding. You can explore a sheet \nof blank printer paper for an ",
+      "offset": 93.693,
+      "duration": 3.27
+    },
+    {
+      "text": "afternoon, but it wouldn&amp;#39;t exactly \nstimulate. There&amp;#39;s nothing to find in No ",
+      "offset": 96.963,
+      "duration": 3.103
+    },
+    {
+      "text": "Man&amp;#39;s Sky you can&amp;#39;t find in about five \nhundred million other places.&amp;quot; Now this  ",
+      "offset": 100.066,
+      "duration": 3.303
+    },
+    {
+      "text": "is the eternal sticking point of \nprocedurally generated infinity. You ",
+      "offset": 103.369,
+      "duration": 2.737
+    },
+    {
+      "text": "can mash copy paste an infinite \nnumber of times but you only have a ",
+      "offset": 106.106,
+      "duration": 2.435
+    },
+    {
+      "text": "finite number of assets and different \narrangements to draw from, so your ",
+      "offset": 108.541,
+      "duration": 2.903
+    },
+    {
+      "text": "infinite universe is going to start \ngetting pretty fucking samey after  ",
+      "offset": 111.444,
+      "duration": 2.503
+    },
+    {
+      "text": "planet three thousand and two. One of \nthe completionist activities available is  ",
+      "offset": 113.947,
+      "duration": 3.036
+    },
+    {
+      "text": "surveying planets, scanning all the \ndifferent life forms and uploading the ",
+      "offset": 116.983,
+      "duration": 2.703
+    },
+    {
+      "text": "pictures to teen gossip magazines. \nAnd it&amp;#39;s hard to feel motivated to do ",
+      "offset": 119.686,
+      "duration": 2.969
+    },
+    {
+      "text": "that when you finish the checklist and \nthe game goes &amp;quot;Well that&amp;#39;s one down, ",
+      "offset": 122.655,
+      "duration": 2.67
+    },
+    {
+      "text": "infinity percent to go.&amp;quot; After a while \nevery planet&amp;#39;s the same rolling hills  ",
+      "offset": 125.325,
+      "duration": 3.403
+    },
+    {
+      "text": "broken up with a squiggly plant every \nfew yards and an IKEA flatpacked  ",
+      "offset": 128.728,
+      "duration": 3.103
+    },
+    {
+      "text": "alien base every few miles. But here&amp;#39;s \nthe thing: there&amp;#39;s no reason to explore  ",
+      "offset": 131.831,
+      "duration": 3.07
+    },
+    {
+      "text": "the galaxy, but the game doesn&amp;#39;t seem \nto be asking you to anymore. I played ",
+      "offset": 134.901,
+      "duration": 3.07
+    },
+    {
+      "text": "for like thirty hours and by the end I \nwas still in my starting star system.  ",
+      "offset": 137.971,
+      "duration": 3.17
+    },
+    {
+      "text": "Because that&amp;#39;s where my base was and \nevery crafting resource was available ",
+      "offset": 141.141,
+      "duration": 2.736
+    },
+    {
+      "text": "in it or a neighbouring one. See, \nanother thing I said in 2016 was: &amp;quot;The  ",
+      "offset": 143.877,
+      "duration": 3.436
+    },
+    {
+      "text": "main question for me was what the hell \nI was supposed to be progressing ",
+      "offset": 147.313,
+      "duration": 2.303
+    },
+    {
+      "text": "towards&amp;quot; and it&amp;#39;s in the area of player \nprogress that a lot of. Erm. Progress ",
+      "offset": 149.616,
+      "duration": 4.104
+    },
+    {
+      "text": "has been made. There&amp;#39;s a story \ncampaign that you&amp;#39;re doing all this ",
+      "offset": 153.72,
+      "duration": 2.135
+    },
+    {
+      "text": "crafting and planet exploring to \nadvance in, sort of like how Subnautica ",
+      "offset": 155.855,
+      "duration": 2.936
+    },
+    {
+      "text": "works but procedural. So every time \nyou need to go to a specific character  ",
+      "offset": 158.791,
+      "duration": 2.77
+    },
+    {
+      "text": "or facility for the plot the game \nrandomly spawns them on or near the  ",
+      "offset": 161.561,
+      "duration": 2.836
+    },
+    {
+      "text": "planet you&amp;#39;re already on and says &amp;quot;This \nwas here the whole time!&amp;quot; while  ",
+      "offset": 164.397,
+      "duration": 2.836
+    },
+    {
+      "text": "coughing and refusing to make eye \ncontact. One might reasonably ask at  ",
+      "offset": 167.233,
+      "duration": 2.603
+    },
+    {
+      "text": "this point why there needs to be an \ninfinite explorable universe at all if you  ",
+      "offset": 169.836,
+      "duration": 3.003
+    },
+    {
+      "text": "can get everything done inside one \nconservatively sized cosmic cul-de-sac",
+      "offset": 172.839,
+      "duration": 3.303
+    },
+    {
+      "text": "as long as the home owner&amp;#39;s \nassociation&amp;#39;s on board, but I guess it ",
+      "offset": 176.142,
+      "duration": 2.302
+    },
+    {
+      "text": "would be the same without it. I don&amp;#39;t \nparticularly want to travel eight trillion ",
+      "offset": 178.444,
+      "duration": 3.137
+    },
+    {
+      "text": "light years to explore a new planet \nwith emerald green rocks rather than  ",
+      "offset": 181.581,
+      "duration": 2.869
+    },
+    {
+      "text": "chartreuse, but it&amp;#39;s nice to know that I \ncould, if I ever get really bored or the ",
+      "offset": 184.45,
+      "duration": 3.537
+    },
+    {
+      "text": "lumpy land mammals that hang out \nnear my base start putting up Trump ",
+      "offset": 187.987,
+      "duration": 2.636
+    },
+    {
+      "text": "election flags. It&amp;#39;s like how people \nmainly solo play World of Warcraft but  ",
+      "offset": 190.623,
+      "duration": 3.07
+    },
+    {
+      "text": "still want to do it online amid other \nplayers because there&amp;#39;s no point in ",
+      "offset": 193.693,
+      "duration": 2.836
+    },
+    {
+      "text": "being a cool lone wolf if no one can \nsee you do it. And staying on one ",
+      "offset": 196.529,
+      "duration": 3.303
+    },
+    {
+      "text": "planet to build a one to one replica of \nSt. Peter&amp;#39;s Basilica is made all the more ",
+      "offset": 199.832,
+      "duration": 3.204
+    },
+    {
+      "text": "special when there&amp;#39;s three thousand \ntrillion empty planets you didn&amp;#39;t do it  ",
+      "offset": 203.036,
+      "duration": 2.869
+    },
+    {
+      "text": "on. Speaking of online multiplayer, \nthat&amp;#39;s another area in which No ",
+      "offset": 205.905,
+      "duration": 2.67
+    },
+    {
+      "text": "Woman No Cry has made up for the \noriginal version which was about as ",
+      "offset": 208.575,
+      "duration": 2.636
+    },
+    {
+      "text": "communal an experience as picking \nyour nose. Now there&amp;#39;s a dimension ",
+      "offset": 211.211,
+      "duration": 2.802
+    },
+    {
+      "text": "hopping space station tardis thing you \ncan visit at any time where other ",
+      "offset": 214.013,
+      "duration": 3.003
+    },
+    {
+      "text": "players hang out and you can join \nthem on communal missions if you ",
+      "offset": 217.016,
+      "duration": 2.336
+    },
+    {
+      "text": "happen to give a flying antimatter \npowered intergalactic fuck. But it was ",
+      "offset": 219.352,
+      "duration": 4.104
+    },
+    {
+      "text": "nice to see them and look at how many \nof them had gotten hold of ships other ",
+      "offset": 223.456,
+      "duration": 2.503
+    },
+    {
+      "text": "than the default model so I could \nsee the quietly in resentment about it. ",
+      "offset": 225.959,
+      "duration": 2.902
+    },
+    {
+      "text": "The communal hub is also where you \ngo to buy base blueprints and  ",
+      "offset": 228.861,
+      "duration": 2.336
+    },
+    {
+      "text": "progress the path of the plot \nperiodically, so it&amp;#39;s the playground  ",
+      "offset": 231.197,
+      "duration": 2.069
+    },
+    {
+      "text": "where all the various paths one can \ntake intersect, whether you&amp;#39;re one of",
+      "offset": 233.266,
+      "duration": 2.669
+    },
+    {
+      "text": "the story campaign kids trying to read \na book, the base building kids putting ",
+      "offset": 235.935,
+      "duration": 2.87
+    },
+    {
+      "text": "together the Legos in the corner or the \nmultiplayer kids running around trying ",
+      "offset": 238.805,
+      "duration": 2.803
+    },
+    {
+      "text": "to push each other into the girls&amp;#39; \ntoilets. Speaking for myself, I&amp;#39;m a story ",
+      "offset": 241.608,
+      "duration": 3.003
+    },
+    {
+      "text": "campaign kid, and on that front No \nMoney No Honey has absolutely ",
+      "offset": 244.611,
+      "duration": 2.869
+    },
+    {
+      "text": "delivered. It now, undeniably, has a \nstory campaign. It&amp;#39;s not very GOOD,",
+      "offset": 247.48,
+      "duration": 4.071
+    },
+    {
+      "text": "but it&amp;#39;s there. I kinda stopped paying \nattention to it around the seventeenth ",
+      "offset": 251.551,
+      "duration": 2.769
+    },
+    {
+      "text": "time it told me to go to a random \noutside toilet on the other side of the ",
+      "offset": 254.32,
+      "duration": 2.569
+    },
+    {
+      "text": "planet and slap the nearest computer \nuntil some text fell out. But the thing is,",
+      "offset": 256.889,
+      "duration": 3.204
+    },
+    {
+      "text": "No Hard Feelings was always an easy \nconcept to market. That&amp;#39;s why it was ",
+      "offset": 260.093,
+      "duration": 3.103
+    },
+    {
+      "text": "initially more oversold than a Delta \nAirlines flight to Canada after the  ",
+      "offset": 263.196,
+      "duration": 2.969
+    },
+    {
+      "text": "midterms. It&amp;#39;s a fully explorable sci-fi \nuniverse full of life and spectacle. ",
+      "offset": 266.165,
+      "duration": 3.204
+    },
+    {
+      "text": "That&amp;#39;s not like caravanning with the in-\nlaws, that&amp;#39;s something I WANT to ",
+      "offset": 269.369,
+      "duration": 2.769
+    },
+    {
+      "text": "engage with. All it needed was the \nmerest prod of motivation to keep me ",
+      "offset": 272.138,
+      "duration": 3.103
+    },
+    {
+      "text": "interested and that&amp;#39;s what the original \nNo Mo Sko couldn&amp;#39;t provide. Now it ",
+      "offset": 275.241,
+      "duration": 3.537
+    },
+    {
+      "text": "can. Even if you stop following the plot \nthere&amp;#39;re enough random toys in the ",
+      "offset": 278.778,
+      "duration": 2.736
+    },
+    {
+      "text": "cupboard to find your own motivation. \nYou could work towards getting all the ",
+      "offset": 281.514,
+      "duration": 2.436
+    },
+    {
+      "text": "ground vehicle bays and adding \nsloping roofs to all your base buildings  ",
+      "offset": 283.95,
+      "duration": 2.636
+    },
+    {
+      "text": "so it functions as a skate park. So after \nall that, amid the populous community  ",
+      "offset": 286.586,
+      "duration": 3.036
+    },
+    {
+      "text": "of serviceable crafting survival open \nworld games that all want to selfishly  ",
+      "offset": 289.622,
+      "duration": 2.903
+    },
+    {
+      "text": "hog your time, No Man&amp;#39;s Sky is now \nofficially another one. I think this has ",
+      "offset": 292.525,
+      "duration": 3.37
+    },
+    {
+      "text": "proved the viability of this re-\nreviewing lark. Maybe next I could ",
+      "offset": 295.895,
+      "duration": 2.836
+    },
+    {
+      "text": "reload my old Cyberpunk save and see \nif they ever figured out how to make  ",
+      "offset": 298.731,
+      "duration": 2.77
+    },
+    {
+      "text": "my trousers spawn back in.",
+      "offset": 301.501,
+      "duration": 1.468
+    },
+    {
+      "text": "*OUTRO MUSIC*",
+      "offset": 302.969,
+      "duration": 19.052
+    },
+    {
+      "text": "This video was made possible by...",
+      "offset": 322.021,
+      "duration": 4.405
+    },
+    {
+      "text": "Closed Captions by @willcblogs",
+      "offset": 326.426,
+      "duration": 9.276
+    }
+  ],
+  "fetchedAt": "2025-12-14T10:21:07.326Z"
+}

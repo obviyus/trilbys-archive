@@ -1,0 +1,528 @@
+{
+  "video": {
+    "id": "LNfyZJ4bSd4",
+    "title": "Teardown (Zero Punctuation)",
+    "url": "https://youtu.be/LNfyZJ4bSd4",
+    "duration": 342,
+    "playlistId": "PLAbMhAYRuCUhawCEV2oXZGrienoKTN16X",
+    "playlistTitle": "Zero Punctuation"
+  },
+  "captions": [
+    {
+      "text": "*INTRO MUSIC*",
+      "offset": 0,
+      "duration": 11.778
+    },
+    {
+      "text": "The introduction of the physics engine\nto video games was right up there with",
+      "offset": 11.778,
+      "duration": 3.07
+    },
+    {
+      "text": "the introduction of the potato to the\nIrish, or depending on your perspective",
+      "offset": 14.848,
+      "duration": 2.669
+    },
+    {
+      "text": "the introduction of the smallpox blanket\nto the native Americans. What a sea",
+      "offset": 17.517,
+      "duration": 2.803
+    },
+    {
+      "text": "change it was when loose objects weren&amp;#39;t\njust falling straight down onto the",
+      "offset": 20.32,
+      "duration": 2.769
+    },
+    {
+      "text": "floor but also bouncing a little bit\nonce they got there. Fucking hell, that",
+      "offset": 23.089,
+      "duration": 3.237
+    },
+    {
+      "text": "was well worth enslaving all those Asian\nchildren to build video cards. But game",
+      "offset": 26.326,
+      "duration": 3.303
+    },
+    {
+      "text": "technology is still yet to realise the\nfull potential of real world physics.",
+      "offset": 29.629,
+      "duration": 3.103
+    },
+    {
+      "text": "There&amp;#39;s no game yet where, say, the\nwater level in the ocean is affected ",
+      "offset": 32.732,
+      "duration": 2.936
+    },
+    {
+      "text": "by the gravitational pull of a large\norbiting satellite. Boy, I bet something",
+      "offset": 35.668,
+      "duration": 2.87
+    },
+    {
+      "text": "like that would finally be the thing to\nfill the ever-sucking void. That&amp;#39;d",
+      "offset": 38.538,
+      "duration": 2.369
+    },
+    {
+      "text": "definitely be the technical milestone\nthat actually would compensate for a",
+      "offset": 40.907,
+      "duration": 2.603
+    },
+    {
+      "text": "lack of actual gameplay or narrative\ninnovation. But the question that has",
+      "offset": 43.51,
+      "duration": 2.636
+    },
+    {
+      "text": "long sat awkwardly alongside the physics\nengine like an excruciatingly poorly",
+      "offset": 46.146,
+      "duration": 3.169
+    },
+    {
+      "text": "matched blind date is this: could we\none day construct an entire game world",
+      "offset": 49.315,
+      "duration": 3.804
+    },
+    {
+      "text": "from physics objects, so the player can\nbreak everything apart to their heart&amp;#39;s",
+      "offset": 53.119,
+      "duration": 3.003
+    },
+    {
+      "text": "content, from the\nbuildings to the bidets?",
+      "offset": 56.122,
+      "duration": 1.835
+    },
+    {
+      "text": "And the recently off Early Access\nTeardown finally gives us our answer.",
+      "offset": 57.957,
+      "duration": 3.437
+    },
+    {
+      "text": "Yes, asterisk asterisk asterisk asterisk.\nYes, as long as you don&amp;#39;t mind the",
+      "offset": 61.394,
+      "duration": 3.937
+    },
+    {
+      "text": "levels not being very big. And looking\nlike they were constructed from Duplo",
+      "offset": 65.331,
+      "duration": 2.97
+    },
+    {
+      "text": "by the kind of person who&amp;#39;d make for a\nparticularly excruciating blind date.",
+      "offset": 68.301,
+      "duration": 3.003
+    },
+    {
+      "text": "And as long as you can tolerate the\nvoxel physics not accounting for tensile",
+      "offset": 71.304,
+      "duration": 2.936
+    },
+    {
+      "text": "strength so a building still won&amp;#39;t\ncollapse if it&amp;#39;s still connected to the",
+      "offset": 74.24,
+      "duration": 2.369
+    },
+    {
+      "text": "ground by an inch thick piece of\nbalsawood window frame or the neck of a",
+      "offset": 76.609,
+      "duration": 3.237
+    },
+    {
+      "text": "baby bird. But besides all that, it can\nbe done. So the next awkward question",
+      "offset": 79.846,
+      "duration": 3.036
+    },
+    {
+      "text": "that sits on top of the initial one\nlike a baby toad on the corpse of its",
+      "offset": 82.882,
+      "duration": 2.703
+    },
+    {
+      "text": "mum is, what do you do with that once\nyou have it? From a gameplay",
+      "offset": 85.585,
+      "duration": 2.936
+    },
+    {
+      "text": "perspective, I mean. There have been\ngames in the past that have attempted",
+      "offset": 88.521,
+      "duration": 2.303
+    },
+    {
+      "text": "something like this in service of combat\nand invited players to shoot through",
+      "offset": 90.824,
+      "duration": 3.003
+    },
+    {
+      "text": "blockades, create their own cover,\ncollapse the terrain onto the enemies,",
+      "offset": 93.827,
+      "duration": 2.902
+    },
+    {
+      "text": "etc, and what we took away from these\nattempts was that ultimately no quote",
+      "offset": 96.729,
+      "duration": 2.837
+    },
+    {
+      "text": "&amp;quot;creative combat solution&amp;quot; has ever been\nas efficient as just pointing the gun",
+      "offset": 99.566,
+      "duration": 3.436
+    },
+    {
+      "text": "at the thing and holding down\nfire until the thing dies.",
+      "offset": 103.002,
+      "duration": 2.336
+    },
+    {
+      "text": "Alright then, what if you just made a\ngame about demolishing buildings? That",
+      "offset": 105.338,
+      "duration": 2.803
+    },
+    {
+      "text": "seems to have been the initial concept \nof Teardown, which I cunningly deduce",
+      "offset": 108.141,
+      "duration": 3.136
+    },
+    {
+      "text": "from the fact that it&amp;#39;s called Teardown\nand the very first level requires us to",
+      "offset": 111.277,
+      "duration": 3.103
+    },
+    {
+      "text": "demolish a building. But while there&amp;#39;s\ncertainly catharsis in destruction,",
+      "offset": 114.38,
+      "duration": 2.837
+    },
+    {
+      "text": "it&amp;#39;s as fleeting as a hastily reached\norgasm, especially in the moment after",
+      "offset": 117.217,
+      "duration": 2.836
+    },
+    {
+      "text": "it passes when you have to think about\nwho&amp;#39;s going to clean up the mess. And",
+      "offset": 120.053,
+      "duration": 2.436
+    },
+    {
+      "text": "Teardown&amp;#39;s physics were frequently\ngiving me the destruction blue balls",
+      "offset": 122.489,
+      "duration": 2.602
+    },
+    {
+      "text": "because of the aforementioned baby bird\nneck issue, and even when I did",
+      "offset": 125.091,
+      "duration": 2.569
+    },
+    {
+      "text": "successfully separate a building from\nthe ground half the time it wouldn&amp;#39;t",
+      "offset": 127.66,
+      "duration": 2.369
+    },
+    {
+      "text": "fall over but just drop three inches and\nstay there like the upper portion of a",
+      "offset": 130.029,
+      "duration": 3.504
+    },
+    {
+      "text": "wall of Tetris blocks. But to Teardown&amp;#39;s\ncredit, it swiftly realises that this is",
+      "offset": 133.533,
+      "duration": 3.036
+    },
+    {
+      "text": "overthinking the issue. If you&amp;#39;ve\ncreated a world where anything goes the",
+      "offset": 136.569,
+      "duration": 2.903
+    },
+    {
+      "text": "thing to do is simply to give us a\nrelatively simple task and then reward",
+      "offset": 139.472,
+      "duration": 3.103
+    },
+    {
+      "text": "us for finding abstract, lateral or\nmaximally efficient ways of achieving it.",
+      "offset": 142.575,
+      "duration": 3.571
+    },
+    {
+      "text": "You know, like how Scribblenauts would\ngive us an egg and a stove and tell us",
+      "offset": 146.146,
+      "duration": 2.936
+    },
+    {
+      "text": "to make an omelette, and then we&amp;#39;d\nachieve that by dropping a speedboat",
+      "offset": 149.082,
+      "duration": 2.502
+    },
+    {
+      "text": "onto the kitchen counter from\nthe top of Cthulhu&amp;#39;s head.",
+      "offset": 151.584,
+      "duration": 2.236
+    },
+    {
+      "text": "So the bulk of Teardown&amp;#39;s missions are\nheists, and this is where the game came",
+      "offset": 153.82,
+      "duration": 3.303
+    },
+    {
+      "text": "into its own for me. There&amp;#39;ll be a\nrange of objectives scattered across the",
+      "offset": 157.123,
+      "duration": 2.669
+    },
+    {
+      "text": "map, items to steal or computers to\ntouch or heretic babies to baptize, and",
+      "offset": 159.792,
+      "duration": 3.671
+    },
+    {
+      "text": "as soon as you do the first one, an\nalarm sounds and you&amp;#39;ve got one minute",
+      "offset": 163.463,
+      "duration": 2.669
+    },
+    {
+      "text": "to sprint around dunking all the\nremaining babies or whatever and leg it",
+      "offset": 166.132,
+      "duration": 2.97
+    },
+    {
+      "text": "back to the car. So here the game becomes\nabout strategically planning the optimal",
+      "offset": 169.102,
+      "duration": 3.437
+    },
+    {
+      "text": "route and lateral thinking. Should we\nsledgehammer our way through a fence,",
+      "offset": 172.539,
+      "duration": 2.969
+    },
+    {
+      "text": "extend a plank from a shed roof to a\nwindow, blowtorch off the grille and blow",
+      "offset": 175.508,
+      "duration": 3.137
+    },
+    {
+      "text": "a hole in one of the interior walls to\naccess the objective, or is it quicker",
+      "offset": 178.645,
+      "duration": 3.103
+    },
+    {
+      "text": "to do something tragically quaint like\nuse the door? I got weirdly into this,",
+      "offset": 181.748,
+      "duration": 3.603
+    },
+    {
+      "text": "using the provided spray paint to mark\nmy route and drilling my intended",
+      "offset": 185.351,
+      "duration": 3.07
+    },
+    {
+      "text": "sequence of actions into myself over and\nover, it gave me the same kind of weird",
+      "offset": 188.421,
+      "duration": 3.07
+    },
+    {
+      "text": "satisfaction I get from drawing up a work\nschedule for myself in Microsoft Excel,",
+      "offset": 191.491,
+      "duration": 3.403
+    },
+    {
+      "text": "neatly arranging and color-coordinating\nall the boxes, and then looking at it",
+      "offset": 194.894,
+      "duration": 3.17
+    },
+    {
+      "text": "and going &amp;quot;Boy, this would hypothetically\nbe an efficient use of my time,&amp;quot; before",
+      "offset": 198.064,
+      "duration": 3.303
+    },
+    {
+      "text": "slumping down in front of a pile of\nempty Funyun bags and binge watching",
+      "offset": 201.367,
+      "duration": 2.703
+    },
+    {
+      "text": "Leisure Suit\nLarry speedruns.",
+      "offset": 204.07,
+      "duration": 1.401
+    },
+    {
+      "text": "New, different kinds of heists with\ndifferent rules keep things from getting",
+      "offset": 205.471,
+      "duration": 2.87
+    },
+    {
+      "text": "samey. There&amp;#39;s one where you have to get\na bunch of heavy safes out of a",
+      "offset": 208.341,
+      "duration": 2.469
+    },
+    {
+      "text": "building without letting them get rained\non, so I dragged them to an elevated",
+      "offset": 210.81,
+      "duration": 2.936
+    },
+    {
+      "text": "room, parked a truck underneath it and\nsmashed a hole in the floor, and I was",
+      "offset": 213.746,
+      "duration": 2.87
+    },
+    {
+      "text": "so pathetically proud of myself I spent\nten seconds of my funny internet video",
+      "offset": 216.616,
+      "duration": 3.537
+    },
+    {
+      "text": "bragging about it. But I&amp;#39;d say the game\nsuffers as it goes along and piles on",
+      "offset": 220.153,
+      "duration": 3.003
+    },
+    {
+      "text": "more and more tools and weapons for you\nto use. Very amusing for sandbox mode,",
+      "offset": 223.156,
+      "duration": 3.27
+    },
+    {
+      "text": "I&amp;#39;m sure, but it means we no longer have\nto plan around preserving our limited",
+      "offset": 226.426,
+      "duration": 3.069
+    },
+    {
+      "text": "shotgun blasts for the few select and\nmost deserving walls on the route.",
+      "offset": 229.495,
+      "duration": 3.437
+    },
+    {
+      "text": "Upgrade your shotgun once and it gives\nyou twice as many shells, you might as",
+      "offset": 232.932,
+      "duration": 3.07
+    },
+    {
+      "text": "well just tunnel from one objective to\nthe next in perfectly straight lines.",
+      "offset": 236.002,
+      "duration": 2.936
+    },
+    {
+      "text": "And then it starts introducing missions\nthat are barely about fun heist planning",
+      "offset": 238.938,
+      "duration": 3.103
+    },
+    {
+      "text": "at all. One of them&amp;#39;s just a fucking car\nrace. Where&amp;#39;s the lateral thinking in",
+      "offset": 242.041,
+      "duration": 3.604
+    },
+    {
+      "text": "that? I suppose you could cut across\nrougher terrain, but all the driveable",
+      "offset": 245.645,
+      "duration": 2.936
+    },
+    {
+      "text": "vehicles are held together with Pritt\nstick and dubious pinky promises, so all",
+      "offset": 248.581,
+      "duration": 3.103
+    },
+    {
+      "text": "the tires get sheared off if you drive\ntoo fast over a discarded crisp.",
+      "offset": 251.684,
+      "duration": 3.404
+    },
+    {
+      "text": "And then there are missions where you\nhave to deal with enemies with guns. In",
+      "offset": 255.088,
+      "duration": 2.936
+    },
+    {
+      "text": "a video game, no less, what&amp;#39;s the world\ncoming to, and suddenly the closest thing",
+      "offset": 258.024,
+      "duration": 3.103
+    },
+    {
+      "text": "to lateral thinking on offer is the\nroute by which a bullet gets from one",
+      "offset": 261.127,
+      "duration": 2.569
+    },
+    {
+      "text": "side of your brain to the other. So I\nguess at the end of the day Teardown is",
+      "offset": 263.696,
+      "duration": 2.97
+    },
+    {
+      "text": "pretty much what it looks like: a physics\nexperiment first and a game second. It",
+      "offset": 266.666,
+      "duration": 3.503
+    },
+    {
+      "text": "casts a broad net of gameplay challenge,\nsome of it hits and some of it misses",
+      "offset": 270.169,
+      "duration": 3.27
+    },
+    {
+      "text": "and the destruction wasn&amp;#39;t quite as\ninherently cathartic as I&amp;#39;d hoped,",
+      "offset": 273.439,
+      "duration": 2.937
+    },
+    {
+      "text": "possibly because it looks like Lego and\ntaking apart Lego structures is only",
+      "offset": 276.376,
+      "duration": 3.003
+    },
+    {
+      "text": "amusing up to the point you finally break\nyour child&amp;#39;s resolve. Although I should",
+      "offset": 279.379,
+      "duration": 3.37
+    },
+    {
+      "text": "mention the fire. The fire physics in\nthis game are actually fucking amazing.",
+      "offset": 282.749,
+      "duration": 3.603
+    },
+    {
+      "text": "As an experiment I briefly touched my\nblowtorch to a bedspread in a wooden",
+      "offset": 286.352,
+      "duration": 3.103
+    },
+    {
+      "text": "building to simulate a carelessly dropped\ncigarette and watching the whole place go",
+      "offset": 289.455,
+      "duration": 3.237
+    },
+    {
+      "text": "up was slightly worryingly hypnotic. I\nfinally understand what that weird kid",
+      "offset": 292.692,
+      "duration": 3.403
+    },
+    {
+      "text": "in high school was talking about in the\nweeks that preceded The Incident. There&amp;#39;s",
+      "offset": 296.095,
+      "duration": 3.204
+    },
+    {
+      "text": "something absorbing about seeing a\npeaceful and orderly construction being",
+      "offset": 299.299,
+      "duration": 2.869
+    },
+    {
+      "text": "slowly and inexorably destroyed by an\never-spreading, all-consuming chaos. ",
+      "offset": 302.168,
+      "duration": 4.271
+    },
+    {
+      "text": "I should take your mum to the\nbuffet restaurant more often.",
+      "offset": 306.439,
+      "duration": 2.669
+    },
+    {
+      "text": "*OUTRO MUSIC*",
+      "offset": 309.108,
+      "duration": 18.953
+    },
+    {
+      "text": "This video was made possible by...",
+      "offset": 328.061,
+      "duration": 4.404
+    },
+    {
+      "text": "Closed Captions by @willcblogs",
+      "offset": 332.465,
+      "duration": 9.409
+    }
+  ],
+  "fetchedAt": "2025-12-14T10:21:24.941Z"
+}

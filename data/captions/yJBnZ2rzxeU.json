@@ -1,0 +1,33 @@
+{
+  "video": {
+    "id": "yJBnZ2rzxeU",
+    "title": "HOLIDAY 2009 (Zero Punctuation)",
+    "url": "https://youtu.be/yJBnZ2rzxeU",
+    "duration": 24,
+    "playlistId": "unknown",
+    "playlistTitle": "Zero Punctuation"
+  },
+  "captions": [
+    {
+      "text": "Oh, what the fuck are you doing here? It's Christmas! Haven't you got families to resent?",
+      "offset": 0,
+      "duration": 15.7
+    },
+    {
+      "text": "This is my one week off. I'm going on holiday.",
+      "offset": 15.7,
+      "duration": 4.199999999999999
+    },
+    {
+      "text": "That's summer holiday, by the way. Hope that Northern Hemisphere weather's working out",
+      "offset": 19.9,
+      "duration": 3.2600000000000016
+    },
+    {
+      "text": "for you.",
+      "offset": 23.16,
+      "duration": 0.4400000000000013
+    }
+  ],
+  "fetchedAt": "2025-12-14T11:43:34.992Z"
+}

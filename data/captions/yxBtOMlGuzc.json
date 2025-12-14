@@ -1,0 +1,528 @@
+{
+  "video": {
+    "id": "yxBtOMlGuzc",
+    "title": "Strafe (Zero Punctuation)",
+    "url": "https://youtu.be/yxBtOMlGuzc",
+    "duration": 303,
+    "playlistId": "PLAbMhAYRuCUhawCEV2oXZGrienoKTN16X",
+    "playlistTitle": "Zero Punctuation"
+  },
+  "captions": [
+    {
+      "text": "So E3 is over with, the summer now stretches out before us like the intestinal tract of",
+      "offset": 12219,
+      "duration": 3102
+    },
+    {
+      "text": "a beached tuberculotic whale, which is the perfect opportunity to slam the door in summer's",
+      "offset": 15321,
+      "duration": 3729
+    },
+    {
+      "text": "face.",
+      "offset": 19050,
+      "duration": 1000
+    },
+    {
+      "text": "Fuck you, summer.",
+      "offset": 20050,
+      "duration": 1000
+    },
+    {
+      "text": "All too hot and no games and don't think I've forgotten about all that David Berkowitz business.",
+      "offset": 21050,
+      "duration": 3069
+    },
+    {
+      "text": "I'm gonna talk about a game that came out last month, in spring, before everything got",
+      "offset": 24119,
+      "duration": 2781
+    },
+    {
+      "text": "fucked up.",
+      "offset": 26900,
+      "duration": 1070
+    },
+    {
+      "text": "Strafe, a roguelite.",
+      "offset": 27970,
+      "duration": 1389
+    },
+    {
+      "text": "Indie gaming has been beating the roguelite drum like it's a dusty carpet with the face",
+      "offset": 29359,
+      "duration": 3031
+    },
+    {
+      "text": "of a cabinet minister these last few years.",
+      "offset": 32390,
+      "duration": 1439
+    },
+    {
+      "text": "There doesn't seem to be any genre on God's green earth that someone hasn't thought of",
+      "offset": 33829,
+      "duration": 2750
+    },
+    {
+      "text": "enhancing with procedural generation and permadeath.",
+      "offset": 36579,
+      "duration": 2291
+    },
+    {
+      "text": "We've got Roguelike dungeon crawlers, we've got roguelike space sims, we've got whatever",
+      "offset": 38870,
+      "duration": 2890
+    },
+    {
+      "text": "the fuck the Binding of Isaac is.",
+      "offset": 41760,
+      "duration": 1310
+    },
+    {
+      "text": "We've got Roguelike Castlevania-style platformers, Roguelike Megaman-style platformers, Roguelike",
+      "offset": 43070,
+      "duration": 3430
+    },
+    {
+      "text": "straight platformer on the rocks, I hear there's even a Roguelike investigative Lovecraftian",
+      "offset": 46500,
+      "duration": 3220
+    },
+    {
+      "text": "horror adventure game by some jolly talented indie developer who certainly isn't rubbing",
+      "offset": 49720,
+      "duration": 3320
+    },
+    {
+      "text": "himself through his trouser pocket as he types this.",
+      "offset": 53040,
+      "duration": 2110
+    },
+    {
+      "text": "No I don't mean Darkest Dungeon, shut up.",
+      "offset": 55150,
+      "duration": 2290
+    },
+    {
+      "text": "Strafe is a Roguelike shooter that evokes 90's FPSes like Quake and Unreal and everything",
+      "offset": 57440,
+      "duration": 3610
+    },
+    {
+      "text": "else that was low-poly and brown like a very disappointing Rubik's cube.",
+      "offset": 61050,
+      "duration": 3189
+    },
+    {
+      "text": "It's a deliberate evocation of retro style gameplay with a subtext of nudge-wink self-aware",
+      "offset": 64239,
+      "duration": 3521
+    },
+    {
+      "text": "irony, and it's published by Devolver Digital, because of course it is.",
+      "offset": 67760,
+      "duration": 2780
+    },
+    {
+      "text": "Even if it had tried to get published by someone else Devolver Digital would have burst in",
+      "offset": 70540,
+      "duration": 2810
+    },
+    {
+      "text": "the window dressed like a highwayman and kidnapped it, because this is very much Devolver Digital's",
+      "offset": 73350,
+      "duration": 3730
+    },
+    {
+      "text": "shit.",
+      "offset": 77080,
+      "duration": 1000
+    },
+    {
+      "text": "Devolver Digital breakfast every morning on a big bowl of pixels and a tall glass of the",
+      "offset": 78080,
+      "duration": 2829
+    },
+    {
+      "text": "piss that it took out of something.",
+      "offset": 80909,
+      "duration": 1201
+    },
+    {
+      "text": "There is a plot, in the same way that my cutlery drawer has a grapefruit spoon in it somewhere",
+      "offset": 82110,
+      "duration": 3510
+    },
+    {
+      "text": "that I could probably find given an hour and some earthmoving equipment.",
+      "offset": 85620,
+      "duration": 2630
+    },
+    {
+      "text": "It's something like, you're a space salvager type person and you've beamed down to some",
+      "offset": 88250,
+      "duration": 3231
+    },
+    {
+      "text": "planet space station thing in a distant corner of the universe to find materials, and something's",
+      "offset": 91481,
+      "duration": 3689
+    },
+    {
+      "text": "happened to the place and its occupants roughly equivalent to what happened to Sunderland",
+      "offset": 95170,
+      "duration": 2830
+    },
+    {
+      "text": "after they started selling Diamond White in two litre bottles.",
+      "offset": 98000,
+      "duration": 2500
+    },
+    {
+      "text": "But honestly, what the game's about is what all those Quake-likes were about: here's you,",
+      "offset": 100500,
+      "duration": 3040
+    },
+    {
+      "text": "here's the level exit, and here's five hundred grunting primates in Warhammer cosplay who",
+      "offset": 103540,
+      "duration": 3480
+    },
+    {
+      "text": "are determined that never the twain shall meet.",
+      "offset": 107020,
+      "duration": 1860
+    },
+    {
+      "text": "Fortunately you have a shoulder-mounted murder stiffy with which to blow off all their arms",
+      "offset": 108880,
+      "duration": 3050
+    },
+    {
+      "text": "and legs.",
+      "offset": 111930,
+      "duration": 1000
+    },
+    {
+      "text": "I don't mind telling you, listener: Strafe has become my new unwindy game.",
+      "offset": 112930,
+      "duration": 2331
+    },
+    {
+      "text": "A game that I can just sit down to at the end of a long, three hour work day and mindlessly",
+      "offset": 115261,
+      "duration": 3369
+    },
+    {
+      "text": "play while I listen to a podcast or maybe some music that young people don't like.",
+      "offset": 118630,
+      "duration": 3529
+    },
+    {
+      "text": "Which I hasten to add doesn't necessarily recommend a game.",
+      "offset": 122159,
+      "duration": 2331
+    },
+    {
+      "text": "I mean, Euro Truck Simulator has been one of my unwindy games in the past and it wouldn't",
+      "offset": 124490,
+      "duration": 3059
+    },
+    {
+      "text": "be my fucking BAFTA nom.",
+      "offset": 127549,
+      "duration": 1421
+    },
+    {
+      "text": "Strafe's just a nice, nostalgic, comfortable place for me, takes me right back to my youth",
+      "offset": 128970,
+      "duration": 3340
+    },
+    {
+      "text": "playing games like Quake and Duke Nukem 3D and Who Can Masturbate To Climax In The School",
+      "offset": 132310,
+      "duration": 3330
+    },
+    {
+      "text": "Showers Without Mr. Trevers Noticing.",
+      "offset": 135640,
+      "duration": 1780
+    },
+    {
+      "text": "Straightforward point and shoot action, no fucking stealth, no fucking minimap, and definitely",
+      "offset": 137420,
+      "duration": 3590
+    },
+    {
+      "text": "no fucking preanimated takedown moves.",
+      "offset": 141010,
+      "duration": 1940
+    },
+    {
+      "text": "You see, you never kill only one thing in Strafe.",
+      "offset": 142950,
+      "duration": 2330
+    },
+    {
+      "text": "Kill one thing and there's about seventeen more things just around the corner who are",
+      "offset": 145280,
+      "duration": 2500
+    },
+    {
+      "text": "all triggered by the sound of triggers being pulled, ironically.",
+      "offset": 147780,
+      "duration": 2450
+    },
+    {
+      "text": "But if the intention was to evoke the mindless rocket-jumping fun of Quake then that and",
+      "offset": 150230,
+      "duration": 3670
+    },
+    {
+      "text": "the whole Roguelike element combine like samosas and licorice.",
+      "offset": 153900,
+      "duration": 2880
+    },
+    {
+      "text": "In Quake, self-preservation was always fairly low on the list of priorities, it went under",
+      "offset": 156780,
+      "duration": 3360
+    },
+    {
+      "text": "killing the enemies, exploring the level and using rocket explosions to hurl yourself onto",
+      "offset": 160140,
+      "duration": 3450
+    },
+    {
+      "text": "the tops of doorways.",
+      "offset": 163590,
+      "duration": 1000
+    },
+    {
+      "text": "And that's because, in Quake, health packs are lying around like it's Christmas morning",
+      "offset": 164590,
+      "duration": 2920
+    },
+    {
+      "text": "at the old folk's home, but in Strafe, you can only restore health from the occasional",
+      "offset": 167510,
+      "duration": 3080
+    },
+    {
+      "text": "sandwich dispenser that's as generous with its contents as an emetophobe on a desert",
+      "offset": 170590,
+      "duration": 3420
+    },
+    {
+      "text": "island and self-preservation is paramount.",
+      "offset": 174010,
+      "duration": 2040
+    },
+    {
+      "text": "I think a more accurate name for Strafe would have been Backpedal.",
+      "offset": 176050,
+      "duration": 2290
+    },
+    {
+      "text": "'Cos that's what you have to do every single time you alert anything.",
+      "offset": 178340,
+      "duration": 2590
+    },
+    {
+      "text": "Most of the enemies are only programmed to make a beeline for you and start thwacking",
+      "offset": 180930,
+      "duration": 2730
+    },
+    {
+      "text": "at your undercarriage and the rest shoot slow-moving bullets so the smartest thing to do is create",
+      "offset": 183660,
+      "duration": 3720
+    },
+    {
+      "text": "distance, wait behind a doorway that can bottleneck them and pick them off like a disgruntled",
+      "offset": 187380,
+      "duration": 3439
+    },
+    {
+      "text": "Walmart greeter.",
+      "offset": 190819,
+      "duration": 1021
+    },
+    {
+      "text": "For all the enemies you reduce to clouds of objects that look like they were recovered",
+      "offset": 191840,
+      "duration": 2610
+    },
+    {
+      "text": "from a sink trap in a kebab shop, it's hard to get a sense of abandon.",
+      "offset": 194450,
+      "duration": 2850
+    },
+    {
+      "text": "Especially when you have to be twitchily looking over your shoulder constantly, either for",
+      "offset": 197300,
+      "duration": 2761
+    },
+    {
+      "text": "acid spitting traps mounted to walls above the door you just came through, or for one",
+      "offset": 200061,
+      "duration": 3119
+    },
+    {
+      "text": "of the inevitable monster closets that randomly open behind your juicy arse.",
+      "offset": 203180,
+      "duration": 3160
+    },
+    {
+      "text": "Funnily enough, though, the hardest part of the game is probably the first part, when",
+      "offset": 206340,
+      "duration": 2960
+    },
+    {
+      "text": "you're on tight corridor safari on board the USS Blind Corner.",
+      "offset": 209300,
+      "duration": 3340
+    },
+    {
+      "text": "Get past that and you're probably in for a long run, as from then on the environments",
+      "offset": 212640,
+      "duration": 2800
+    },
+    {
+      "text": "get more open and chances are good you picked up nine rocket launchers on the way that you",
+      "offset": 215440,
+      "duration": 3299
+    },
+    {
+      "text": "forgot about.",
+      "offset": 218739,
+      "duration": 1000
+    },
+    {
+      "text": "Unless of course you used a teleporter.",
+      "offset": 219739,
+      "duration": 1000
+    },
+    {
+      "text": "See, a handy thing for a Roguelike to have is some kind of permanent upgrade to work",
+      "offset": 220739,
+      "duration": 2941
+    },
+    {
+      "text": "towards for the benefit of all future playthroughs, fun as it is to bang your head against a wall,",
+      "offset": 223680,
+      "duration": 3410
+    },
+    {
+      "text": "it only gets that little extra spice after the permanent brain damage.",
+      "offset": 227090,
+      "duration": 2810
+    },
+    {
+      "text": "In Strafe you can assemble a teleporter for each level past the first that lets you start",
+      "offset": 229900,
+      "duration": 3320
+    },
+    {
+      "text": "on that level rather than the default, so I went out of my way to complete the slightly",
+      "offset": 233220,
+      "duration": 3040
+    },
+    {
+      "text": "esoteric steps required and successfully finished the teleporter to level 2.",
+      "offset": 236260,
+      "duration": 3140
+    },
+    {
+      "text": "Only to try it out next run and swiftly get my balls pulped, because I was trying to beat",
+      "offset": 239400,
+      "duration": 3481
+    },
+    {
+      "text": "level 2 enemies with starting equipment.",
+      "offset": 242881,
+      "duration": 1819
+    },
+    {
+      "text": "I was plinking away at one of them rock monsters like a lion tamer with a water pistol.",
+      "offset": 244700,
+      "duration": 3500
+    },
+    {
+      "text": "So if you are looking for a bellend to the grindstone action power fantasy along the",
+      "offset": 248200,
+      "duration": 3350
+    },
+    {
+      "text": "lines of Doom or indeed Deum you might be put off from Strafe, where the starting enemies",
+      "offset": 251550,
+      "duration": 3750
+    },
+    {
+      "text": "will mob you like you're a kindergarten teacher with Pokemon cards glued to your ankles.",
+      "offset": 255300,
+      "duration": 3499
+    },
+    {
+      "text": "But I'm somewhat into it as a Roguelike.",
+      "offset": 258799,
+      "duration": 1231
+    },
+    {
+      "text": "There's something very zen about losing everything you've been working towards because of a few",
+      "offset": 260030,
+      "duration": 3070
+    },
+    {
+      "text": "careless mistakes and having to start anew from scratch, it's the same reason I set myself",
+      "offset": 263100,
+      "duration": 3120
+    },
+    {
+      "text": "on fire every weekend.",
+      "offset": 266220,
+      "duration": 1000
+    },
+    {
+      "text": "And what really makes Strafe for me is the little details.",
+      "offset": 267220,
+      "duration": 2540
+    },
+    {
+      "text": "The scrappy visual design, the slightly dodgy gameplay choices, the elaborate secrets like",
+      "offset": 269760,
+      "duration": 3370
+    },
+    {
+      "text": "the hidden Wolfenstein 3D pastiche and the bunny hopping level, that's what evokes the",
+      "offset": 273130,
+      "duration": 3530
+    },
+    {
+      "text": "freer, more experimental early days of 3D game development in the 90s, more so than",
+      "offset": 276660,
+      "duration": 3550
+    },
+    {
+      "text": "any amount of rocket jumping.",
+      "offset": 280210,
+      "duration": 1420
+    },
+    {
+      "text": "That's what gives Strafe the edge, the fact that it seems like it was crafted by flawed",
+      "offset": 281630,
+      "duration": 2620
+    },
+    {
+      "text": "human beings with a vision in mind, rather than a genetically engineered boxcar full",
+      "offset": 284250,
+      "duration": 3470
+    },
+    {
+      "text": "of human skin with an overfunded marketing department.",
+      "offset": 287720,
+      "duration": 2360
+    }
+  ],
+  "fetchedAt": "2025-12-14T10:35:08.848Z"
+}
