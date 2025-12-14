@@ -1119,11 +1119,8 @@ if (hasYearlyData) {
           });
 
           return shuffled.map((w) => {
-            // Logarithmic scaling for more natural size distribution
-            const logMax = Math.log(maxCount);
-            const logMin = Math.log(minCount);
-            const logCount = Math.log(w.count);
-            const normalized = (logCount - logMin) / (logMax - logMin);
+            // Linear scaling for clearer frequency differences
+            const normalized = (w.count - minCount) / (maxCount - minCount);
             const fontSize = minSize + normalized * (maxSize - minSize);
 
             // Weight class for font-weight and color
