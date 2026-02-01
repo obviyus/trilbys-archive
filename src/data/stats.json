@@ -1,181 +1,189 @@
 {
-  "totalVideos": 922,
-  "totalWords": 911182,
-  "totalDurationSeconds": 309592,
-  "totalCharacters": 6459051,
-  "avgWordsPerVideo": 988,
+  "totalVideos": 924,
+  "totalWords": 915936,
+  "totalDurationSeconds": 310379,
+  "totalCharacters": 6492394,
+  "avgWordsPerVideo": 991,
   "avgDurationSeconds": 336,
   "avgWordsPerMinute": 177,
   "seriesBreakdown": [
     {
       "name": "Zero Punctuation",
-      "count": 817,
-      "totalWords": 797240,
-      "totalDuration": 266713,
+      "count": 818,
+      "totalWords": 798358,
+      "totalDuration": 267110,
       "avgWordsPerVideo": 976,
       "wordsPerMinute": 179
     },
     {
       "name": "Fully Ramblomatic",
-      "count": 105,
-      "totalWords": 113942,
-      "totalDuration": 42879,
-      "avgWordsPerVideo": 1085,
-      "wordsPerMinute": 159
+      "count": 106,
+      "totalWords": 117578,
+      "totalDuration": 43269,
+      "avgWordsPerVideo": 1109,
+      "wordsPerMinute": 163
     }
   ],
   "topWords": [
     {
       "word": "game",
-      "count": 6604
+      "count": 6644
     },
     {
       "word": "their",
-      "count": 2715
+      "count": 2725
     },
     {
       "word": "fucking",
-      "count": 2434
+      "count": 2436
     },
     {
       "word": "games",
-      "count": 2134
+      "count": 2139
     },
     {
       "word": "world",
-      "count": 1382
+      "count": 1388
     },
     {
       "word": "something",
-      "count": 1343
+      "count": 1347
     },
     {
       "word": "story",
-      "count": 1192
+      "count": 1207
     },
     {
       "word": "gameplay",
-      "count": 1154
-    },
-    {
-      "word": "combat",
-      "count": 1075
+      "count": 1157
     },
     {
       "word": "character",
-      "count": 1075
+      "count": 1093
+    },
+    {
+      "word": "combat",
+      "count": 1089
     },
     {
       "word": "having",
-      "count": 1056
+      "count": 1063
     },
     {
       "word": "play",
-      "count": 1006
+      "count": 1011
     },
     {
       "word": "plot",
-      "count": 963
+      "count": 966
+    },
+    {
+      "word": "characters",
+      "count": 850
     },
     {
       "word": "shit",
       "count": 839
     },
     {
-      "word": "characters",
-      "count": 832
+      "word": "start",
+      "count": 798
     },
     {
       "word": "fuck",
-      "count": 796
-    },
-    {
-      "word": "start",
-      "count": 796
+      "count": 797
     },
     {
       "word": "someone",
-      "count": 747
+      "count": 753
     },
     {
       "word": "until",
-      "count": 705
-    },
-    {
-      "word": "playing",
-      "count": 688
+      "count": 706
     },
     {
       "word": "without",
-      "count": 686
+      "count": 692
+    },
+    {
+      "word": "playing",
+      "count": 690
     },
     {
       "word": "mean",
-      "count": 686
+      "count": 689
     },
     {
       "word": "doing",
-      "count": 668
+      "count": 675
     },
     {
       "word": "boss",
-      "count": 668
+      "count": 674
     },
     {
       "word": "evil",
-      "count": 663
+      "count": 670
     },
     {
       "word": "video",
-      "count": 659
+      "count": 663
     },
     {
       "word": "least",
-      "count": 651
+      "count": 656
     },
     {
       "word": "keep",
-      "count": 633
-    },
-    {
-      "word": "everyone",
-      "count": 623
+      "count": 635
     },
     {
       "word": "fight",
-      "count": 621
+      "count": 628
+    },
+    {
+      "word": "everyone",
+      "count": 624
     },
     {
       "word": "level",
-      "count": 616
+      "count": 623
+    },
+    {
+      "word": "head",
+      "count": 608
+    },
+    {
+      "word": "main",
+      "count": 606
     },
     {
       "word": "dead",
       "count": 606
     },
     {
-      "word": "head",
-      "count": 604
-    },
-    {
       "word": "face",
-      "count": 603
+      "count": 606
     },
     {
       "word": "gets",
       "count": 601
     },
     {
-      "word": "main",
-      "count": 599
+      "word": "pretty",
+      "count": 600
     },
     {
       "word": "full",
-      "count": 599
+      "count": 600
     },
     {
-      "word": "pretty",
-      "count": 591
+      "word": "call",
+      "count": 583
+    },
+    {
+      "word": "hard",
+      "count": 583
     },
     {
       "word": "life",
@@ -186,24 +194,16 @@
       "count": 581
     },
     {
-      "word": "hard",
-      "count": 580
-    },
-    {
-      "word": "call",
-      "count": 579
-    },
-    {
       "word": "room",
-      "count": 563
+      "count": 569
     },
     {
       "word": "best",
-      "count": 559
+      "count": 563
     },
     {
       "word": "space",
-      "count": 557
+      "count": 560
     },
     {
       "word": "dark",
@@ -211,30 +211,30 @@
     },
     {
       "word": "since",
-      "count": 542
+      "count": 548
     },
     {
       "word": "half",
-      "count": 535
+      "count": 539
     },
     {
       "word": "guess",
-      "count": 530
+      "count": 536
     },
     {
-      "word": "nice",
-      "count": 528
+      "word": "sense",
+      "count": 533
     }
   ],
   "profanityStats": [
     {
       "word": "fucking",
-      "count": 2444,
+      "count": 2446,
       "perVideo": 2.65
     },
     {
       "word": "fuck",
-      "count": 889,
+      "count": 890,
       "perVideo": 0.96
     },
     {
@@ -249,13 +249,13 @@
     },
     {
       "word": "piss",
-      "count": 269,
+      "count": 272,
       "perVideo": 0.29
     },
     {
       "word": "hell",
       "count": 263,
-      "perVideo": 0.29
+      "perVideo": 0.28
     },
     {
       "word": "bloody",
@@ -264,12 +264,12 @@
     },
     {
       "word": "bum",
-      "count": 198,
-      "perVideo": 0.21
+      "count": 199,
+      "perVideo": 0.22
     },
     {
       "word": "bollocks",
-      "count": 164,
+      "count": 170,
       "perVideo": 0.18
     },
     {
@@ -324,7 +324,7 @@
     },
     {
       "word": "bitch",
-      "count": 73,
+      "count": 74,
       "perVideo": 0.08
     },
     {
@@ -339,7 +339,7 @@
     },
     {
       "word": "knob",
-      "count": 58,
+      "count": 59,
       "perVideo": 0.06
     },
     {
@@ -469,9 +469,9 @@
     "duration": 221
   },
   "mostVerbose": {
-    "title": "Metroid Prime Federation Force",
-    "id": "-VJ2aK7VYDk",
-    "wordsPerMinute": 218
+    "title": "Escape from Ever After | Fully Ramblomatic",
+    "id": "uC7KHEjxWoE",
+    "wordsPerMinute": 513
   },
   "leastVerbose": {
     "title": "VALKYRIA CHRONICLES",
@@ -479,9 +479,9 @@
     "wordsPerMinute": 69
   },
   "mostWords": {
-    "title": "Silent Hill 2 Remake | Fully Ramblomatic",
-    "id": "I_EGxe2rE40",
-    "wordCount": 1358
+    "title": "Escape from Ever After | Fully Ramblomatic",
+    "id": "uC7KHEjxWoE",
+    "wordCount": 3430
   },
   "leastWords": {
     "title": "VALKYRIA CHRONICLES",
@@ -491,11 +491,11 @@
   "funFacts": [
     {
       "label": "If printed as a book",
-      "value": "~3,645 pages (12 novels)"
+      "value": "~3,664 pages (12 novels)"
     },
     {
       "label": "F-bombs dropped",
-      "value": "3,491 total (3.8 per video)"
+      "value": "3,494 total (3.8 per video)"
     },
     {
       "label": "Speaking rate",
@@ -507,11 +507,11 @@
     },
     {
       "label": "Words typed per year",
-      "value": "~53,599 (17 years of content)"
+      "value": "~53,879 (17 years of content)"
     },
     {
       "label": "If read aloud at normal pace",
-      "value": "101 hours"
+      "value": "102 hours"
     }
   ],
   "yearlyStats": [
@@ -624,7 +624,7 @@
   "topMentionedGames": [
     {
       "game": "mario",
-      "count": 115
+      "count": 116
     },
     {
       "game": "doom",
@@ -648,7 +648,7 @@
     },
     {
       "game": "zelda",
-      "count": 51
+      "count": 52
     },
     {
       "game": "call of duty",
@@ -659,12 +659,12 @@
       "count": 49
     },
     {
-      "game": "half-life",
+      "game": "battlefield",
       "count": 43
     },
     {
-      "game": "battlefield",
-      "count": 43
+      "game": "half-life",
+      "count": 42
     },
     {
       "game": "final fantasy",
@@ -676,7 +676,7 @@
     },
     {
       "game": "metroid",
-      "count": 37
+      "count": 38
     },
     {
       "game": "god of war",
