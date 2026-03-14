@@ -959,28 +959,34 @@
     "JR_p8wFevr8",
     "lMcD6xscDWs",
     "uC7KHEjxWoE",
-    "JR_p8wFevr8"
+    "JR_p8wFevr8",
+    "qAoVu8JScEM",
+    "dDy5xYiSElc",
+    "D9nucW65XF0",
+    "XraBqYglooY",
+    "ZJYnT_RMuBQ",
+    "BXv4-EeHjqc"
   ],
   "failedVideos": [
     {
       "id": "4UhJwcZ26PQ",
       "error": "No captions available",
-      "lastAttempt": "2026-02-01T15:57:02.556Z"
+      "lastAttempt": "2026-03-14T12:58:06.237Z"
     },
     {
       "id": "M7bCFbJKTaw",
       "error": "No captions available",
-      "lastAttempt": "2026-02-01T15:57:02.537Z"
+      "lastAttempt": "2026-03-14T12:58:06.218Z"
     },
     {
       "id": "_ApdGizJECo",
       "error": "No captions available",
-      "lastAttempt": "2026-02-01T15:57:03.936Z"
+      "lastAttempt": "2026-03-14T12:58:06.256Z"
     },
     {
       "id": "IkmBPtglbDs",
       "error": "No captions available",
-      "lastAttempt": "2026-02-01T15:57:02.563Z"
+      "lastAttempt": "2026-03-14T12:58:06.258Z"
     },
     {
       "id": "1tosAfLpT5A",
@@ -988,5 +994,5 @@
       "lastAttempt": "2026-01-02T14:47:16.332Z"
     }
   ],
-  "lastRun": "2026-02-01T15:57:03.936Z"
+  "lastRun": "2026-03-14T12:58:29.072Z"
 }
