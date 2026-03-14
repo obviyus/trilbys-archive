@@ -56,6 +56,7 @@ This runs the complete pipeline:
 
 ## Requirements
 
+- [Node.js](https://nodejs.org) - `>=22.12.0` for Astro 6
 - [Bun](https://bun.sh)
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp) - `brew install yt-dlp`
 - [ffmpeg](https://ffmpeg.org) - Required for audio extraction (Whisper fallback)
