@@ -3,6 +3,7 @@
  * Stats Page - Fun statistics about Yahtzee's transcripts
  * Parchment aesthetic matching the main site
  */
+import { Font } from "astro:assets";
 import stats from "../data/stats.json";
 
 function formatDuration(seconds: number): string {
@@ -132,12 +133,9 @@ if (hasYearlyData) {
     <meta name="twitter:image" content="https://trilbys-archive.pages.dev/preview.jpg" />
     <title>Statistics — Trilby's Archive</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Special+Elite&display=swap"
-      rel="stylesheet"
-    />
+    <Font cssVariable="--font-playfair-display" preload />
+    <Font cssVariable="--font-libre-baskerville" preload />
+    <Font cssVariable="--font-special-elite" preload />
 
     <style>
       :root {
@@ -160,7 +158,7 @@ if (hasYearlyData) {
 
       body {
         margin: 0;
-        font-family: "Libre Baskerville", Georgia, serif;
+        font-family: var(--font-libre-baskerville), Georgia, serif;
         background: var(--parchment);
         color: var(--ink);
         min-height: 100vh;
@@ -201,7 +199,7 @@ if (hasYearlyData) {
       }
 
       .back-link {
-        font-family: "Special Elite", monospace;
+        font-family: var(--font-special-elite), monospace;
         font-size: 0.75rem;
         letter-spacing: 0.1em;
         text-transform: uppercase;
@@ -218,7 +216,7 @@ if (hasYearlyData) {
       }
 
       .series-badge {
-        font-family: "Special Elite", monospace;
+        font-family: var(--font-special-elite), monospace;
         font-size: 0.65rem;
         letter-spacing: 0.2em;
         text-transform: uppercase;
@@ -230,7 +228,7 @@ if (hasYearlyData) {
       }
 
       h1 {
-        font-family: "Playfair Display", serif;
+        font-family: var(--font-playfair-display), serif;
         font-size: clamp(2.2rem, 7vw, 3.5rem);
         font-weight: 700;
         margin: 0;
@@ -239,7 +237,7 @@ if (hasYearlyData) {
       }
 
       .tagline {
-        font-family: "Libre Baskerville", serif;
+        font-family: var(--font-libre-baskerville), serif;
         font-style: italic;
         font-size: 1rem;
         color: var(--ink-light);
@@ -248,7 +246,7 @@ if (hasYearlyData) {
 
       /* Section Headers */
       .section-header {
-        font-family: "Special Elite", monospace;
+        font-family: var(--font-special-elite), monospace;
         font-size: 0.7rem;
         letter-spacing: 0.2em;
         text-transform: uppercase;
@@ -301,7 +299,7 @@ if (hasYearlyData) {
       }
 
       .big-stat-number {
-        font-family: "Playfair Display", serif;
+        font-family: var(--font-playfair-display), serif;
         font-size: clamp(1.8rem, 5vw, 2.8rem);
         font-weight: 700;
         color: var(--ink);
@@ -318,7 +316,7 @@ if (hasYearlyData) {
       }
 
       .big-stat-label {
-        font-family: "Special Elite", monospace;
+        font-family: var(--font-special-elite), monospace;
         font-size: 0.55rem;
         letter-spacing: 0.15em;
         text-transform: uppercase;
@@ -344,7 +342,7 @@ if (hasYearlyData) {
         background: var(--parchment-dark);
         padding: 0.75rem 1rem;
         border-bottom: 1px solid var(--ink);
-        font-family: "Playfair Display", serif;
+        font-family: var(--font-playfair-display), serif;
         font-weight: 700;
         font-size: 1.1rem;
       }
@@ -358,14 +356,14 @@ if (hasYearlyData) {
       }
 
       .series-stat-num {
-        font-family: "Playfair Display", serif;
+        font-family: var(--font-playfair-display), serif;
         font-size: 1.4rem;
         font-weight: 700;
         color: var(--burgundy);
       }
 
       .series-stat-label {
-        font-family: "Special Elite", monospace;
+        font-family: var(--font-special-elite), monospace;
         font-size: 0.55rem;
         letter-spacing: 0.1em;
         text-transform: uppercase;
@@ -388,7 +386,7 @@ if (hasYearlyData) {
       }
 
       .record-label {
-        font-family: "Special Elite", monospace;
+        font-family: var(--font-special-elite), monospace;
         font-size: 0.6rem;
         letter-spacing: 0.15em;
         text-transform: uppercase;
@@ -397,7 +395,7 @@ if (hasYearlyData) {
       }
 
       .record-title {
-        font-family: "Playfair Display", serif;
+        font-family: var(--font-playfair-display), serif;
         font-size: 1rem;
         font-weight: 700;
         color: var(--ink);
@@ -406,7 +404,7 @@ if (hasYearlyData) {
       }
 
       .record-value {
-        font-family: "Libre Baskerville", serif;
+        font-family: var(--font-libre-baskerville), serif;
         font-size: 0.85rem;
         color: var(--burgundy);
         font-style: italic;
@@ -442,13 +440,13 @@ if (hasYearlyData) {
       }
 
       .profanity-title {
-        font-family: "Playfair Display", serif;
+        font-family: var(--font-playfair-display), serif;
         font-weight: 700;
         font-size: 1.2rem;
       }
 
       .profanity-total {
-        font-family: "Special Elite", monospace;
+        font-family: var(--font-special-elite), monospace;
         font-size: 0.7rem;
         color: var(--ink-light);
       }
@@ -470,7 +468,7 @@ if (hasYearlyData) {
       }
 
       .profanity-word {
-        font-family: "Special Elite", monospace;
+        font-family: var(--font-special-elite), monospace;
         font-size: 0.85rem;
         width: 80px;
         text-transform: uppercase;
@@ -492,7 +490,7 @@ if (hasYearlyData) {
       }
 
       .profanity-count {
-        font-family: "Playfair Display", serif;
+        font-family: var(--font-playfair-display), serif;
         font-size: 0.9rem;
         font-weight: 700;
         width: 60px;
@@ -516,7 +514,7 @@ if (hasYearlyData) {
       }
 
       .fun-fact-value {
-        font-family: "Playfair Display", serif;
+        font-family: var(--font-playfair-display), serif;
         font-size: 1.1rem;
         font-weight: 700;
         color: var(--burgundy);
@@ -525,7 +523,7 @@ if (hasYearlyData) {
       }
 
       .fun-fact-label {
-        font-family: "Special Elite", monospace;
+        font-family: var(--font-special-elite), monospace;
         font-size: 0.6rem;
         letter-spacing: 0.15em;
         text-transform: uppercase;
@@ -550,7 +548,7 @@ if (hasYearlyData) {
       .word-item {
         display: inline-flex;
         align-items: baseline;
-        font-family: "Libre Baskerville", serif;
+        font-family: var(--font-libre-baskerville), serif;
         transition: all 0.2s ease;
         cursor: default;
         position: relative;
@@ -564,7 +562,7 @@ if (hasYearlyData) {
       }
 
       .word-item .word-count {
-        font-family: "Special Elite", monospace;
+        font-family: var(--font-special-elite), monospace;
         font-size: 0.55em;
         color: var(--burgundy);
         margin-left: 0.3em;
@@ -602,7 +600,7 @@ if (hasYearlyData) {
         background: var(--parchment-dark);
         padding: 1rem 1.25rem;
         border-bottom: 1px solid var(--ink);
-        font-family: "Playfair Display", serif;
+        font-family: var(--font-playfair-display), serif;
         font-weight: 700;
         font-size: 1.1rem;
       }
@@ -626,13 +624,13 @@ if (hasYearlyData) {
       }
 
       .game-name {
-        font-family: "Libre Baskerville", serif;
+        font-family: var(--font-libre-baskerville), serif;
         font-size: 0.9rem;
         text-transform: capitalize;
       }
 
       .game-count {
-        font-family: "Special Elite", monospace;
+        font-family: var(--font-special-elite), monospace;
         font-size: 0.75rem;
         color: var(--burgundy);
       }
@@ -738,7 +736,7 @@ if (hasYearlyData) {
       }
 
       .chart-title {
-        font-family: "Playfair Display", serif;
+        font-family: var(--font-playfair-display), serif;
         font-weight: 700;
         font-size: 1.2rem;
       }
@@ -746,7 +744,7 @@ if (hasYearlyData) {
       .chart-legend {
         display: flex;
         gap: 1.5rem;
-        font-family: "Special Elite", monospace;
+        font-family: var(--font-special-elite), monospace;
         font-size: 0.65rem;
         letter-spacing: 0.05em;
       }
@@ -783,7 +781,7 @@ if (hasYearlyData) {
       }
 
       .chart-axis-label {
-        font-family: "Special Elite", monospace;
+        font-family: var(--font-special-elite), monospace;
         font-size: 10px;
         fill: var(--ink-light);
       }
@@ -797,7 +795,7 @@ if (hasYearlyData) {
       }
 
       .chart-year-label {
-        font-family: "Special Elite", monospace;
+        font-family: var(--font-special-elite), monospace;
         font-size: 11px;
         fill: var(--ink-light);
       }
@@ -842,7 +840,7 @@ if (hasYearlyData) {
       .chart-empty {
         padding: 3rem;
         text-align: center;
-        font-family: "Libre Baskerville", serif;
+        font-family: var(--font-libre-baskerville), serif;
         font-style: italic;
         color: var(--ink-light);
       }

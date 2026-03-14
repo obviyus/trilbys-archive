@@ -3,6 +3,7 @@
  * Trilby's Archive - A searchable archive of Yahtzee's wisdom
  * Clean parchment aesthetic matching the transcript pages
  */
+import { Font } from "astro:assets";
 import stats from "../data/stats.json";
 
 const totalHours = Math.round(stats.totalDurationSeconds / 3600);
@@ -46,12 +47,9 @@ function formatNumber(n: number): string {
     <meta name="twitter:image" content="https://trilbys-archive.pages.dev/preview.jpg" />
     <title>Trilby's Archive — A Searchable Yahtzee Archive</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Special+Elite&display=swap"
-      rel="stylesheet"
-    />
+    <Font cssVariable="--font-playfair-display" preload />
+    <Font cssVariable="--font-libre-baskerville" preload />
+    <Font cssVariable="--font-special-elite" preload />
 
     <style>
       :root {
@@ -74,7 +72,7 @@ function formatNumber(n: number): string {
 
       body {
         margin: 0;
-        font-family: "Libre Baskerville", Georgia, serif;
+        font-family: var(--font-libre-baskerville), Georgia, serif;
         background: var(--parchment);
         color: var(--ink);
         min-height: 100vh;
@@ -115,7 +113,7 @@ function formatNumber(n: number): string {
       }
 
       .series-badge {
-        font-family: "Special Elite", monospace;
+        font-family: var(--font-special-elite), monospace;
         font-size: 0.65rem;
         letter-spacing: 0.2em;
         text-transform: uppercase;
@@ -127,7 +125,7 @@ function formatNumber(n: number): string {
       }
 
       h1 {
-        font-family: "Playfair Display", serif;
+        font-family: var(--font-playfair-display), serif;
         font-size: clamp(2.5rem, 8vw, 4rem);
         font-weight: 700;
         margin: 0;
@@ -136,7 +134,7 @@ function formatNumber(n: number): string {
       }
 
       .tagline {
-        font-family: "Libre Baskerville", serif;
+        font-family: var(--font-libre-baskerville), serif;
         font-style: italic;
         font-size: 1rem;
         color: var(--ink-light);
@@ -144,7 +142,7 @@ function formatNumber(n: number): string {
       }
 
       .meta {
-        font-family: "Special Elite", monospace;
+        font-family: var(--font-special-elite), monospace;
         font-size: 0.75rem;
         color: var(--ink-light);
         margin-top: 1.5rem;
@@ -160,7 +158,7 @@ function formatNumber(n: number): string {
       }
 
       .search-header {
-        font-family: "Special Elite", monospace;
+        font-family: var(--font-special-elite), monospace;
         font-size: 0.7rem;
         letter-spacing: 0.2em;
         text-transform: uppercase;
@@ -182,7 +180,7 @@ function formatNumber(n: number): string {
 
       #search-input {
         width: 100%;
-        font-family: "Libre Baskerville", Georgia, serif;
+        font-family: var(--font-libre-baskerville), Georgia, serif;
         font-size: 1.1rem;
         padding: 1rem 1.25rem;
         border: 2px solid var(--ink);
@@ -206,7 +204,7 @@ function formatNumber(n: number): string {
       .keyboard-hint {
         text-align: center;
         margin-top: 1rem;
-        font-family: "Libre Baskerville", serif;
+        font-family: var(--font-libre-baskerville), serif;
         font-size: 0.8rem;
         color: var(--ink-light);
         font-style: italic;
@@ -217,7 +215,7 @@ function formatNumber(n: number): string {
         padding: 0.2em 0.5em;
         background: var(--parchment-dark);
         border: 1px solid var(--ink);
-        font-family: "Special Elite", monospace;
+        font-family: var(--font-special-elite), monospace;
         font-style: normal;
         font-size: 0.85em;
       }
@@ -243,7 +241,7 @@ function formatNumber(n: number): string {
         transform: translateX(-50%);
         background: var(--parchment);
         padding: 0 1rem;
-        font-family: "Special Elite", monospace;
+        font-family: var(--font-special-elite), monospace;
         font-size: 0.65rem;
         letter-spacing: 0.2em;
         text-transform: uppercase;
@@ -279,7 +277,7 @@ function formatNumber(n: number): string {
       }
 
       .stat-number {
-        font-family: "Playfair Display", serif;
+        font-family: var(--font-playfair-display), serif;
         font-size: clamp(2rem, 6vw, 3rem);
         font-weight: 700;
         color: var(--ink);
@@ -299,7 +297,7 @@ function formatNumber(n: number): string {
       }
 
       .stat-label {
-        font-family: "Special Elite", monospace;
+        font-family: var(--font-special-elite), monospace;
         font-size: 0.6rem;
         letter-spacing: 0.2em;
         text-transform: uppercase;
@@ -308,7 +306,7 @@ function formatNumber(n: number): string {
       }
 
       .stat-sublabel {
-        font-family: "Libre Baskerville", serif;
+        font-family: var(--font-libre-baskerville), serif;
         font-size: 0.7rem;
         font-style: italic;
         color: var(--ink-light);
@@ -321,7 +319,7 @@ function formatNumber(n: number): string {
         display: block;
         text-align: center;
         padding: 0.75rem 1.5rem;
-        font-family: "Special Elite", monospace;
+        font-family: var(--font-special-elite), monospace;
         font-size: 0.7rem;
         letter-spacing: 0.1em;
         text-transform: uppercase;
@@ -432,7 +430,7 @@ function formatNumber(n: number): string {
 
       .search-status {
         text-align: center;
-        font-family: "Libre Baskerville", serif;
+        font-family: var(--font-libre-baskerville), serif;
         font-size: 0.85rem;
         font-style: italic;
         color: var(--ink-light);
@@ -459,7 +457,7 @@ function formatNumber(n: number): string {
       }
 
       .result-title {
-        font-family: "Playfair Display", serif;
+        font-family: var(--font-playfair-display), serif;
         font-weight: 700;
         font-size: 1.1rem;
         color: var(--ink);
@@ -468,7 +466,7 @@ function formatNumber(n: number): string {
       }
 
       .result-series {
-        font-family: "Special Elite", monospace;
+        font-family: var(--font-special-elite), monospace;
         font-size: 0.55rem;
         letter-spacing: 0.15em;
         text-transform: uppercase;
@@ -480,7 +478,7 @@ function formatNumber(n: number): string {
 
       .result-captions {
         padding: 1rem 1.25rem;
-        font-family: "Libre Baskerville", serif;
+        font-family: var(--font-libre-baskerville), serif;
         font-size: 0.95rem;
         line-height: 1.8;
         background: var(--parchment);
@@ -502,7 +500,7 @@ function formatNumber(n: number): string {
         padding: 0.6rem 1.25rem;
         background: var(--parchment-dark);
         border-top: 1px solid var(--ink);
-        font-family: "Libre Baskerville", serif;
+        font-family: var(--font-libre-baskerville), serif;
         font-size: 0.7rem;
         font-style: italic;
         color: var(--ink-light);
@@ -512,7 +510,7 @@ function formatNumber(n: number): string {
       }
 
       .result-footer a {
-        font-family: "Special Elite", monospace;
+        font-family: var(--font-special-elite), monospace;
         color: var(--burgundy);
         text-decoration: none;
         font-style: normal;
@@ -530,7 +528,7 @@ function formatNumber(n: number): string {
       .loading {
         text-align: center;
         padding: 2.5rem;
-        font-family: "Libre Baskerville", serif;
+        font-family: var(--font-libre-baskerville), serif;
         font-style: italic;
         color: var(--ink-light);
         font-size: 1rem;
@@ -565,7 +563,7 @@ function formatNumber(n: number): string {
       }
 
       .no-results-text {
-        font-family: "Libre Baskerville", serif;
+        font-family: var(--font-libre-baskerville), serif;
         font-style: italic;
         font-size: 1rem;
         color: var(--ink-light);

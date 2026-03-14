@@ -79,6 +79,7 @@ function generatePage(data: VideoData): string {
     .join(" ");
 
   return `---
+import { Font } from "astro:assets";
 // This page exists for Pagefind indexing and as a readable transcript
 export const prerender = true;
 ---
@@ -101,9 +102,9 @@ export const prerender = true;
   <meta name="twitter:title" content="${cleanTitle} — Trilby's Archive">
   <meta name="twitter:description" content="Full transcript of ${cleanTitle} from ${series}">
   <meta name="twitter:image" content="https://trilbys-archive.pages.dev/preview.jpg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Special+Elite&display=swap" rel="stylesheet">
+  <Font cssVariable="--font-playfair-display" preload />
+  <Font cssVariable="--font-libre-baskerville" preload />
+  <Font cssVariable="--font-special-elite" preload />
   <style>
     :root {
       --zp-yellow: #f5c518;
@@ -119,7 +120,7 @@ export const prerender = true;
 
     body {
       margin: 0;
-      font-family: "Libre Baskerville", Georgia, serif;
+      font-family: var(--font-libre-baskerville), Georgia, serif;
       background: var(--parchment);
       color: var(--ink);
       min-height: 100vh;
@@ -160,7 +161,7 @@ export const prerender = true;
     }
 
     .back-link {
-      font-family: "Special Elite", monospace;
+      font-family: var(--font-special-elite), monospace;
       font-size: 0.75rem;
       letter-spacing: 0.1em;
       text-transform: uppercase;
@@ -177,7 +178,7 @@ export const prerender = true;
     }
 
     .series-badge {
-      font-family: "Special Elite", monospace;
+      font-family: var(--font-special-elite), monospace;
       font-size: 0.65rem;
       letter-spacing: 0.2em;
       text-transform: uppercase;
@@ -189,7 +190,7 @@ export const prerender = true;
     }
 
     h1 {
-      font-family: "Playfair Display", serif;
+      font-family: var(--font-playfair-display), serif;
       font-size: clamp(1.8rem, 5vw, 2.8rem);
       font-weight: 700;
       margin: 0;
@@ -198,7 +199,7 @@ export const prerender = true;
     }
 
     .meta {
-      font-family: "Special Elite", monospace;
+      font-family: var(--font-special-elite), monospace;
       font-size: 0.75rem;
       color: var(--ink-light);
       margin-top: 1rem;
@@ -212,7 +213,7 @@ export const prerender = true;
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
-      font-family: "Special Elite", monospace;
+      font-family: var(--font-special-elite), monospace;
       font-size: 0.8rem;
       letter-spacing: 0.05em;
       background: var(--burgundy);
@@ -236,7 +237,7 @@ export const prerender = true;
     }
 
     .transcript-header {
-      font-family: "Special Elite", monospace;
+      font-family: var(--font-special-elite), monospace;
       font-size: 0.7rem;
       letter-spacing: 0.2em;
       text-transform: uppercase;
@@ -275,7 +276,7 @@ export const prerender = true;
 
     /* Drop cap */
     .transcript .caption-segment:first-child::first-letter {
-      font-family: "Playfair Display", serif;
+      font-family: var(--font-playfair-display), serif;
       float: left;
       font-size: 4rem;
       line-height: 0.8;
