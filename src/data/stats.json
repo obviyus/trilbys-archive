@@ -1,9 +1,9 @@
 {
-  "totalVideos": 930,
-  "totalWords": 923889,
-  "totalDurationSeconds": 312855,
-  "totalCharacters": 6547330,
-  "avgWordsPerVideo": 993,
+  "totalVideos": 931,
+  "totalWords": 925271,
+  "totalDurationSeconds": 313260,
+  "totalCharacters": 6556972,
+  "avgWordsPerVideo": 994,
   "avgDurationSeconds": 336,
   "avgWordsPerMinute": 177,
   "seriesBreakdown": [
@@ -17,53 +17,53 @@
     },
     {
       "name": "Fully Ramblomatic",
-      "count": 112,
-      "totalWords": 125531,
-      "totalDuration": 45745,
-      "avgWordsPerVideo": 1121,
+      "count": 113,
+      "totalWords": 126913,
+      "totalDuration": 46150,
+      "avgWordsPerVideo": 1123,
       "wordsPerMinute": 165
     }
   ],
   "topWords": [
     {
       "word": "game",
-      "count": 6687
+      "count": 6692
     },
     {
       "word": "their",
-      "count": 2742
+      "count": 2746
     },
     {
       "word": "fucking",
-      "count": 2458
-    },
-    {
-      "word": "games",
-      "count": 2147
+      "count": 2461
     },
     {
       "word": "nbsp",
-      "count": 1902
+      "count": 2151
+    },
+    {
+      "word": "games",
+      "count": 2150
     },
     {
       "word": "world",
-      "count": 1394
+      "count": 1398
     },
     {
       "word": "something",
-      "count": 1355
+      "count": 1359
     },
     {
       "word": "story",
-      "count": 1209
+      "count": 1210
     },
     {
       "word": "gameplay",
-      "count": 1166
+      "count": 1167
     },
     {
       "word": "combat",
-      "count": 1098
+      "count": 1100
     },
     {
       "word": "character",
@@ -75,19 +75,19 @@
     },
     {
       "word": "play",
-      "count": 1016
+      "count": 1018
     },
     {
       "word": "plot",
-      "count": 972
+      "count": 973
     },
     {
       "word": "characters",
-      "count": 854
+      "count": 856
     },
     {
       "word": "shit",
-      "count": 843
+      "count": 844
     },
     {
       "word": "start",
@@ -95,7 +95,7 @@
     },
     {
       "word": "fuck",
-      "count": 802
+      "count": 803
     },
     {
       "word": "someone",
@@ -115,19 +115,19 @@
     },
     {
       "word": "mean",
-      "count": 692
+      "count": 693
     },
     {
       "word": "evil",
-      "count": 690
+      "count": 691
     },
     {
       "word": "doing",
-      "count": 684
+      "count": 687
     },
     {
       "word": "boss",
-      "count": 682
+      "count": 684
     },
     {
       "word": "video",
@@ -139,11 +139,11 @@
     },
     {
       "word": "keep",
-      "count": 640
+      "count": 641
     },
     {
       "word": "fight",
-      "count": 631
+      "count": 633
     },
     {
       "word": "everyone",
@@ -155,18 +155,18 @@
     },
     {
       "word": "dead",
-      "count": 613
+      "count": 614
     },
     {
       "word": "head",
-      "count": 612
-    },
-    {
-      "word": "gets",
-      "count": 611
+      "count": 613
     },
     {
       "word": "face",
+      "count": 613
+    },
+    {
+      "word": "gets",
       "count": 611
     },
     {
@@ -183,7 +183,7 @@
     },
     {
       "word": "life",
-      "count": 590
+      "count": 592
     },
     {
       "word": "call",
@@ -195,7 +195,7 @@
     },
     {
       "word": "better",
-      "count": 583
+      "count": 584
     },
     {
       "word": "room",
@@ -229,37 +229,37 @@
   "profanityStats": [
     {
       "word": "fucking",
-      "count": 2468,
+      "count": 2471,
       "perVideo": 2.65
     },
     {
       "word": "fuck",
-      "count": 895,
+      "count": 897,
       "perVideo": 0.96
     },
     {
       "word": "shit",
-      "count": 873,
+      "count": 874,
       "perVideo": 0.94
     },
     {
       "word": "arse",
-      "count": 290,
+      "count": 291,
       "perVideo": 0.31
     },
     {
       "word": "piss",
-      "count": 277,
+      "count": 278,
       "perVideo": 0.3
     },
     {
       "word": "hell",
-      "count": 265,
-      "perVideo": 0.28
+      "count": 266,
+      "perVideo": 0.29
     },
     {
       "word": "bloody",
-      "count": 232,
+      "count": 233,
       "perVideo": 0.25
     },
     {
@@ -300,7 +300,7 @@
     {
       "word": "twat",
       "count": 107,
-      "perVideo": 0.12
+      "perVideo": 0.11
     },
     {
       "word": "ass",
@@ -491,11 +491,11 @@
   "funFacts": [
     {
       "label": "If printed as a book",
-      "value": "~3,696 pages (12 novels)"
+      "value": "~3,701 pages (12 novels)"
     },
     {
       "label": "F-bombs dropped",
-      "value": "3,522 total (3.8 per video)"
+      "value": "3,527 total (3.8 per video)"
     },
     {
       "label": "Speaking rate",
@@ -507,7 +507,7 @@
     },
     {
       "label": "Words typed per year",
-      "value": "~54,346 (17 years of content)"
+      "value": "~54,428 (17 years of content)"
     },
     {
       "label": "If read aloud at normal pace",

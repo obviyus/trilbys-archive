@@ -965,28 +965,29 @@
     "D9nucW65XF0",
     "XraBqYglooY",
     "ZJYnT_RMuBQ",
-    "BXv4-EeHjqc"
+    "BXv4-EeHjqc",
+    "XIFoWNJ6Qbo"
   ],
   "failedVideos": [
     {
       "id": "4UhJwcZ26PQ",
       "error": "No captions available",
-      "lastAttempt": "2026-03-14T12:58:06.237Z"
+      "lastAttempt": "2026-03-19T13:38:12.428Z"
     },
     {
       "id": "M7bCFbJKTaw",
       "error": "No captions available",
-      "lastAttempt": "2026-03-14T12:58:06.218Z"
+      "lastAttempt": "2026-03-19T13:38:12.537Z"
     },
     {
       "id": "_ApdGizJECo",
       "error": "No captions available",
-      "lastAttempt": "2026-03-14T12:58:06.256Z"
+      "lastAttempt": "2026-03-19T13:38:12.534Z"
     },
     {
       "id": "IkmBPtglbDs",
       "error": "No captions available",
-      "lastAttempt": "2026-03-14T12:58:06.258Z"
+      "lastAttempt": "2026-03-19T13:38:12.537Z"
     },
     {
       "id": "1tosAfLpT5A",
@@ -994,5 +995,5 @@
       "lastAttempt": "2026-01-02T14:47:16.332Z"
     }
   ],
-  "lastRun": "2026-03-14T12:58:29.072Z"
+  "lastRun": "2026-03-19T13:38:19.069Z"
 }
