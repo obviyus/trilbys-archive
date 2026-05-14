@@ -971,28 +971,30 @@
     "UvciZ5n3xf8",
     "hua7d8v8Vww",
     "FdoqnDju-hw",
-    "aNzTOZ3cI6U"
+    "aNzTOZ3cI6U",
+    "ms4Tab6mfIw",
+    "N4ePvTa0_hw"
   ],
   "failedVideos": [
     {
       "id": "4UhJwcZ26PQ",
       "error": "No captions available",
-      "lastAttempt": "2026-04-28T03:32:19.863Z"
+      "lastAttempt": "2026-05-07T08:59:47.365Z"
     },
     {
       "id": "M7bCFbJKTaw",
       "error": "No captions available",
-      "lastAttempt": "2026-04-28T03:32:19.934Z"
+      "lastAttempt": "2026-05-07T08:59:47.387Z"
     },
     {
       "id": "_ApdGizJECo",
       "error": "No captions available",
-      "lastAttempt": "2026-04-28T03:32:20.879Z"
+      "lastAttempt": "2026-05-07T08:59:47.364Z"
     },
     {
       "id": "IkmBPtglbDs",
       "error": "No captions available",
-      "lastAttempt": "2026-04-28T03:32:19.864Z"
+      "lastAttempt": "2026-05-07T08:59:47.356Z"
     },
     {
       "id": "1tosAfLpT5A",
@@ -1000,5 +1002,5 @@
       "lastAttempt": "2026-01-02T14:47:16.332Z"
     }
   ],
-  "lastRun": "2026-04-28T03:32:23.200Z"
+  "lastRun": "2026-05-07T08:59:49.394Z"
 }
