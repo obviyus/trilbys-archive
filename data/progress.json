@@ -977,13 +977,14 @@
     "A3eOjZnTtJY",
     "6Qackci5wVo",
     "QstTzpkeXIE",
-    "AC3AywplAmQ"
+    "AC3AywplAmQ",
+    "dWBgM0gctXA"
   ],
   "failedVideos": [
     {
       "id": "4UhJwcZ26PQ",
       "error": "No captions available",
-      "lastAttempt": "2026-06-04T12:25:11.465Z"
+      "lastAttempt": "2026-06-12T12:49:38.779Z"
     },
     {
       "id": "M7bCFbJKTaw",
@@ -1006,5 +1007,5 @@
       "lastAttempt": "2026-01-02T14:47:16.332Z"
     }
   ],
-  "lastRun": "2026-06-04T12:25:11.465Z"
+  "lastRun": "2026-06-12T12:49:40.499Z"
 }
