@@ -1,11 +1,11 @@
 {
-  "totalVideos": 936,
-  "totalWords": 931930,
-  "totalDurationSeconds": 315359,
-  "totalCharacters": 6603579,
-  "avgWordsPerVideo": 996,
+  "totalVideos": 942,
+  "totalWords": 935095,
+  "totalDurationSeconds": 317889,
+  "totalCharacters": 6593295,
+  "avgWordsPerVideo": 993,
   "avgDurationSeconds": 337,
-  "avgWordsPerMinute": 177,
+  "avgWordsPerMinute": 176,
   "seriesBreakdown": [
     {
       "name": "Zero Punctuation",
@@ -17,254 +17,254 @@
     },
     {
       "name": "Fully Ramblomatic",
-      "count": 118,
-      "totalWords": 133572,
-      "totalDuration": 48249,
-      "avgWordsPerVideo": 1132,
-      "wordsPerMinute": 166
+      "count": 124,
+      "totalWords": 136737,
+      "totalDuration": 50779,
+      "avgWordsPerVideo": 1103,
+      "wordsPerMinute": 162
     }
   ],
   "topWords": [
     {
       "word": "game",
-      "count": 6724
-    },
-    {
-      "word": "nbsp",
-      "count": 3361
-    },
-    {
-      "word": "their",
-      "count": 2774
+      "count": 6759
     },
     {
       "word": "fucking",
-      "count": 2475
+      "count": 2504
     },
     {
       "word": "games",
-      "count": 2168
+      "count": 2177
     },
     {
       "word": "world",
-      "count": 1404
-    },
-    {
-      "word": "something",
-      "count": 1364
+      "count": 1409
     },
     {
       "word": "story",
-      "count": 1223
+      "count": 1239
     },
     {
       "word": "gameplay",
-      "count": 1174
+      "count": 1187
     },
     {
       "word": "combat",
-      "count": 1104
+      "count": 1112
     },
     {
       "word": "character",
-      "count": 1099
+      "count": 1107
     },
     {
       "word": "having",
-      "count": 1072
+      "count": 1085
     },
     {
       "word": "play",
-      "count": 1027
+      "count": 1033
     },
     {
       "word": "plot",
-      "count": 977
+      "count": 985
     },
     {
       "word": "characters",
-      "count": 865
+      "count": 870
     },
     {
       "word": "shit",
-      "count": 851
+      "count": 857
     },
     {
       "word": "start",
-      "count": 808
+      "count": 811
     },
     {
       "word": "fuck",
-      "count": 806
-    },
-    {
-      "word": "someone",
-      "count": 757
+      "count": 808
     },
     {
       "word": "until",
-      "count": 713
-    },
-    {
-      "word": "playing",
-      "count": 698
-    },
-    {
-      "word": "without",
-      "count": 698
-    },
-    {
-      "word": "mean",
-      "count": 698
+      "count": 719
     },
     {
       "word": "evil",
-      "count": 697
+      "count": 703
     },
     {
-      "word": "doing",
-      "count": 691
+      "word": "mean",
+      "count": 703
+    },
+    {
+      "word": "without",
+      "count": 700
+    },
+    {
+      "word": "playing",
+      "count": 699
     },
     {
       "word": "boss",
-      "count": 689
+      "count": 699
+    },
+    {
+      "word": "doing",
+      "count": 696
     },
     {
       "word": "video",
-      "count": 665
+      "count": 669
     },
     {
       "word": "least",
-      "count": 663
+      "count": 666
     },
     {
       "word": "keep",
-      "count": 641
+      "count": 647
     },
     {
       "word": "fight",
-      "count": 634
-    },
-    {
-      "word": "everyone",
-      "count": 627
+      "count": 637
     },
     {
       "word": "level",
-      "count": 626
-    },
-    {
-      "word": "dead",
-      "count": 621
-    },
-    {
-      "word": "face",
-      "count": 617
-    },
-    {
-      "word": "gets",
-      "count": 616
+      "count": 628
     },
     {
       "word": "head",
-      "count": 613
+      "count": 624
+    },
+    {
+      "word": "gets",
+      "count": 623
+    },
+    {
+      "word": "dead",
+      "count": 622
+    },
+    {
+      "word": "face",
+      "count": 619
     },
     {
       "word": "main",
-      "count": 612
-    },
-    {
-      "word": "full",
-      "count": 608
+      "count": 614
     },
     {
       "word": "pretty",
-      "count": 603
+      "count": 611
+    },
+    {
+      "word": "full",
+      "count": 611
     },
     {
       "word": "life",
-      "count": 594
+      "count": 597
     },
     {
       "word": "call",
-      "count": 591
-    },
-    {
-      "word": "hard",
-      "count": 589
+      "count": 596
     },
     {
       "word": "better",
-      "count": 586
+      "count": 593
+    },
+    {
+      "word": "hard",
+      "count": 593
     },
     {
       "word": "room",
-      "count": 574
+      "count": 577
     },
     {
       "word": "space",
-      "count": 570
-    },
-    {
-      "word": "best",
-      "count": 566
+      "count": 574
     },
     {
       "word": "dark",
-      "count": 561
+      "count": 571
+    },
+    {
+      "word": "best",
+      "count": 569
     },
     {
       "word": "since",
-      "count": 554
+      "count": 555
     },
     {
       "word": "half",
-      "count": 545
+      "count": 548
+    },
+    {
+      "word": "sense",
+      "count": 547
     },
     {
       "word": "guess",
-      "count": 542
+      "count": 545
+    },
+    {
+      "word": "nice",
+      "count": 539
+    },
+    {
+      "word": "place",
+      "count": 523
+    },
+    {
+      "word": "enemy",
+      "count": 519
+    },
+    {
+      "word": "slightly",
+      "count": 517
     }
   ],
   "profanityStats": [
     {
       "word": "fucking",
-      "count": 2485,
-      "perVideo": 2.65
+      "count": 2514,
+      "perVideo": 2.67
     },
     {
       "word": "fuck",
-      "count": 900,
+      "count": 902,
       "perVideo": 0.96
     },
     {
       "word": "shit",
-      "count": 881,
+      "count": 887,
       "perVideo": 0.94
     },
     {
       "word": "arse",
-      "count": 291,
+      "count": 292,
       "perVideo": 0.31
     },
     {
       "word": "piss",
-      "count": 279,
+      "count": 280,
       "perVideo": 0.3
     },
     {
       "word": "hell",
-      "count": 266,
-      "perVideo": 0.28
+      "count": 270,
+      "perVideo": 0.29
     },
     {
       "word": "bloody",
-      "count": 233,
+      "count": 235,
       "perVideo": 0.25
     },
     {
       "word": "bum",
-      "count": 204,
+      "count": 208,
       "perVideo": 0.22
     },
     {
@@ -289,7 +289,7 @@
     },
     {
       "word": "dick",
-      "count": 116,
+      "count": 117,
       "perVideo": 0.12
     },
     {
@@ -299,17 +299,17 @@
     },
     {
       "word": "twat",
-      "count": 107,
-      "perVideo": 0.11
+      "count": 111,
+      "perVideo": 0.12
     },
     {
       "word": "ass",
-      "count": 104,
+      "count": 105,
       "perVideo": 0.11
     },
     {
       "word": "bugger",
-      "count": 101,
+      "count": 102,
       "perVideo": 0.11
     },
     {
@@ -320,7 +320,7 @@
     {
       "word": "bastards",
       "count": 80,
-      "perVideo": 0.09
+      "perVideo": 0.08
     },
     {
       "word": "bitch",
@@ -364,7 +364,7 @@
     },
     {
       "word": "crap",
-      "count": 34,
+      "count": 35,
       "perVideo": 0.04
     },
     {
@@ -429,7 +429,7 @@
     },
     {
       "word": "shag",
-      "count": 7,
+      "count": 8,
       "perVideo": 0.01
     },
     {
@@ -471,7 +471,7 @@
   "mostVerbose": {
     "title": "Escape from Ever After | Fully Ramblomatic",
     "id": "uC7KHEjxWoE",
-    "wordsPerMinute": 513
+    "wordsPerMinute": 511
   },
   "leastVerbose": {
     "title": "VALKYRIA CHRONICLES",
@@ -481,7 +481,7 @@
   "mostWords": {
     "title": "Escape from Ever After | Fully Ramblomatic",
     "id": "uC7KHEjxWoE",
-    "wordCount": 3430
+    "wordCount": 3418
   },
   "leastWords": {
     "title": "VALKYRIA CHRONICLES",
@@ -491,23 +491,23 @@
   "funFacts": [
     {
       "label": "If printed as a book",
-      "value": "~3,728 pages (12 novels)"
+      "value": "~3,740 pages (12 novels)"
     },
     {
       "label": "F-bombs dropped",
-      "value": "3,545 total (3.8 per video)"
+      "value": "3,627 total (3.9 per video)"
     },
     {
-      "label": "Speaking rate",
-      "value": "177 words/minute average"
+      "label": "Expletive frequency",
+      "value": "One every 42 seconds of runtime"
+    },
+    {
+      "label": "Similes committed",
+      "value": "965+ on record (one every 329 seconds)"
     },
     {
       "label": "Binge watch time",
       "value": "4 days non-stop"
-    },
-    {
-      "label": "Words typed per year",
-      "value": "~54,819 (17 years of content)"
     },
     {
       "label": "If read aloud at normal pace",
@@ -520,105 +520,120 @@
       "videoCount": 192,
       "avgWords": 799,
       "avgWordsPerMinute": 164,
-      "totalWords": 153351
+      "totalWords": 153351,
+      "swearsPer1000Words": 7.4
     },
     {
       "year": 2012,
       "videoCount": 75,
       "avgWords": 932,
       "avgWordsPerMinute": 169,
-      "totalWords": 69900
+      "totalWords": 69900,
+      "swearsPer1000Words": 7.3
     },
     {
       "year": 2013,
       "videoCount": 49,
       "avgWords": 978,
       "avgWordsPerMinute": 175,
-      "totalWords": 47933
+      "totalWords": 47933,
+      "swearsPer1000Words": 9.1
     },
     {
       "year": 2014,
       "videoCount": 49,
       "avgWords": 934,
       "avgWordsPerMinute": 178,
-      "totalWords": 45776
+      "totalWords": 45776,
+      "swearsPer1000Words": 8.9
     },
     {
       "year": 2015,
       "videoCount": 51,
       "avgWords": 955,
       "avgWordsPerMinute": 178,
-      "totalWords": 48686
+      "totalWords": 48686,
+      "swearsPer1000Words": 7.4
     },
     {
       "year": 2016,
       "videoCount": 51,
       "avgWords": 1053,
       "avgWordsPerMinute": 189,
-      "totalWords": 53712
+      "totalWords": 53712,
+      "swearsPer1000Words": 7.8
     },
     {
       "year": 2017,
       "videoCount": 51,
       "avgWords": 1041,
       "avgWordsPerMinute": 195,
-      "totalWords": 53089
+      "totalWords": 53089,
+      "swearsPer1000Words": 8.6
     },
     {
       "year": 2018,
       "videoCount": 50,
       "avgWords": 1105,
       "avgWordsPerMinute": 198,
-      "totalWords": 55229
+      "totalWords": 55229,
+      "swearsPer1000Words": 9.3
     },
     {
       "year": 2019,
       "videoCount": 50,
       "avgWords": 1093,
       "avgWordsPerMinute": 190,
-      "totalWords": 54638
+      "totalWords": 54638,
+      "swearsPer1000Words": 8.8
     },
     {
       "year": 2020,
       "videoCount": 52,
       "avgWords": 1085,
       "avgWordsPerMinute": 186,
-      "totalWords": 56409
+      "totalWords": 56409,
+      "swearsPer1000Words": 7.8
     },
     {
       "year": 2021,
       "videoCount": 51,
       "avgWords": 1103,
       "avgWordsPerMinute": 185,
-      "totalWords": 56228
+      "totalWords": 56228,
+      "swearsPer1000Words": 8.4
     },
     {
       "year": 2022,
       "videoCount": 50,
       "avgWords": 1071,
       "avgWordsPerMinute": 185,
-      "totalWords": 53541
+      "totalWords": 53541,
+      "swearsPer1000Words": 8.1
     },
     {
       "year": 2023,
       "videoCount": 46,
       "avgWords": 1083,
       "avgWordsPerMinute": 176,
-      "totalWords": 49810
+      "totalWords": 49810,
+      "swearsPer1000Words": 7.5
     },
     {
       "year": 2024,
       "videoCount": 48,
-      "avgWords": 1106,
-      "avgWordsPerMinute": 164,
-      "totalWords": 53087
+      "avgWords": 1101,
+      "avgWordsPerMinute": 163,
+      "totalWords": 52853,
+      "swearsPer1000Words": 7.8
     },
     {
       "year": 2025,
       "videoCount": 49,
       "avgWords": 1059,
       "avgWordsPerMinute": 156,
-      "totalWords": 51911
+      "totalWords": 51911,
+      "swearsPer1000Words": 10.7
     }
   ],
   "topMentionedGames": [
@@ -640,23 +655,23 @@
     },
     {
       "game": "assassin's creed",
-      "count": 54
+      "count": 57
     },
     {
       "game": "sonic",
       "count": 54
     },
     {
-      "game": "zelda",
-      "count": 52
+      "game": "silent hill",
+      "count": 53
     },
     {
       "game": "call of duty",
-      "count": 50
+      "count": 52
     },
     {
-      "game": "silent hill",
-      "count": 49
+      "game": "zelda",
+      "count": 52
     },
     {
       "game": "battlefield",
@@ -668,10 +683,14 @@
     },
     {
       "game": "final fantasy",
-      "count": 39
+      "count": 41
     },
     {
       "game": "halo",
+      "count": 39
+    },
+    {
+      "game": "god of war",
       "count": 39
     },
     {
@@ -679,28 +698,1635 @@
       "count": 38
     },
     {
-      "game": "god of war",
-      "count": 36
+      "game": "metal gear",
+      "count": 37
     },
     {
-      "game": "metal gear",
-      "count": 35
+      "game": "gears of war",
+      "count": 33
     },
     {
       "game": "quake",
       "count": 33
     },
     {
-      "game": "gears of war",
-      "count": 31
-    },
-    {
       "game": "far cry",
-      "count": 31
+      "count": 32
     },
     {
       "game": "portal",
       "count": 29
     }
-  ]
+  ],
+  "similes": [
+    {
+      "text": "like a diligent scrapbooker preparing to bore people shitless about their last holiday",
+      "videoId": "LYvPWE696Ms",
+      "videoTitle": "NINJA GAIDEN 3",
+      "t": 125
+    },
+    {
+      "text": "like a zeppelin at a plate spinning contest",
+      "videoId": "B5V38zwkQdg",
+      "videoTitle": "Sea of Stars",
+      "t": 165
+    },
+    {
+      "text": "like a bunch of fucking wankers",
+      "videoId": "Ik9PKDi1R94",
+      "videoTitle": "Cyberpunk Double - Dex & Invisible, Inc.",
+      "t": 19
+    },
+    {
+      "text": "like a set of windscreen wipers",
+      "videoId": "9sJYXNtk0d0",
+      "videoTitle": "South of Midnight | Fully Ramblomatic",
+      "t": 300
+    },
+    {
+      "text": "like a nest of baby birds",
+      "videoId": "MDDfJJQrpsg",
+      "videoTitle": "Half Life 2 Update - Gravity Gun vs Modern FPS",
+      "t": 21
+    },
+    {
+      "text": "like a child wanting to take you to their room and show you their SpongeBob pillowcase",
+      "videoId": "NxiMEnYf2Lc",
+      "videoTitle": "The Plucky Squire | Fully Ramblomatic",
+      "t": 287
+    },
+    {
+      "text": "like some properties I could mention",
+      "videoId": "hSOBllFHlRc",
+      "videoTitle": "Prince of Persia: The Lost Crown | Fully Ramblomatic",
+      "t": 19
+    },
+    {
+      "text": "like a fussy mum coming to see the school play",
+      "videoId": "hTyoQb-2EVk",
+      "videoTitle": "Middle-earth: Shadow of Mordor",
+      "t": 266
+    },
+    {
+      "text": "like a frustrated teenage cinemagoer on a fourth date",
+      "videoId": "XiKTOe7ZD_w",
+      "videoTitle": "Hunt Down The Freeman",
+      "t": 12
+    },
+    {
+      "text": "like a monetised YouTube video and you were playing Minesweeper",
+      "videoId": "6ScjZGArpUs",
+      "videoTitle": "SYSTEM SHOCK 2",
+      "t": 144
+    },
+    {
+      "text": "like a fast forward video of a dog with an itchy bum",
+      "videoId": "084HwdWngL8",
+      "videoTitle": "Vanquish",
+      "t": 175790
+    },
+    {
+      "text": "like a prostitute on a highly polished dance floor",
+      "videoId": "084HwdWngL8",
+      "videoTitle": "Vanquish",
+      "t": 265660
+    },
+    {
+      "text": "like some kind of sport liking person or similar freak",
+      "videoId": "UcKu-WfNUaM",
+      "videoTitle": "Fall Guys: Ultimate Knockout",
+      "t": 209
+    },
+    {
+      "text": "like a sheep with two robot legs",
+      "videoId": "jIv0qTb-RPA",
+      "videoTitle": "Revisiting No Man's Sky",
+      "t": 23
+    },
+    {
+      "text": "like a looter shooter on the surface",
+      "videoId": "and93uCVVmU",
+      "videoTitle": "Outriders",
+      "t": 108
+    },
+    {
+      "text": "like a sheepdog with a piece of shrapnel in its head",
+      "videoId": "uvaryF1EhfA",
+      "videoTitle": "ARMY OF TWO",
+      "t": 108
+    },
+    {
+      "text": "like a little glass-bottom boat viewing of some kind of heavenly skater afterlife",
+      "videoId": "uLQogkaPUpg",
+      "videoTitle": "SKATE 2",
+      "t": 101
+    },
+    {
+      "text": "like a heated argument taking place in a punnet of button mushrooms",
+      "videoId": "MxeYmFGspNI",
+      "videoTitle": "South Park: Snow Day! | Fully Ramblomatic",
+      "t": 262
+    },
+    {
+      "text": "like a frozen hot dog on the floor of a moving bus",
+      "videoId": "SAF83RoFY5M",
+      "videoTitle": "Fallout 76",
+      "t": 210
+    },
+    {
+      "text": "like a fussy chaperone at a school dance",
+      "videoId": "KtO28_X9UOU",
+      "videoTitle": "Cronos: The New Dawn | Fully Ramblomatic",
+      "t": 187
+    },
+    {
+      "text": "like a pair of hyperactive grasshoppers playing British Bulldog",
+      "videoId": "SzfSVXBa-M4",
+      "videoTitle": "Injustice 2",
+      "t": 129200
+    },
+    {
+      "text": "like a fat kid swimming without water wings",
+      "videoId": "wkscwBH90sU",
+      "videoTitle": "CONSOLE RUNDOWN",
+      "t": 75
+    },
+    {
+      "text": "like an Ubisoft open world game",
+      "videoId": "s6cU1X3A7uk",
+      "videoTitle": "Star Wars Outlaws | Fully Ramblomatic",
+      "t": 138
+    },
+    {
+      "text": "like a basket of individual kittens loosely tied in place with string",
+      "videoId": "DSwAhRZV4XY",
+      "videoTitle": "Gravity Rush",
+      "t": 289
+    },
+    {
+      "text": "like a single skid mark on a sewage outflow pipe",
+      "videoId": "P7mKTItGVzw",
+      "videoTitle": "THE LAST OF US",
+      "t": 274
+    },
+    {
+      "text": "like a fungus or the monster carefully replaced the cover after climbing inside",
+      "videoId": "Vw4dkOzpBuE",
+      "videoTitle": "DEAD SPACE 2",
+      "t": 36
+    },
+    {
+      "text": "like a used condom in Brighton about an hour ago",
+      "videoId": "JlkUBCXA9nk",
+      "videoTitle": "Far Cry 6",
+      "t": 167
+    },
+    {
+      "text": "like a quadraplegic on a teacup ride",
+      "videoId": "9w5nZpVjXMg",
+      "videoTitle": "Bugsnax & Super Meat Boy Forever",
+      "t": 277
+    },
+    {
+      "text": "like a beanbag chair stapled to an earring",
+      "videoId": "yHmbweBK2qE",
+      "videoTitle": "ASSASSIN'S CREED IV BLACK FLAG",
+      "t": 198
+    },
+    {
+      "text": "like an orgy in a poorly made lasagna",
+      "videoId": "PZ-BcdgD-1c",
+      "videoTitle": "Batman: Arkham Knight",
+      "t": 98
+    },
+    {
+      "text": "like a fucking compilation clip show of terrible decisions that bad Sonic games have made",
+      "videoId": "rZFHwZp4FJA",
+      "videoTitle": "Sonic Forces",
+      "t": 71
+    },
+    {
+      "text": "like a mad zoetrope artist in solitary confinement",
+      "videoId": "C9V0RhmtDOM",
+      "videoTitle": "Prodeus",
+      "t": 308
+    },
+    {
+      "text": "like an older sibling in a family photo",
+      "videoId": "9Ssl6S70BuY",
+      "videoTitle": "Persona 4 Golden",
+      "t": 80
+    },
+    {
+      "text": "like a custard pie into the face of a respectable historical documentarian",
+      "videoId": "M2HX6KCO0e0",
+      "videoTitle": "Ghost of Yōtei | Fully Ramblomatic",
+      "t": 93
+    },
+    {
+      "text": "like a cardboard mask of a bloke attempting to pass a kidney stone with dignity",
+      "videoId": "ZKPJvDdAY34",
+      "videoTitle": "MAX PAYNE 3",
+      "t": 40
+    },
+    {
+      "text": "like a fucking nonplussed circus seal as a spotlight gets trained on you",
+      "videoId": "ysi5-0xEEyA",
+      "videoTitle": "Mafia: The Old Country | Fully Ramblomatic",
+      "t": 259
+    },
+    {
+      "text": "like a fucking custard pie As is tradition for me",
+      "videoId": "WRxPVxTxzzU",
+      "videoTitle": "Firefall - Proof That Jetpacks Make Everything Better?",
+      "t": 67
+    },
+    {
+      "text": "like a blind bait shop assistant in that it fails to find a hook",
+      "videoId": "XIFoWNJ6Qbo",
+      "videoTitle": "Crimson Desert | Fully Ramblomatic",
+      "t": 175440
+    },
+    {
+      "text": "like a baseball mitt that's been repurposed for sexual misadventure",
+      "videoId": "i-PD7fOhwQ0",
+      "videoTitle": "Hotline Miami 2: Wrong Number & Ori and the Blind Forest",
+      "t": 88
+    },
+    {
+      "text": "like a shingle beach figured out how to speak",
+      "videoId": "W_LULRj_f4w",
+      "videoTitle": "DEUS EX",
+      "t": 111
+    },
+    {
+      "text": "like a pair of lovestruck goldfish in neighbouring bowls",
+      "videoId": "aD5sJVFNGAM",
+      "videoTitle": "Vampyr",
+      "t": 294
+    },
+    {
+      "text": "like a disappointed baby on a corpse's tit",
+      "videoId": "j4gpG8DHi_Y",
+      "videoTitle": "High on Life",
+      "t": 28
+    },
+    {
+      "text": "like a separate use button and strategically less useful than say",
+      "videoId": "TBeXP-MSt8I",
+      "videoTitle": "SINGULARITY",
+      "t": 171
+    },
+    {
+      "text": "like a timid schoolchild asking to please not be kicked in these specific sensitive areas",
+      "videoId": "dx3xSyzpE0M",
+      "videoTitle": "Ratchet and Clank: Rift Apart",
+      "t": 320
+    },
+    {
+      "text": "like a conversation from the fucking shopping channel",
+      "videoId": "mFp67DiTba0",
+      "videoTitle": "CRYSIS 3",
+      "t": 224
+    },
+    {
+      "text": "like a severely weathered dead polecat if you haven't watched the relevant episode",
+      "videoId": "JGnmfbD20og",
+      "videoTitle": "South Park: The Fractured But Whole",
+      "t": 164
+    },
+    {
+      "text": "like a board game than usual",
+      "videoId": "aV3wVaCajFo",
+      "videoTitle": "XCOM: Chimera Squad",
+      "t": 180
+    },
+    {
+      "text": "like a case of someone adapting their pen and paper role playing sessions",
+      "videoId": "9coRff0sz68",
+      "videoTitle": "Werewolf: The Apocalypse - Earthblood",
+      "t": 83
+    },
+    {
+      "text": "like a hippo in a vat of liquidized children",
+      "videoId": "gm9Eta491O8",
+      "videoTitle": "BIOSHOCK 2",
+      "t": 32
+    },
+    {
+      "text": "like a needlessly loud advert in the middle of a Youtube video",
+      "videoId": "E6wD3RSuGEc",
+      "videoTitle": "Guacamelee 2 and Not Tonight",
+      "t": 121
+    },
+    {
+      "text": "like an Irishman on New Years Eve trying to walk across a parking lot",
+      "videoId": "wm1agsySrl0",
+      "videoTitle": "Okami HD",
+      "t": 126
+    },
+    {
+      "text": "like a video of your mum on fast forward",
+      "videoId": "c2C8zvTqoGo",
+      "videoTitle": "Prey",
+      "t": 104610
+    },
+    {
+      "text": "like a lost cause outside of a sanitarium for the deafblind",
+      "videoId": "45Z40zr4BjY",
+      "videoTitle": "METAL GEAR RISING: REVENGEANCE",
+      "t": 141
+    },
+    {
+      "text": "like a schoolgirl every time they kill someone",
+      "videoId": "2Rc_vsIp5tw",
+      "videoTitle": "TWO WORLDS II",
+      "t": 47
+    },
+    {
+      "text": "like a last minute spackle sort of gameplay mechanic",
+      "videoId": "jEdgnw9xJ5Q",
+      "videoTitle": "Miitopia",
+      "t": 270
+    },
+    {
+      "text": "like a German tourist leaving a towel on a sunbed",
+      "videoId": "tOCMiu4j7aM",
+      "videoTitle": "INFAMOUS SECOND SON",
+      "t": 0
+    },
+    {
+      "text": "like a teenage boy being forced to escort his sister to the zoo",
+      "videoId": "fsAltEgYnbE",
+      "videoTitle": "Final Fantasy VII Remake",
+      "t": 94
+    },
+    {
+      "text": "like a can on the back of a wedding car",
+      "videoId": "Gn2eM1Gdu3g",
+      "videoTitle": "Rise of the Tomb Raider",
+      "t": 193
+    },
+    {
+      "text": "like a drinking bird toy on roller skates",
+      "videoId": "XtdurL_bfsc",
+      "videoTitle": "KINGDOMS OF AMALUR: RECKONING",
+      "t": 224
+    },
+    {
+      "text": "like a van full of laundry detergent crashing into a fireworks storage facility",
+      "videoId": "QstTzpkeXIE",
+      "videoTitle": "Saros | Fully Ramblomatic",
+      "t": 204480
+    },
+    {
+      "text": "like a deadbeat vampire in the face of a garlic-scented bill for child support",
+      "videoId": "oKbFMngsxQQ",
+      "videoTitle": "Cryptmaster | Fully Ramblomatic",
+      "t": 199
+    },
+    {
+      "text": "like an industrial furnace the number of words he recorded on the off-chance I'd type them",
+      "videoId": "oKbFMngsxQQ",
+      "videoTitle": "Cryptmaster | Fully Ramblomatic",
+      "t": 318
+    },
+    {
+      "text": "like an angry spouse chucking teacups",
+      "videoId": "Fk48G6aG7lo",
+      "videoTitle": "ALAN WAKE",
+      "t": 212
+    },
+    {
+      "text": "like a plumber who works with duct tape and string",
+      "videoId": "gIT1AoTKASs",
+      "videoTitle": "DARKEST OF DAYS",
+      "t": 120
+    },
+    {
+      "text": "like a jelly tot on a Breville sandwich toaster",
+      "videoId": "kJ1scW6vbKY",
+      "videoTitle": "Grand Theft Auto Online",
+      "t": 294
+    },
+    {
+      "text": "like a walrus riding a roller coaster",
+      "videoId": "ZvN8ojFh6M4",
+      "videoTitle": "Silent Hill F | Fully Ramblomatic",
+      "t": 246
+    },
+    {
+      "text": "like a fucking pinata for the last thirty years",
+      "videoId": "XhPXSnfRHag",
+      "videoTitle": "Suicide Squad: Kill the Justice League | Fully Ramblomatic",
+      "t": 53
+    },
+    {
+      "text": "like a first person adventure game that's currently in rehab for walking simulator addiction",
+      "videoId": "WgXPWva0F94",
+      "videoTitle": "Observer",
+      "t": 77
+    },
+    {
+      "text": "like a combination of pinball and breakout dressed up with bright colours",
+      "videoId": "sKOp4vcb6RA",
+      "videoTitle": "PEGGLE",
+      "t": 73
+    },
+    {
+      "text": "like a forklift and moved like he was moonwalking the wrong way up an escalator",
+      "videoId": "oynuVwE9EJM",
+      "videoTitle": "Resident Evil 4 VR and Oculus Quest 2",
+      "t": 243
+    },
+    {
+      "text": "like a furniture catalogue and also lists all the missions from the last two games",
+      "videoId": "i5_52Bg12s4",
+      "videoTitle": "Hitman 3",
+      "t": 142
+    },
+    {
+      "text": "like a politician suddenly noticing a live mic",
+      "videoId": "F11UGNm6qfc",
+      "videoTitle": "The Witness & Bombshell",
+      "t": 303
+    },
+    {
+      "text": "like an unfit parent desperately trying to win over the judge",
+      "videoId": "GbVlTDoO3Ic",
+      "videoTitle": "Dying Light - Yay, More Zombies",
+      "t": 272
+    },
+    {
+      "text": "like a hotel room ironing board",
+      "videoId": "HurBxdGTIk8",
+      "videoTitle": "I Am Setsuna",
+      "t": 257650
+    },
+    {
+      "text": "like a ton of bricks on anyone trying to get in some sneaky grandmother porking",
+      "videoId": "dssqSX-Avow",
+      "videoTitle": "Old Skies | Fully Ramblomatic",
+      "t": 91
+    },
+    {
+      "text": "like a neon pink johnny in a cucumber patch",
+      "videoId": "qGRglaMRU0Y",
+      "videoTitle": "Uncharted 4: A Thief's End",
+      "t": 91719
+    },
+    {
+      "text": "like a red hot knife through a knife hotness inspection and it generally kicks arse",
+      "videoId": "xzYfkFI7vco",
+      "videoTitle": "Katana Zero",
+      "t": 183
+    },
+    {
+      "text": "like a long jump champion on a lazy Susan",
+      "videoId": "9nyFJ-1mjTE",
+      "videoTitle": "D4: Dark Dreams Don't Die",
+      "t": 151
+    },
+    {
+      "text": "like a ping pong ball made of grotesque",
+      "videoId": "x1gjfgWe_40",
+      "videoTitle": "Dead Rising Deluxe Remaster | Fully Ramblomatic",
+      "t": 305
+    },
+    {
+      "text": "like a Catherine Wheel The game's title is The Elder Scrumptious",
+      "videoId": "lttqPaaCt0s",
+      "videoTitle": "THE ELDER SCROLLS V: SKYRIM",
+      "t": 217
+    },
+    {
+      "text": "like a single ineffectual frozen pea in a great big bag of frozen peas",
+      "videoId": "kqADY2AwSaE",
+      "videoTitle": "Helldivers 2 | Fully Ramblomatic",
+      "t": 116
+    },
+    {
+      "text": "like a starving man binging on praline truffles",
+      "videoId": "v52ueRrfMSw",
+      "videoTitle": "THE WITCHER 2: ASSASSINS OF KINGS (Zero Punctuation: The Witcher 2)",
+      "t": 47
+    },
+    {
+      "text": "like a highly suspect sausage roll at a horse castration party",
+      "videoId": "y0qALF1jTAg",
+      "videoTitle": "Sherlock Holmes Chapter One",
+      "t": 352
+    },
+    {
+      "text": "like a political campaign gives out bumper stickers",
+      "videoId": "D9nucW65XF0",
+      "videoTitle": "Code Vein II | Fully Ramblomatic",
+      "t": 46000
+    },
+    {
+      "text": "like some kind of business executive euphemism for soliciting prostitutes",
+      "videoId": "7L1NoPe4CKM",
+      "videoTitle": "WII SPORTS RESORT",
+      "t": 138
+    },
+    {
+      "text": "like a fishnet stocking on a blobfish",
+      "videoId": "jIFyapM8oqA",
+      "videoTitle": "Mario Golf: Super Rush and ENDER LILIES: Quietus of the Knights",
+      "t": 28
+    },
+    {
+      "text": "like an adaptation of Super Mario Bros",
+      "videoId": "G9naXmOYAdE",
+      "videoTitle": "DARK SOULS 2 - PREPARE TO DIE AGAIN",
+      "t": 278
+    },
+    {
+      "text": "like a setup for a boss fight",
+      "videoId": "mYufqDsOrtY",
+      "videoTitle": "The Medium",
+      "t": 228
+    },
+    {
+      "text": "like a showcase of admittedly quite good music",
+      "videoId": "QoG1dDUBnlE",
+      "videoTitle": "Loop Hero & Everhood",
+      "t": 294
+    },
+    {
+      "text": "like a Scotsman in an itchy kilt",
+      "videoId": "TU1E4jwquzU",
+      "videoTitle": "DAYZ",
+      "t": 159
+    },
+    {
+      "text": "like a piece of chewing gum in the hands of a bored high school student",
+      "videoId": "4RiEh6VV1hI",
+      "videoTitle": "Summer Game Fest 2024 | Fully Ramblomatic",
+      "t": 110
+    },
+    {
+      "text": "like a concerned parent at an after school knife fighting club",
+      "videoId": "r98c0smstXc",
+      "videoTitle": "Biomutant",
+      "t": 73
+    },
+    {
+      "text": "like a set of custom fit pyjamas",
+      "videoId": "305_CJwV-ik",
+      "videoTitle": "Little Nightmares 2",
+      "t": 80
+    },
+    {
+      "text": "like an erection in a rugby scrum",
+      "videoId": "SSDFZi6zqOc",
+      "videoTitle": "Kingdom Hearts 3",
+      "t": 201
+    },
+    {
+      "text": "like a film going without proper editing",
+      "videoId": "h_ej69-QEWk",
+      "videoTitle": "Kentucky Route Zero",
+      "t": 312
+    },
+    {
+      "text": "like a gimmick bolted onto the other",
+      "videoId": "S9QVGtqwhXY",
+      "videoTitle": "XCOM: ENEMY UNKNOWN",
+      "t": 116
+    },
+    {
+      "text": "like a crippled dog attempting to pole dance",
+      "videoId": "y079iJ36H4U",
+      "videoTitle": "BLACK KNIGHT SWORD & HOTLINE MIAMI",
+      "t": 96
+    },
+    {
+      "text": "like a bunch of snakes having fucking seizures and tacked that on too",
+      "videoId": "P6JNqMjouNc",
+      "videoTitle": "HALO WARS",
+      "t": 58
+    },
+    {
+      "text": "like an overgrown ornamental rock garden",
+      "videoId": "XuO-0-TnwYA",
+      "videoTitle": "Sifu",
+      "t": 126
+    },
+    {
+      "text": "like an open sandbox but you go through it like it's a tunnel",
+      "videoId": "lQ-ctaY05A0",
+      "videoTitle": "Metro Exodus",
+      "t": 134
+    },
+    {
+      "text": "like a squirrel being dangled over a sack of understimulated pitbulls",
+      "videoId": "tLP5zJ_brGE",
+      "videoTitle": "The Best, Worst & Blandest of 2022",
+      "t": 42
+    },
+    {
+      "text": "like a platoon of winged monkeys",
+      "videoId": "MfRB57_BDMU",
+      "videoTitle": "ASSASSIN'S CREED 2",
+      "t": 101
+    },
+    {
+      "text": "like a crashing blimp at a wedding photoshoot",
+      "videoId": "gEvXNwCsRSg",
+      "videoTitle": "The Weird Story of \"Bob's Game\"",
+      "t": 319
+    },
+    {
+      "text": "like a cannabis dispensary just before the bank holiday weekend",
+      "videoId": "U47JJCCb7GI",
+      "videoTitle": "Mortal Shell",
+      "t": 151
+    },
+    {
+      "text": "like a forced chuckle all the way to the dole office",
+      "videoId": "cPAOCnRiyOE",
+      "videoTitle": "Acclaim Entertainment 'Hall of Shame'",
+      "t": 218
+    },
+    {
+      "text": "like an open world to feel big",
+      "videoId": "4cHap89_lFk",
+      "videoTitle": "RED DEAD REDEMPTION",
+      "t": 214
+    },
+    {
+      "text": "like a veteran plasterer getting another bucket down from the van",
+      "videoId": "Cz3GhLFRFcA",
+      "videoTitle": "Travis Strikes Again: No More Heroes",
+      "t": 258
+    },
+    {
+      "text": "like a bored six-year-old with the upper body strength of Rowdy Roddy Piper while the other",
+      "videoId": "xiaB8XJqyLs",
+      "videoTitle": "BEYOND TWO SOULS",
+      "t": 229
+    },
+    {
+      "text": "like a gun developed by whoever designed the current American healthcare system",
+      "videoId": "X43SS4fxFyI",
+      "videoTitle": "Rage 2",
+      "t": 178
+    },
+    {
+      "text": "like a character who'd make for a jolly interesting protagonist",
+      "videoId": "A2jH4MQl5gg",
+      "videoTitle": "Monster Hunter Wilds | Fully Ramblomatic",
+      "t": 94
+    },
+    {
+      "text": "like a good idea at the planning stage",
+      "videoId": "k8eOHNj7Qbs",
+      "videoTitle": "Alone in the Dark: Illumination",
+      "t": 159
+    },
+    {
+      "text": "like a man trying to build a sandcastle out of rice pudding",
+      "videoId": "w-cGrPLJvXI",
+      "videoTitle": "SILENT HILL: DOWNPOUR",
+      "t": 33
+    },
+    {
+      "text": "like a bullied teenager with a semi-automatic and an Oedipus complex",
+      "videoId": "bB3rwPoDYo4",
+      "videoTitle": "STAR WARS: THE FORCE UNLEASHED II",
+      "t": 109
+    },
+    {
+      "text": "like a grape in a French vineyard",
+      "videoId": "imQRnghxkmo",
+      "videoTitle": "Dragon Quest XI",
+      "t": 295
+    },
+    {
+      "text": "like a cat to a laser pointer",
+      "videoId": "g4Dw0Z2Dsts",
+      "videoTitle": "Shenmue III",
+      "t": 168
+    },
+    {
+      "text": "like a very credulous person watching David Blaine standing on one foot",
+      "videoId": "I9EaqEjR6QM",
+      "videoTitle": "Viewfinder & My Friendly Neighborhood",
+      "t": 26
+    },
+    {
+      "text": "like a case of the spider clap",
+      "videoId": "y1yjjd1iUJc",
+      "videoTitle": "SPIDER-MAN: SHATTERED DIMENSIONS",
+      "t": 91
+    },
+    {
+      "text": "like a snow plough in a popcorn factory",
+      "videoId": "BW_h1zD2luY",
+      "videoTitle": "Elden Ring",
+      "t": 177
+    },
+    {
+      "text": "like an inverse of the Dumbo's magic feather trick",
+      "videoId": "cGyE2gsW_9w",
+      "videoTitle": "Gris and Ashen",
+      "t": 323
+    },
+    {
+      "text": "like a partially deaf switchboard operator",
+      "videoId": "72_3gmawPg0",
+      "videoTitle": "Psychonauts 2",
+      "t": 279
+    },
+    {
+      "text": "like a late night kebab shit in a public toilet",
+      "videoId": "wOoRFZ-fFWo",
+      "videoTitle": "Praey for the Gods",
+      "t": 114
+    },
+    {
+      "text": "like a remake of the original than a sequel",
+      "videoId": "CkCi-0llOTY",
+      "videoTitle": "SERIOUS SAM 3: BFE",
+      "t": 222
+    },
+    {
+      "text": "like a big black dog closing in on the unsupervised Jaffa Cakes",
+      "videoId": "RGGv6ntj4Pk",
+      "videoTitle": "Enemy Front & Valiant Hearts: The Great War",
+      "t": 276
+    },
+    {
+      "text": "like an unusually well-scrubbed homeless person who can leak rubber cement from their armpits",
+      "videoId": "QWlggS8bbwE",
+      "videoTitle": "Unavowed",
+      "t": 30
+    },
+    {
+      "text": "like a toadying lackey with an enthusiasm for farts",
+      "videoId": "aDEdcLi53i0",
+      "videoTitle": "Ghost of a Tale",
+      "t": 142
+    },
+    {
+      "text": "like a very badly designed tampon",
+      "videoId": "f1QU1a3gsEM",
+      "videoTitle": "Ni No Kuni 2: Revenant Kingdom",
+      "t": 244
+    },
+    {
+      "text": "like a hideously complex clockwork machine",
+      "videoId": "WFKzbX_Pn-E",
+      "videoTitle": "Hades",
+      "t": 318
+    },
+    {
+      "text": "like an arachnophobic drummer practicing in a poorly maintained garden shed",
+      "videoId": "vZIPFAJmGew",
+      "videoTitle": "Stellar Blade | Fully Ramblomatic",
+      "t": 204
+    },
+    {
+      "text": "like a dodgy shopping cart full of lego",
+      "videoId": "-DgX0W7Nc50",
+      "videoTitle": "Evil West",
+      "t": 71
+    },
+    {
+      "text": "like some fussy mother getting her children ready for the first day of school",
+      "videoId": "_ydrCwyvtYE",
+      "videoTitle": "MASS EFFECT",
+      "t": 165
+    },
+    {
+      "text": "like an extremely ill-advised premise for a Saturday morning cartoon",
+      "videoId": "ZM09ZGprGXQ",
+      "videoTitle": "Persona 3 Reload | Fully Ramblomatic",
+      "t": 268
+    },
+    {
+      "text": "like a discarded mouthful of scotch egg",
+      "videoId": "0w4AoUSb_0w",
+      "videoTitle": "EXCLUSIVES SHOWDOWN",
+      "t": 190
+    },
+    {
+      "text": "like a pair of hedgehogs ballroom dancing inside a tube sock",
+      "videoId": "pGQuHuM3h-0",
+      "videoTitle": "Let It Die",
+      "t": 128500
+    },
+    {
+      "text": "like a disgruntled computer science teacher's assistant watching an old person type",
+      "videoId": "3-CX4iPK988",
+      "videoTitle": "Horizon Forbidden West",
+      "t": 119
+    },
+    {
+      "text": "like a lost toddler on Black Friday",
+      "videoId": "6pYc8X9F75w",
+      "videoTitle": "Red Dead Redemption 2",
+      "t": 158
+    },
+    {
+      "text": "like a napalm strike in nipple tassles I tend to find them fucking adorable",
+      "videoId": "iCNkQrV5cBs",
+      "videoTitle": "Ys IX: Monstrum Nox",
+      "t": 45
+    },
+    {
+      "text": "like an overly elaborate set for Shakespeare in the Park than anywhere anyone actually sodding lives",
+      "videoId": "IEIj9hXYFJk",
+      "videoTitle": "Forspoken",
+      "t": 211
+    },
+    {
+      "text": "like a half-killed grasshopper from the mouth of an unwarrantedly self-satisfied cat",
+      "videoId": "l6lC3t40W7o",
+      "videoTitle": "Hob & A Hat In Time",
+      "t": 24
+    },
+    {
+      "text": "like a Souls-like but you keep saying you're sick of them and it's got giant robots",
+      "videoId": "vrgRiR563H8",
+      "videoTitle": "Armored Core VI",
+      "t": 53
+    },
+    {
+      "text": "like a pretty good drawcard for a leader to have",
+      "videoId": "lawmA7O16jE",
+      "videoTitle": "FABLE 3",
+      "t": 211
+    },
+    {
+      "text": "like a classic Indiana Jones film",
+      "videoId": "iorN8RRB2Yk",
+      "videoTitle": "Indiana Jones and the Great Circle | Fully Ramblomatic",
+      "t": 116
+    },
+    {
+      "text": "like a brain damaged parakeet looking for the cuttlefish",
+      "videoId": "Bc7wjch1OVg",
+      "videoTitle": "Final Fantasy VII Rebirth | Fully Ramblomatic",
+      "t": 198
+    },
+    {
+      "text": "like a flipper-handed freak child who just discovered MS Paint",
+      "videoId": "5t4xS2PqFFA",
+      "videoTitle": "WEBCOMICS",
+      "t": 50
+    },
+    {
+      "text": "like a guinea pig panicking about losing its asthma inhaler",
+      "videoId": "qAoVu8JScEM",
+      "videoTitle": "Cairn | Fully Ramblomatic",
+      "t": 196160
+    },
+    {
+      "text": "like a great big party buffet full of lovely dishes",
+      "videoId": "vx2TTzadTaA",
+      "videoTitle": "THIEF - STEALING A CLASSIC",
+      "t": 12
+    },
+    {
+      "text": "like a playboy bunny their attitudes to gender politics shine through",
+      "videoId": "9XSkRuPuthY",
+      "videoTitle": "METROID OTHER M",
+      "t": 146
+    },
+    {
+      "text": "like an arse made out of Lego",
+      "videoId": "7jbhCOCdHUw",
+      "videoTitle": "SILENT HILL 2",
+      "t": 95
+    },
+    {
+      "text": "like a magnum condom on a two inch dick",
+      "videoId": "_Qv7wdUun-g",
+      "videoTitle": "Gears 5",
+      "t": 242
+    },
+    {
+      "text": "like a heroin addict looking for a good parking space",
+      "videoId": "qVbOlAHdasA",
+      "videoTitle": "LOST PLANET 3",
+      "t": 178
+    },
+    {
+      "text": "like a box of curly-whirlies through dental enamel",
+      "videoId": "NdKqrzlFPrg",
+      "videoTitle": "Dead Island 2",
+      "t": 38
+    },
+    {
+      "text": "like a clever subversive puzzle but the game seems terrified of leaving anyone behind",
+      "videoId": "krq6-1ht_kk",
+      "videoTitle": "Doki Doki Literature Club",
+      "t": 295
+    },
+    {
+      "text": "like a toddler who just smelled something weird",
+      "videoId": "ngMaCiSs-m4",
+      "videoTitle": "The Dark Pictures Anthology: Little Hope",
+      "t": 50
+    },
+    {
+      "text": "like a laundrette run by genies",
+      "videoId": "F3xHo9SXoQI",
+      "videoTitle": "King's Quest: A Knight to Remember",
+      "t": 252
+    },
+    {
+      "text": "like a poorly supervised coffee machine right about now",
+      "videoId": "SAZ6y_3CAMA",
+      "videoTitle": "Crash Bandicoot 4: It's About Time",
+      "t": 264
+    },
+    {
+      "text": "like a straight-line Tetris block falling into place",
+      "videoId": "J-k0qdoZYQI",
+      "videoTitle": "F.E.A.R. PERSEUS MANDATE",
+      "t": 22
+    },
+    {
+      "text": "like a very illogical move because the comparison is as unavoidable as it is unfavourable",
+      "videoId": "bzaEa3DzYHY",
+      "videoTitle": "Lords of the Fallen - Imitation is Flattery?",
+      "t": 230
+    },
+    {
+      "text": "like a stick in a candy floss machine",
+      "videoId": "n-7Crx3AiWM",
+      "videoTitle": "Transistor - Like Bastion But...",
+      "t": 141
+    },
+    {
+      "text": "like a gelatin dessert on a merry-go-round",
+      "videoId": "RYrFrjtGTEE",
+      "videoTitle": "Halo 5: Guardians",
+      "t": 96
+    },
+    {
+      "text": "like a jar of peanut butter",
+      "videoId": "4yjhQJ4zQvE",
+      "videoTitle": "Headlander & Quadrilateral Cowboy",
+      "t": 293
+    },
+    {
+      "text": "like a nine year old catching you out with the whoopie cushion",
+      "videoId": "fBc0TSmF85g",
+      "videoTitle": "The Mortuary Assistant",
+      "t": 154
+    },
+    {
+      "text": "like a pair of broken deckchairs frozen to the pier in a Blackpool winter",
+      "videoId": "-VJ2aK7VYDk",
+      "videoTitle": "Metroid Prime Federation Force",
+      "t": 95759
+    },
+    {
+      "text": "like a tassel on a stripper's tit",
+      "videoId": "ZIn8Uhpm_Ro",
+      "videoTitle": "FIFA 13",
+      "t": 152
+    },
+    {
+      "text": "like an episode of the fuckin' Magic School Bus",
+      "videoId": "dZimXBB3gUQ",
+      "videoTitle": "ASSASSIN'S CREED 3",
+      "t": 90
+    },
+    {
+      "text": "like a bloke losing his nerve and speedwalking out of a brothel",
+      "videoId": "eXdadG_3ywY",
+      "videoTitle": "Days Gone",
+      "t": 211
+    },
+    {
+      "text": "like a somehow even bleaker Abe's Oddysee",
+      "videoId": "X164Uy9K-yA",
+      "videoTitle": "Inside & Shadow of the Beast",
+      "t": 129289
+    },
+    {
+      "text": "like an obsessive Best Buy employee in the post-apocalypse",
+      "videoId": "xEsi4dEe1Hg",
+      "videoTitle": "Just Cause 4",
+      "t": 138
+    },
+    {
+      "text": "like a misguided attempt to combine two audiences that want different things",
+      "videoId": "xEsi4dEe1Hg",
+      "videoTitle": "Just Cause 4",
+      "t": 252
+    },
+    {
+      "text": "like a mutant from XCOM got elected pope",
+      "videoId": "rfm0u0jJwxY",
+      "videoTitle": "Destiny 2",
+      "t": 98
+    },
+    {
+      "text": "like a small child putting the cat in a tumble dryer that's exactly what it wants",
+      "videoId": "ebdjnuAYotc",
+      "videoTitle": "SOULCALIBUR IV",
+      "t": 224
+    },
+    {
+      "text": "like a stiffy in the presence of Tony Abbott",
+      "videoId": "i5XeyLgYZ-E",
+      "videoTitle": "Lichdom: Battlemage",
+      "t": 180
+    },
+    {
+      "text": "like a blind baby kitten questing for its mum's nipple and falling off the back steps",
+      "videoId": "J1pet0RO4p0",
+      "videoTitle": "The Outer Worlds 2 | Fully Ramblomatic",
+      "t": 60
+    },
+    {
+      "text": "like a lost dad on a poorly signposted highway junction",
+      "videoId": "PNsjn6Q6dkM",
+      "videoTitle": "Tormented Souls and The Artful Escape",
+      "t": 138
+    },
+    {
+      "text": "like a it takes all the cues",
+      "videoId": "uC7KHEjxWoE",
+      "videoTitle": "Escape from Ever After | Fully Ramblomatic",
+      "t": 60719
+    },
+    {
+      "text": "like a muppet on a teacup ride",
+      "videoId": "uC7KHEjxWoE",
+      "videoTitle": "Escape from Ever After | Fully Ramblomatic",
+      "t": 270560
+    },
+    {
+      "text": "like an unacknowledged smear of organic paste on the bootheel of the universe",
+      "videoId": "gMfkNnc9BZE",
+      "videoTitle": "Returnal",
+      "t": 308
+    },
+    {
+      "text": "like a toddler with a box of Kleenex given half a chance",
+      "videoId": "SAmczgrt8so",
+      "videoTitle": "Vampire: The Masquerade – Bloodlines 2 | Fully Ramblomatic",
+      "t": 267
+    },
+    {
+      "text": "like an alarm going off in a Christmas tree shop",
+      "videoId": "J6UWnzWdZmQ",
+      "videoTitle": "Pentiment",
+      "t": 30
+    },
+    {
+      "text": "like a Blues Brothers game in which you play as the police",
+      "videoId": "pPk7gllRZm4",
+      "videoTitle": "ALIENS: COLONIAL MARINES",
+      "t": 57
+    },
+    {
+      "text": "like a robot vagina queefing transmission fluid",
+      "videoId": "vuNN1D-FCjs",
+      "videoTitle": "MEDAL OF HONOR WARFIGHTER & DOOM 3 BFG EDITION",
+      "t": 192
+    },
+    {
+      "text": "like an Easter Island head reacts to a stiff breeze",
+      "videoId": "xbQ-Qwcuehk",
+      "videoTitle": "NEVERDEAD",
+      "t": 197
+    },
+    {
+      "text": "like a toy mouse on a string tormenting a cat",
+      "videoId": "JXbpPyqQWEs",
+      "videoTitle": "Dave the Diver",
+      "t": 27
+    },
+    {
+      "text": "like a poo in a shower drain",
+      "videoId": "Za6iAeO2omU",
+      "videoTitle": "Bayonetta 3",
+      "t": 102
+    },
+    {
+      "text": "like a car park security camera",
+      "videoId": "5wKzwgEG1SM",
+      "videoTitle": "Immortals Fenyx Rising",
+      "t": 210
+    },
+    {
+      "text": "like an easy system to game",
+      "videoId": "8n6bqAEyVLA",
+      "videoTitle": "Until Dawn",
+      "t": 131
+    },
+    {
+      "text": "like a massively overinvolved join-the-dots puzzle can feel a bit World of Warcraft-y at times",
+      "videoId": "iItqUdHTNpU",
+      "videoTitle": "Avowed | Fully Ramblomatic",
+      "t": 272
+    },
+    {
+      "text": "like a defaced game of Tic Tac Toe",
+      "videoId": "Z1GmR8zEB7k",
+      "videoTitle": "E3 2017",
+      "t": 59470
+    },
+    {
+      "text": "like an animation studio having to paint each frame onto the side of a frightened piglet",
+      "videoId": "HbORw5eXsiM",
+      "videoTitle": "Capcom Five",
+      "t": 84230
+    },
+    {
+      "text": "like a cross between the Cthulhu Mythos and the Charlie Brown and Snoopy show",
+      "videoId": "CdfrF4Q6TkQ",
+      "videoTitle": "SUPER PAPER MARIO",
+      "t": 26
+    },
+    {
+      "text": "like a random zombie wearing Groucho Marx glasses",
+      "videoId": "gEV4Ebz4Yts",
+      "videoTitle": "CASTLEVANIA: LORDS OF SHADOW",
+      "t": 47
+    },
+    {
+      "text": "like a removal man who's completely stopped giving a shit",
+      "videoId": "IXuIZstyM7E",
+      "videoTitle": "AMNESIA: THE DARK DESCENT",
+      "t": 104
+    },
+    {
+      "text": "like a chicken pot pie got projectile vomited at the ceiling fan",
+      "videoId": "hBDELWLfN-8",
+      "videoTitle": "Slitterhead | Fully Ramblomatic",
+      "t": 257
+    },
+    {
+      "text": "like a Game Boy Advance in the mouth of a friendly labrador",
+      "videoId": "8tqhjm_SCeE",
+      "videoTitle": "The 2021 Games I Didn't Review",
+      "t": 61
+    },
+    {
+      "text": "like an incontinent dog from the Bikini atoll",
+      "videoId": "AoETiwKEBT0",
+      "videoTitle": "Subnautica",
+      "t": 107
+    },
+    {
+      "text": "like a black and terrible flasher of the night",
+      "videoId": "zL8SB1YHzFU",
+      "videoTitle": "BATMAN ARKHAM ASYLUM",
+      "t": 109
+    },
+    {
+      "text": "like a movie critic never having watched Citizen Kane",
+      "videoId": "QO-ATrciXfA",
+      "videoTitle": "THE LEGEND OF ZELDA: OCARINA OF TIME 3D",
+      "t": 0
+    },
+    {
+      "text": "like a glass of water and a lie down",
+      "videoId": "-lBUQZh-wAk",
+      "videoTitle": "Tunic",
+      "t": 17
+    },
+    {
+      "text": "like a Mickey Mouse watch going haywire",
+      "videoId": "-lBUQZh-wAk",
+      "videoTitle": "Tunic",
+      "t": 229
+    },
+    {
+      "text": "like a severely unmotivated Dracula impersonator",
+      "videoId": "myqwiEhA_cs",
+      "videoTitle": "Batman: Arkham Shadow | Fully Ramblomatic",
+      "t": 250
+    },
+    {
+      "text": "like a rowboat on a ball pit",
+      "videoId": "szIMUQKHAu4",
+      "videoTitle": "Unheard and Outward",
+      "t": 25
+    },
+    {
+      "text": "like a madman with a welding torch broke into the bell and whistle factory",
+      "videoId": "oZWoQ43Ho1g",
+      "videoTitle": "INJUSTICE: GODS AMONG US",
+      "t": 199
+    },
+    {
+      "text": "like a Counter-Strike player with divorced parents and then I assumed it was a JRPG",
+      "videoId": "w-2hxgeMJrk",
+      "videoTitle": "Xenoblade Chronicles X",
+      "t": 15
+    },
+    {
+      "text": "like a spacehopper full of custard",
+      "videoId": "K1WvvDKh-mw",
+      "videoTitle": "Maneater",
+      "t": 51
+    },
+    {
+      "text": "like a story that only comes together once you've got the full picture",
+      "videoId": "A1kS5ZpTt9M",
+      "videoTitle": "BROKEN AGE",
+      "t": 285
+    },
+    {
+      "text": "like a fitness instructor who got hurled through the window of a curtain shop",
+      "videoId": "QpgOW0VJMYA",
+      "videoTitle": "Gravity Rush 2",
+      "t": 225870
+    },
+    {
+      "text": "like a grandmother brandishing a new Christmas scarf",
+      "videoId": "IC34w7w5gas",
+      "videoTitle": "Graven | Fully Ramblomatic",
+      "t": 47
+    },
+    {
+      "text": "like a child dragging its stillborn Siamese twin",
+      "videoId": "NbesTMutvzI",
+      "videoTitle": "STAR WARS: THE OLD REPUBLIC",
+      "t": 67
+    },
+    {
+      "text": "like a top hat or something",
+      "videoId": "pWXuzZ26yp0",
+      "videoTitle": "SAINTS ROW 2",
+      "t": 28
+    },
+    {
+      "text": "like an alien intergalactic TV producer",
+      "videoId": "lMcD6xscDWs",
+      "videoTitle": "Marvel's Deadpool VR | Fully Ramblomatic",
+      "t": 174400
+    },
+    {
+      "text": "like a vat of boiling water brought in for an extremely ill-advised escapology show",
+      "videoId": "mdrTzbRb-l0",
+      "videoTitle": "Blue Prince | Fully Ramblomatic",
+      "t": 284
+    },
+    {
+      "text": "like a fat kid swimming without water wings",
+      "videoId": "Wxr89gxP9Dg",
+      "videoTitle": "CONSOLE RUNDOWN",
+      "t": 75
+    },
+    {
+      "text": "like a burning panda in a dentist's waiting room",
+      "videoId": "pSUVlJPTJVs",
+      "videoTitle": "KILLER IS DEAD",
+      "t": 269
+    },
+    {
+      "text": "like a dystopian future where technology's taken over and everyone eats manufactured nutrient cubes",
+      "videoId": "n_TGMgl99p8",
+      "videoTitle": "Harvest Moon: One World",
+      "t": 93
+    },
+    {
+      "text": "like a cross between a character from Lazy Town and a cenobite",
+      "videoId": "U_JlkXTdFD4",
+      "videoTitle": "Cyberpunk 2077",
+      "t": 68
+    },
+    {
+      "text": "like a low-market electronics company from Eastern Europe",
+      "videoId": "LKaqHapRvVM",
+      "videoTitle": "Star Wars Battlefront 2",
+      "t": 88
+    },
+    {
+      "text": "like an actual step forward for game design",
+      "videoId": "iPkWdTG8o1s",
+      "videoTitle": "Saints Row",
+      "t": 299
+    },
+    {
+      "text": "like a whole new galaxy just packed to the gills with intrigue and peril",
+      "videoId": "ckGMP5OxnLg",
+      "videoTitle": "Mass Effect Andromeda",
+      "t": 43730
+    },
+    {
+      "text": "like an angel with poor finger dexterity",
+      "videoId": "a6CbqSts0BM",
+      "videoTitle": "Marvel's Guardians of the Galaxy",
+      "t": 105
+    },
+    {
+      "text": "like a greyhound focused squarely on the rusty bumhole of an artificial rabbit",
+      "videoId": "R5D8SRjgMe8",
+      "videoTitle": "Grow Up",
+      "t": 154050
+    },
+    {
+      "text": "like a bedspring full of ham",
+      "videoId": "9LIOIzqS_G4",
+      "videoTitle": "Deathloop",
+      "t": 150
+    },
+    {
+      "text": "like a man sending his gazpacho soup back to be warmed up",
+      "videoId": "XM9JBNVYE_w",
+      "videoTitle": "GUILD WARS 2",
+      "t": 21
+    },
+    {
+      "text": "like a set of model railroad switches watching a tennis match",
+      "videoId": "8PKGx7BByGQ",
+      "videoTitle": "Pokémon Legends: Z-A | Fully Ramblomatic",
+      "t": 89
+    },
+    {
+      "text": "like an unambiguously shit game to brighten a critic's week",
+      "videoId": "GO-MIrlkGvE",
+      "videoTitle": "Contra: Rogue Corps",
+      "t": 24
+    },
+    {
+      "text": "like a stiletto and it's absolutely spectacular",
+      "videoId": "pm8WYMIqIZI",
+      "videoTitle": "Fashion Police Squad",
+      "t": 273
+    },
+    {
+      "text": "like a winning scratchcard with an engorged clitoris and somehow it still doesn't take",
+      "videoId": "o9K2lMZJlDs",
+      "videoTitle": "Phoenix Point & Bug Fables",
+      "t": 241
+    },
+    {
+      "text": "like a terrier in a sex orgy",
+      "videoId": "_FKgUZaCzNc",
+      "videoTitle": "AMNESIA: A MACHINE FOR PIGS",
+      "t": 131
+    },
+    {
+      "text": "like an executive toy for anything up to a year",
+      "videoId": "NQCuWAaTCP8",
+      "videoTitle": "Hyrule Warriors - Nintendo Holding Pattern?",
+      "t": 26
+    },
+    {
+      "text": "like a vacuum cleaner with a pufferfish on the end",
+      "videoId": "P0dXtOVi2yo",
+      "videoTitle": "THE WITCHER",
+      "t": 333
+    },
+    {
+      "text": "like a climbing off Alfred Hitchcock's bum hair",
+      "videoId": "e0StdRykbU4",
+      "videoTitle": "FEZ AND I AM ALIVE",
+      "t": 234
+    },
+    {
+      "text": "like a corporation didn't lie to me for once",
+      "videoId": "NzjXSfiLr5k",
+      "videoTitle": "Stadia",
+      "t": 119
+    },
+    {
+      "text": "like a fucking five year old",
+      "videoId": "EI1hXU6R3IQ",
+      "videoTitle": "50 CENT: BLOOD ON THE SAND",
+      "t": 185
+    },
+    {
+      "text": "like a hairdresser buying up all the advertising space in a cancer ward",
+      "videoId": "RUAeYL7eAdI",
+      "videoTitle": "NEXT GEN BUYER'S GUIDE",
+      "t": 149
+    },
+    {
+      "text": "like a fussy dad with an increased electricity bill",
+      "videoId": "0g9SazeaeK0",
+      "videoTitle": "Quake",
+      "t": 196040
+    },
+    {
+      "text": "like a brick wall in a raging stream",
+      "videoId": "xSL7JnnDYik",
+      "videoTitle": "Judgment",
+      "t": 288
+    },
+    {
+      "text": "like a passive-aggressive depressed person who has been dragged onto a dance floor",
+      "videoId": "WgvFfFK5KFA",
+      "videoTitle": "KINECT",
+      "t": 208
+    },
+    {
+      "text": "like a bridesmaid on roller skates",
+      "videoId": "dJXevs5RkuY",
+      "videoTitle": "STRIDER",
+      "t": 255
+    },
+    {
+      "text": "like an asshole kid on a climbing frame",
+      "videoId": "ZzRa8_UbhHI",
+      "videoTitle": "Baldur's Gate 3",
+      "t": 253
+    },
+    {
+      "text": "like an anxious postgraduate at the optician because it desperately needs to focus on something",
+      "videoId": "SWkMLAKyDkE",
+      "videoTitle": "Death Stranding",
+      "t": 288
+    },
+    {
+      "text": "like an inside-out pink ski sock",
+      "videoId": "UUKZRW1YCiM",
+      "videoTitle": "Super Smash Brothers Ultimate",
+      "t": 199
+    },
+    {
+      "text": "like a fucking screen test for the original cast of Saved by the Bell",
+      "videoId": "8odeI9Cq4J4",
+      "videoTitle": "Gotham Knights",
+      "t": 262
+    },
+    {
+      "text": "like an Amish virgin watching an MMA first blood crotch kicks only match",
+      "videoId": "U0OvwUlLx08",
+      "videoTitle": "WALKING DEAD",
+      "t": 233
+    },
+    {
+      "text": "like a sequel rather than an expansion pack",
+      "videoId": "tSefw2jWHIo",
+      "videoTitle": "PROTOTYPE 2",
+      "t": 113
+    },
+    {
+      "text": "like an elderly man playing bowls on a lawn",
+      "videoId": "VqflNjHk-TU",
+      "videoTitle": "FUSE",
+      "t": 286
+    }
+  ],
+  "totalSimiles": 965,
+  "totalSwears": 7653,
+  "sweariestEpisodes": [
+    {
+      "title": "Kingdom Come: Deliverance",
+      "id": "Ldoe4N9G4A4",
+      "count": 29,
+      "perMinute": 5.1
+    },
+    {
+      "title": "Call of Duty: Vanguard",
+      "id": "_zi9UXyIvfk",
+      "count": 27,
+      "perMinute": 4.1
+    },
+    {
+      "title": "The End is Nigh and Yonder: The Cloud Catcher Chronicles",
+      "id": "aRahueSyAs0",
+      "count": 21,
+      "perMinute": 4
+    },
+    {
+      "title": "THE AMAZING SPIDER-MAN 2",
+      "id": "8rvsB7lT0e8",
+      "count": 20,
+      "perMinute": 3.8
+    },
+    {
+      "title": "Conan: Exiles",
+      "id": "V5oB9zEu0A8",
+      "count": 20,
+      "perMinute": 3.6
+    }
+  ],
+  "cleanestEpisode": {
+    "title": "UNCHARTED: DRAKE'S FORTUNE",
+    "id": "12FMjfFJrG0",
+    "count": 0,
+    "perMinute": 0
+  },
+  "petPeeves": [
+    {
+      "label": "Boss Fights",
+      "mentions": 374,
+      "videos": 242
+    },
+    {
+      "label": "Open World",
+      "mentions": 232,
+      "videos": 121
+    },
+    {
+      "label": "Crafting",
+      "mentions": 167,
+      "videos": 95
+    },
+    {
+      "label": "Minigames",
+      "mentions": 137,
+      "videos": 93
+    },
+    {
+      "label": "Side Quests",
+      "mentions": 129,
+      "videos": 91
+    },
+    {
+      "label": "Quick-Time Events",
+      "mentions": 87,
+      "videos": 64
+    },
+    {
+      "label": "Tutorials",
+      "mentions": 82,
+      "videos": 65
+    },
+    {
+      "label": "Checkpoints",
+      "mentions": 54,
+      "videos": 34
+    },
+    {
+      "label": "Grinding",
+      "mentions": 50,
+      "videos": 42
+    },
+    {
+      "label": "Live Service",
+      "mentions": 44,
+      "videos": 24
+    },
+    {
+      "label": "DLC",
+      "mentions": 36,
+      "videos": 28
+    },
+    {
+      "label": "Fetch Quests",
+      "mentions": 33,
+      "videos": 22
+    },
+    {
+      "label": "Backtracking",
+      "mentions": 27,
+      "videos": 19
+    },
+    {
+      "label": "Loot Boxes",
+      "mentions": 25,
+      "videos": 17
+    },
+    {
+      "label": "Micropayments",
+      "mentions": 25,
+      "videos": 17
+    },
+    {
+      "label": "Invisible Walls",
+      "mentions": 22,
+      "videos": 21
+    }
+  ],
+  "darkSouls": {
+    "mentions": 196,
+    "videosMentioning": 58,
+    "actualReviews": 4
+  },
+  "vocabulary": {
+    "uniqueWords": 41571,
+    "hapaxCount": 9345,
+    "hapaxSample": [
+      "aardvark",
+      "australians",
+      "bodyless",
+      "celebrimbor",
+      "condemnation",
+      "deathtraps",
+      "dodginess",
+      "everest",
+      "forerunner",
+      "grimace",
+      "hyperfixated",
+      "jigsaws",
+      "maelstrom",
+      "momentous",
+      "olufsen",
+      "personalisation",
+      "propellers",
+      "repairmen",
+      "schlubman",
+      "slacktica",
+      "stencilled",
+      "technocrat",
+      "tweened",
+      "vectrex"
+    ]
+  }
 }
