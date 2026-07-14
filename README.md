@@ -1,69 +1,51 @@
 # Trilby's Archive
 
-A searchable archive of every Zero Punctuation and Fully Ramblomatic video transcript. Search for any quote, game, or phrase and jump directly to that moment on YouTube.
+Every *Zero Punctuation* and *Fully Ramblomatic* transcript, searchable. Find any quote, game, or phrase across **959 videos** of Yahtzee Croshaw's fast-talking critique — and jump straight to that moment on YouTube.
 
-## How It Works
+Nearly two decades of reviews, indexed down to the line.
 
-### Transcript Pipeline
+## How it works
 
-Getting captions for 700+ videos required a multi-step fallback approach:
+### Getting the transcripts
 
-1. **YouTube Transcript API** - First attempt using the `youtube-transcript` library to pull existing captions directly from YouTube (fastest)
-2. **yt-dlp Subtitles** - If no captions available via API, fall back to downloading auto-generated subtitles via `yt-dlp`
-3. **Whisper Transcription** - For videos with no captions at all, download the audio and transcribe using `whisper-large-v3` via Groq's API
+959 videos of rapid-fire narration need a three-tier fallback:
 
-### Tech Stack
+1. **YouTube Transcript API** — pull existing captions directly (fastest)
+2. **yt-dlp subtitles** — fall back to auto-generated subtitles
+3. **Whisper** — for videos with no captions at all, download the audio and transcribe with `whisper-large-v3` via Groq (the video title is fed in as a prompt, so game-specific vocabulary comes out right)
 
-- **[Astro](https://astro.build)** - Static site generator (no React, no Tailwind)
-- **[Pagefind](https://pagefind.app)** - Client-side full-text search index
-- **[Bun](https://bun.sh)** - Runtime and package manager
+### Then what
 
-## Development
+Every transcript becomes a static Astro page, and search is entirely client-side via Pagefind — no server, no query round-trips. Because the whole corpus is text, there's also a data-mined **stats page**: profanity trends, a "sweariest vs cleanest episode" leaderboard, simile roulette, vocabulary and pet-peeve analytics.
+
+### Stack
+
+- **[Astro](https://astro.build)** — static site generator (deliberately no React, no Tailwind)
+- **[Pagefind](https://pagefind.app)** — client-side full-text search
+- **[Bun](https://bun.sh)** — runtime and package manager
+
+## Develop
 
 ```bash
-# Install dependencies
 bun install
-
-# First-time setup: build search index and copy to public
-bun run dev:setup
-
-# Start dev server
+bun run dev:setup    # first time: full build + copy search index into public/
 bun run dev
 ```
 
-## Data Pipeline Scripts
+## Data pipeline
 
 ```bash
-# Fetch captions from YouTube playlists
-bun run captions
-
-# Transcribe failed videos using Groq Whisper
-GROQ_API_KEY=xxx bun run transcribe --limit 10
+bun run captions                                  # grab captions from the YouTube playlists
+GROQ_API_KEY=xxx bun run transcribe --limit 10    # Whisper fallback for the ones that failed
+bun run build                                      # pages → captions → stats → astro → pagefind
 ```
-
-### Full Build
-
-```bash
-bun run build
-```
-
-This runs the complete pipeline:
-1. Generate Astro pages for each video
-2. Build caption JSON index
-3. Calculate the stats
-4. Build Astro site
-5. Generate Pagefind search index
 
 ## Requirements
 
-- [Node.js](https://nodejs.org) - `>=22.12.0` for Astro 6
-- [Bun](https://bun.sh)
-- [yt-dlp](https://github.com/yt-dlp/yt-dlp) - `brew install yt-dlp`
-- [ffmpeg](https://ffmpeg.org) - Required for audio extraction (Whisper fallback)
-- `GROQ_API_KEY` environment variable for Whisper transcription
+Node ≥ 22.12.0, Bun, [yt-dlp](https://github.com/yt-dlp/yt-dlp), [ffmpeg](https://ffmpeg.org). `GROQ_API_KEY` only needed for Whisper transcription.
 
 ## Acknowledgments
 
-Thank you, Yahtzee Croshaw, for nearly two decades of some of the best video game critique on the internet.
+Thank you, Yahtzee Croshaw, for nearly two decades of some of the best video-game critique on the internet.
 
 No affiliation with The Escapist or Second Wind.
