@@ -111,4 +111,4 @@ async function main() {
   console.log(`Failed: ${failed}`);
 }
 
-main().catch(console.error);
+await main();

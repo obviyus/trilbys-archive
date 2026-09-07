@@ -665,4 +665,4 @@ async function main() {
   console.log(`Output written to ${OUTPUT_PATH}`);
 }
 
-main().catch(console.error);
+await main();

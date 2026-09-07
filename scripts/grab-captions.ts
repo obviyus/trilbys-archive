@@ -321,4 +321,4 @@ async function main() {
   console.log(`Total in database: ${progress.processedVideos.length}`);
 }
 
-main().catch(console.error);
+await main();

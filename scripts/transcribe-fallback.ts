@@ -273,4 +273,4 @@ async function main() {
   console.log(`Remaining: ${progress.failedVideos.length}`);
 }
 
-main().catch(console.error);
+await main();

@@ -21,7 +21,7 @@ else
     bun run transcribe --limit 100
 fi
 
-# Step 3: Build (pages + captions index + stats + astro + pagefind)
+# Step 3: Build (captions index + stats + astro + pagefind)
 echo ""
 echo "[3/4] Building..."
 bun run build

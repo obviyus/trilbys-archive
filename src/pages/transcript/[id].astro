@@ -1,15 +1,5 @@
-/**
- * Transforms caption JSON files into styled HTML pages for Pagefind indexing.
- * Each video becomes a searchable page with transcript content.
- *
- * AIDEV-NOTE: Pagefind indexes HTML output. We generate styled HTML pages
- * that exist primarily for indexing but also serve as readable transcripts.
- * Search results link to YouTube with timestamps via data-pagefind-meta.
- */
-
-import { $ } from "bun";
-import { Glob } from "bun";
-import { join } from "node:path";
+---
+import { Font } from "astro:assets";
 
 interface Caption {
   text: string;
@@ -17,7 +7,7 @@ interface Caption {
   duration: number;
 }
 
-interface VideoData {
+interface Props {
   video: {
     id: string;
     title: string;
@@ -30,8 +20,26 @@ interface VideoData {
   fetchedAt: string;
 }
 
-const CAPTIONS_DIR = join(import.meta.dir, "../data/captions");
-const OUTPUT_DIR = join(import.meta.dir, "../src/pages/transcript");
+export function getStaticPaths() {
+  const transcripts = Object.values(import.meta.glob<Props>("../../../data/captions/*.json", {
+    eager: true,
+    import: "default",
+  }));
+
+  return transcripts
+    .filter((data) => data.captions.length > 0)
+    .map((data) => ({ params: { id: data.video.id }, props: data }));
+}
+
+const { video, captions } = Astro.props;
+const series = video.playlistTitle.includes("Zero Punctuation")
+  ? "Zero Punctuation"
+  : "Fully Ramblomatic";
+
+const cleanTitle = video.title
+  .replace(/\s*\(Zero Punctuation\)\s*/gi, "")
+  .replace(/\s*\(Fully Ramblomatic\)\s*/gi, "")
+  .trim();
 
 function decodeHtmlEntities(text: string): string {
   return text
@@ -55,52 +63,25 @@ function formatTimestamp(seconds: number): string {
   const secs = Math.floor(seconds % 60);
   return `${mins}:${secs.toString().padStart(2, "0")}`;
 }
-
-function generatePage(data: VideoData): string {
-  const { video, captions } = data;
-  const series = video.playlistTitle.includes("Zero Punctuation")
-    ? "Zero Punctuation"
-    : "Fully Ramblomatic";
-
-  // Clean title
-  const cleanTitle = video.title
-    .replace(/\s*\(Zero Punctuation\)\s*/gi, "")
-    .replace(/\s*\(Fully Ramblomatic\)\s*/gi, "")
-    .trim();
-
-  // Combine captions into flowing prose with timestamp links
-  const transcriptHtml = captions
-    .map((cap) => {
-      const timestamp = Math.floor(cap.offset);
-      const youtubeLink = `https://youtu.be/${video.id}?t=${timestamp}`;
-      const text = decodeHtmlEntities(cap.text.replace(/\n/g, " "));
-      return `<a href="${youtubeLink}" class="caption-segment" data-pagefind-meta="url[href]" title="Jump to ${formatTimestamp(timestamp)}">${text}</a>`;
-    })
-    .join(" ");
-
-  return `---
-import { Font } from "astro:assets";
-// This page exists for Pagefind indexing and as a readable transcript
-export const prerender = true;
 ---
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>${cleanTitle} — Trilby's Archive</title>
-  <meta name="description" content="Full transcript of ${cleanTitle} from ${series}">
+  <title>{cleanTitle} — Trilby's Archive</title>
+  <meta name="description" content={`Full transcript of ${cleanTitle} from ${series}`}>
 
   <!-- Open Graph -->
   <meta property="og:type" content="article">
-  <meta property="og:title" content="${cleanTitle} — Trilby's Archive">
-  <meta property="og:description" content="Full transcript of ${cleanTitle} from ${series}">
+  <meta property="og:title" content={`${cleanTitle} — Trilby's Archive`}>
+  <meta property="og:description" content={`Full transcript of ${cleanTitle} from ${series}`}>
   <meta property="og:image" content="https://trilbys-archive.pages.dev/preview.jpg">
-  <meta property="og:url" content="https://trilbys-archive.pages.dev/transcript/${video.id}">
+  <meta property="og:url" content={`https://trilbys-archive.pages.dev/transcript/${video.id}`}>
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="${cleanTitle} — Trilby's Archive">
-  <meta name="twitter:description" content="Full transcript of ${cleanTitle} from ${series}">
+  <meta name="twitter:title" content={`${cleanTitle} — Trilby's Archive`}>
+  <meta name="twitter:description" content={`Full transcript of ${cleanTitle} from ${series}`}>
   <meta name="twitter:image" content="https://trilbys-archive.pages.dev/preview.jpg">
   <Font cssVariable="--font-playfair-display" preload />
   <Font cssVariable="--font-libre-baskerville" preload />
@@ -340,24 +321,34 @@ export const prerender = true;
   <div class="container">
     <header>
       <a href="/" class="back-link">← Return to Archives</a>
-      <div class="series-badge">${series}</div>
-      <h1 data-pagefind-meta="title">${cleanTitle}</h1>
+      <div class="series-badge">{series}</div>
+      <h1 data-pagefind-meta="title">{cleanTitle}</h1>
       <div class="meta">
-        <span>Duration: ${formatDuration(video.duration)}</span>
+        <span>Duration: {formatDuration(video.duration)}</span>
       </div>
-      <a href="https://youtu.be/${video.id}" class="watch-btn" target="_blank" rel="noopener">
+      <a href={`https://youtu.be/${video.id}`} class="watch-btn" target="_blank" rel="noopener">
         ▶ Watch on YouTube
       </a>
     </header>
 
     <article data-pagefind-body>
-      <p class="sr-only" data-pagefind-filter-series="${series}" data-pagefind-meta="series">${series}</p>
-      <p class="sr-only" data-pagefind-meta="duration">${formatDuration(video.duration)}</p>
-      <p class="sr-only" data-pagefind-meta="videoId">${video.id}</p>
+      <p class="sr-only" data-pagefind-filter-series={series} data-pagefind-meta="series">{series}</p>
+      <p class="sr-only" data-pagefind-meta="duration">{formatDuration(video.duration)}</p>
+      <p class="sr-only" data-pagefind-meta="videoId">{video.id}</p>
 
       <div class="transcript-header">Full Transcript</div>
       <div class="transcript" data-pagefind-weight="10">
-        ${transcriptHtml}
+        {captions.map((cap) => (
+          <>
+            <a
+              href={`https://youtu.be/${video.id}?t=${Math.floor(cap.offset)}`}
+              class="caption-segment"
+              data-pagefind-meta="url[href]"
+              title={`Jump to ${formatTimestamp(cap.offset)}`}
+            >{decodeHtmlEntities(cap.text.replace(/\n/g, " "))}</a>
+            {" "}
+          </>
+        ))}
       </div>
     </article>
 
@@ -367,48 +358,4 @@ export const prerender = true;
     </footer>
   </div>
 </body>
-</html>`;
-}
-
-async function main() {
-  console.log("Building search index pages...");
-
-  // Clean and recreate output directory using Bun shell
-  await $`rm -rf ${OUTPUT_DIR}`.quiet();
-  await $`mkdir -p ${OUTPUT_DIR}`.quiet();
-
-  // Use Bun.Glob to find all JSON files
-  const glob = new Glob("*.json");
-  const jsonFiles: string[] = [];
-
-  for await (const file of glob.scan(CAPTIONS_DIR)) {
-    jsonFiles.push(file);
-  }
-
-  console.log(`Processing ${jsonFiles.length} caption files...`);
-
-  let processed = 0;
-  for (const file of jsonFiles) {
-    const filePath = join(CAPTIONS_DIR, file);
-    const data: VideoData = await Bun.file(filePath).json();
-
-    // Skip videos with no captions
-    if (!data.captions || data.captions.length === 0) {
-      console.log(`Skipping ${file} - no captions`);
-      continue;
-    }
-
-    const pageContent = generatePage(data);
-    const outputPath = join(OUTPUT_DIR, `${data.video.id}.astro`);
-    await Bun.write(outputPath, pageContent);
-
-    processed++;
-    if (processed % 100 === 0) {
-      console.log(`Processed ${processed}/${jsonFiles.length}`);
-    }
-  }
-
-  console.log(`Done! Generated ${processed} pages in ${OUTPUT_DIR}`);
-}
-
-main().catch(console.error);
+</html>

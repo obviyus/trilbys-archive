@@ -114,4 +114,4 @@ async function main() {
   console.log(`Done! Generated ${processed} caption files in ${OUTPUT_DIR}`);
 }
 
-main().catch(console.error);
+await main();
