@@ -32,12 +32,14 @@ bun run dev:setup    # first time: full build + copy search index into public/
 bun run dev
 ```
 
+Check changes with `bun test` and `bun run test:build`. The build check verifies that every transcript has a page, caption data, and a search-index entry.
+
 ## Data pipeline
 
 ```bash
 bun run captions                                  # grab captions from the YouTube playlists
 GROQ_API_KEY=xxx bun run transcribe --limit 10    # Whisper fallback for the ones that failed
-bun run build                                      # pages → captions → stats → astro → pagefind
+bun run build                                      # captions → stats → astro → pagefind
 ```
 
 ## Requirements

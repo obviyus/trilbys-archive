@@ -23,9 +23,6 @@ pnpm-debug.log*
 # jetbrains setting folder
 .idea/
 
-# Project specific
-src/pages/transcript/
-
 # Pagefind dev assets (copied from dist for local dev)
 public/pagefind/
 
