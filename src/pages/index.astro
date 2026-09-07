@@ -670,8 +670,9 @@ function formatNumber(n: number): string {
     <script is:inline>
       // Cache for fetched caption data
       const captionCache = new Map();
-      let pagefind = null;
+      let pagefindReady;
       let searchTimeout = null;
+      let searchVersion = 0;
 
       // Format timestamp for display
       function formatTimestamp(seconds) {
@@ -781,7 +782,7 @@ function formatNumber(n: number): string {
       }
 
       // Perform search
-      async function performSearch(query) {
+      async function performSearch(query, version = ++searchVersion) {
         const resultsEl = document.getElementById("search-results");
 
         if (!query || query.length < 2) {
@@ -793,14 +794,12 @@ function formatNumber(n: number): string {
         resultsEl.innerHTML = '<div class="loading">Searching the archives...</div>';
 
         try {
-          // Wait for Pagefind to be ready (initialized on page load)
-          if (!pagefind) {
-            resultsEl.innerHTML = '<div class="loading">Initializing search...</div>';
-            return;
-          }
+          const pagefind = await pagefindReady;
+          if (version !== searchVersion) return;
 
           // Search
           const search = await pagefind.search(query);
+          if (version !== searchVersion) return;
 
           if (search.results.length === 0) {
             resultsEl.innerHTML = `
@@ -816,11 +815,13 @@ function formatNumber(n: number): string {
           const results = await Promise.all(
             search.results.slice(0, 10).map(r => r.data())
           );
+          if (version !== searchVersion) return;
 
           // Parallel prefetch eliminates network waterfall (was N sequential fetches)
           // Extract video IDs and prefetch all captions in parallel
           const videoIds = results.map(r => r.meta?.videoId).filter(Boolean);
           await Promise.all(videoIds.map(id => fetchCaptions(id)));
+          if (version !== searchVersion) return;
 
           // Render synchronously from cache (all data already fetched)
           const rendered = results
@@ -850,28 +851,36 @@ function formatNumber(n: number): string {
             </div>
           `;
         } catch (err) {
+          if (version !== searchVersion) return;
           console.error("Search error:", err);
           resultsEl.innerHTML = '<div class="search-status">An error occurred while searching.</div>';
         }
       }
 
       // Initialize
-      document.addEventListener("DOMContentLoaded", async () => {
+      document.addEventListener("DOMContentLoaded", () => {
         const input = document.getElementById("search-input");
 
-        // Initialize Pagefind immediately on page load (eliminates cold start on first search)
-        try {
-          pagefind = await import("/pagefind/pagefind.js");
+        pagefindReady = import("/pagefind/pagefind.js").then(async (pagefind) => {
           await pagefind.init();
-        } catch (err) {
+          return pagefind;
+        });
+        pagefindReady.catch((err) => {
           console.error("Failed to initialize Pagefind:", err);
-        }
+        });
 
         // Debounced search on input
         input.addEventListener("input", (e) => {
           clearTimeout(searchTimeout);
+          // Invalidate pending work as soon as the input changes, before debounce.
+          const version = ++searchVersion;
+          const query = e.target.value.trim();
+          if (query.length < 2) {
+            performSearch(query, version);
+            return;
+          }
           searchTimeout = setTimeout(() => {
-            performSearch(e.target.value.trim());
+            performSearch(query, version);
           }, 300);
         });
 
